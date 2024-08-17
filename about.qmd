@@ -7,7 +7,7 @@ about:
     - icon: facebook
       text: Facebook
       href: https://www.facebook.com/hariz.harisun
-     - icon: linkedin
+    - icon: linkedin
        text: LinkedIn
        href: https://www.linkedin.com/in/harizhazril/
     - icon: github
