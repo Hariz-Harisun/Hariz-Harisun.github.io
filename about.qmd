@@ -8,8 +8,8 @@ about:
       text: Facebook
       href: https://www.facebook.com/hariz.harisun
     - icon: linkedin
-       text: LinkedIn
-       href: https://www.linkedin.com/in/harizhazril/
+      text: LinkedIn
+      href: https://www.linkedin.com/in/harizhazril/
     - icon: github
       text: Github
       href: https://github.com/hariz-harisun
