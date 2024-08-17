@@ -1,0 +1,20 @@
+---
+listing:
+  - id: blog 
+    contents: blog
+    sort: "date desc"
+    type: grid
+    categories: unnumbered
+    sort-ui: false
+    filter-ui: false
+    feed: true
+    fields:
+      - title
+      - subtitle
+      - categories
+      - date
+      - reading-time
+      - image
+page-layout: full
+title-block-banner: true
+---
