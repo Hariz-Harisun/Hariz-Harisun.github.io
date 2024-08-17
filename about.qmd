@@ -1,6 +1,6 @@
 ---
 title: "M. Hariz Hazril"
-image: profile.jpg
+image: profile.png
 about:
   template: jolla
   links:
