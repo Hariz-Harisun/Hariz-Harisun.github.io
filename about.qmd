@@ -1,9 +1,22 @@
 ---
-title: "About"
+title: "M. Hariz Hazril"
+image: profile.jpg
+about:
+  template: jolla
+  links:
+    - icon: facebook
+      text: Facebook
+      href: https://www.facebook.com/hariz.harisun
+     - icon: linkedin
+       text: LinkedIn
+       href: https://www.linkedin.com/in/harizhazril/
+    - icon: github
+      text: Github
+      href: https://github.com/hariz-harisun
+    # - icon: letter
+    #   text: Emel
+    #   href: mailto:harizhazril@gmail.com
+
 ---
 
-About this site
-
-```{r}
-1 + 1
-```
+Bodoh dan sedar adalah kunci menuntut ilmu.
