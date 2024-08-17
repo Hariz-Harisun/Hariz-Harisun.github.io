@@ -5,11 +5,11 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/" 
       version="2.0">
 <channel>
-<title>Hariz-Harisun.github.io | </title>
+<title>Hariz-Harisun.github.io</title>
 <link>https://Hariz-Harisun.github.io/blog.html</link>
 <atom:link href="https://Hariz-Harisun.github.io/blog.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.5.56</generator>
-<lastBuildDate>Sat, 17 Aug 2024 08:57:54 GMT</lastBuildDate>
+<lastBuildDate>Sat, 17 Aug 2024 09:08:07 GMT</lastBuildDate>
 </channel>
 </rss>
