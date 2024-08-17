@@ -11,7 +11,8 @@ website:
         text: About
       - href: blog.qmd
         text: Blog
-      - favorites.qmd
+      - href: Project.qmd
+        text: Project
     right:
       - icon: github
         href: https://github.com/hariz-harisun

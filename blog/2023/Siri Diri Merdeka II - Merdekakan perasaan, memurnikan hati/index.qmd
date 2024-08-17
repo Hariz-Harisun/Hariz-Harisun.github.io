@@ -2,40 +2,45 @@
 draft: false
 title: "Siri Diri Merdeka II: Merdekakan perasaan, memurnikan hati"
 subtitle: "Menggali pemahaman tentang kebebasan emosi dalam psikologi Islam"
-date: "2024-08-17"
-categories: ["🪐 Psikologi"]
-image: "perasaan-merdeka.jpg"
+date: "2023-09-04"
+categories: ["📓 Jurnal"]
+image: "self-reliance.jpg"
 authors: ["M. Hariz Hazril"]
 canonical:
-  date: "2024-08-17"
-  link: "https://notasains.wordpress.com/2024/08/17/perasaan-emosi-yang-merdeka/"
-  title: "Perasaan (Emosi) yang Merdeka"
-  source: "NotaSAINS"
+  date: "2023-09-04"
+  link: "https://catatanpenakuhh.blogspot.com/2023/09/siri-diri-merdeka-ii-merdekakan.html"
+  title: "Siri Diri Merdeka II: Merdekakan perasaan, memurnikan hati"
+  source: "Catatanpenakuhh"
   type: "blog"
 ---
+
+![](self-reliance.jpg){fig-align="center"}
+
 ## Perasaan (Emosi) yang merdeka
 
 Apabila saya menulis siri kedua ini, berfikir panjang saya. Bimbang benar sekiranya masih ada tersisa emosi perasaan saya sendiri yang masih dijajah. Emosi yang dijajah itulah yang cenderung membawa kepincangan terhadap makna sebenarnya yang hendak dibawa. Apabila kepincangan berlaku, tidaklah akan ia meletakkan pada tempat yang sepatutnya itu. Demikianlah berlakunya kezaliman terhadap makhluk lain. Ikan jika diletak darat, mati lemas ia. Haiwan darat jika dibawa selam laut, mati nafas ia. Jika kata-kata atau perbuatan yang mengikut emosi yang tidak sepatutnya itu, larilah daripada tujuan/maksud asal itu pula. Oleh sebab itu, berhati-hatilah dengan apa kita tindakan. Adalah suatu kata-kata yang berbunyi,
 
-> "Jangan buat keputusan ketika marah, jangan berjanji ketika terlalu gembira."
+> "*Jangan buat keputusan ketika marah, jangan berjanji ketika terlalu gembira*."
 
 Apabila berbicara soal emosi, ia sentiasa dikaitkan dengan psikologi islam. Menurut ahli psikologi islam terkemuka, Muhammad Uthman Najati. Beliau memberikan takrifan emosi sebagai bangkitan perasaan dan reaksi dalaman terhadap sesuatu perkara, pengalaman atau peristiwa mencorak kepada kepelbagaian emosi yang terdiri daripada rasa marah, sedih, duka, kecewa, takut, gembira dan suka serta kasih sayang. Menurut ahli bahasa pula, emosi ialah perasaan jiwa (batin) yang kuat. Maka, dapatlah kita memerhatikan bersamaannya di sini bahawa emosi itu adalah sifatnya batin, tidaklah terlihat dek mata. Namun, hadirnya dapat kita rasa. Dan rasa inilah yang akan berbalik pada hati/jiwa masing-masing.
 
 Secara fitrahnya manusia itu tidak dapat dipisahkan dengan perasaan atau emosi. Kepelbagaian dalam rencah emosi inilah yang menjadikan kita manusia, makhluk yang begitu istimewa. Besar pengaruhnya perasaan emosi ini terhadap diri. Mereka yang bijak menguruskan emosi, maka tenteramlah hidupnya itu. Sebaliknya, perasaan itu juga mampu memakan diri mereka sendiri; binasalah badan jika tidak menguruskannya dengan baik. Walau perasaan emosi itu hanyalah batinnya. Sungguh berkuasalah perasaan emosi terhadap seluruh anggota diri. Namun, lebih lemahnya pula ia berbanding akal yang cerdas. Oleh sebab itu ada pepatah mengatakan,
 
-> "Berfikir dahulu sebelum bertindak."
+> "*Berfikir dahulu sebelum bertindak.*"
 
 Kerana dalam setiap tindakan yang dibuat itu adalah asbab didorong oleh hati perasaan juga. Dan melalui akal fikiran yang rasional kita dapat mengawal emosi agar kekal waras. Jika tidak, emosi pulalah yang akan mempengaruhi cara berfikir dan jika salah pula cara fikirnya itu, maka tindakan akan menjadi salah. Seperti yang diperkatakan sebelum-sebelum ini. Perlu kita memahami kedudukan perasaan serta emosi ini dalam hierarki diri kita agar dapat kita memahami sebab dan akibat perasaan emosi itu sendiri. Melalui rajah di bawah,
 
-> **Bisikan Hati**\
-> ↓\
-> **Pemikiran**\
-> ↓\
-> **Emosi/Perasaan/Kehendak**\
-> ↓\
-> **Perkataan**\
-> ↓\
-> **Tindakan/Perbuatan/Tingkahlaku**
+::: {style="text-align: center;"}
+**Bisikan Hati**\
+↓\
+**Pemikiran**\
+↓\
+**Emosi/Perasaan/Kehendak**\
+↓\
+**Perkataan**\
+↓\
+**Tindakan/Perbuatan/Tingkahlaku**
+:::
 
 Besar perkaitannya hati dan emosi. Misalnya, apabila kita berbicarakan manusia yang berdosa itu perlu adanya taubat dalam dirinya. Melalui luaran (tindakan) dan juga dalaman (perasaan) –dengan hadirnya perasaan menyesal setelah dosa besar yang ia lakukan. Menyesal ini adalah perasaan yang memberi garis panduan kepada umat Islam agar sentiasa takut serta patuh dengan larangan Allah SWT. Perasaan emosi ini datangnya dari hati di mana juga terletaknya iman seseorang itu terhadap Allah SWT.
 
@@ -43,7 +48,7 @@ Emosi yang merdeka itu terbit daripada sifat akhlak yang baik (mahmudah). Besar 
 
 Emosi yang terpenjara pula adalah terbit daripada sifat akhlak yang buruk (mazmumah). Emosi benar memainkan peranan penting dalam memaparkan akhlak kita. Apabila kita tidak berkuasa ke atas emosi sendiri, hakikatnya emosi kita telah dipenjara oleh nafsu amarah. Nafsu amarah adalah nafsu yang bebas daripada kawalan kita. Allah SWT telah menyatakan tentang sifat nafsu ammarah itu kepada kita dalam firmanNya yang bermaksud,
 
-> "Sesungguhnya hawa nafsu sangat mengajak kepada kejahatan." (Yusuf 12:53)
+> "*Sesungguhnya hawa nafsu sangat mengajak kepada kejahatan.*" (Yusuf 12:53)
 
 Sebaliknya, apabila nafsu ini berjaya dikawal oleh akal dan hati maka kehendaknya yang tidak terbatas itu akan berubah mengikut pertimbangan akal dan renungan hati yang sihat. Ketika inilah nafsu amarah akan beralih kepada nafsu lawwamah iaitu nafsu yang menyesali diri. Orang yang memiliki nafsu lawwamah belum dapat membuat keputusan untuk berbuat baik. Ia seperti daun lalang, ikut ke mana arah angin bertiup. Pada tahap inilah, merdekanya sebuah perasaan emosi. Namun, ingin mengekalkan sebuah kemerdekaan diri itulah lebih menyukarkan berbanding membebaskan diri daripada terpenjara. Oleh itu pada tahap ini, nafsu lawwamah perlu dididik atau ditarbiah. Dan sesungguhnya sebaik-baik tarbiah adalah di bawah bimbingan seorang guru.
 
@@ -53,7 +58,7 @@ Persekitaran banyak mempengaruhi emosi kita sebagai manusia. Jika kita dikelilin
 
 Berbohonglah seandainya kita tidak pernah perasai marah walau sekalipun dalam hidup. Dalam keadaan ketidakstabilan emosi dalam diri seseoranglah terbit perasaan marah. Daripada Abi Said al-Khudir RA bahawa Rasulullah SAW bersabda,
 
-> "Dan sesungguhnya marah itu merupakan seketul bara api yang menyala di dalam hati anak Adam, tidakkah kamu lihat matanya merah membara dan tegang urat lehernya". (Riwayat Ahmad)
+> "*Dan sesungguhnya marah itu merupakan seketul bara api yang menyala di dalam hati anak Adam, tidakkah kamu lihat matanya merah membara dan tegang urat lehernya*". (Riwayat Ahmad)
 
 Berlakunya banyak punca utama berlakunya kes penceraian, kes jenayah, kes pembunuhan dan kes pergaduhan adalah disebabkan sifat utama ini, yakni marah yang tidak dapat dikawal. Bukanlah lagi namanya manusia jika amarah lebih menguasai diri. Bahkan binatang juga tahu masa untuk berhenti membukti egoisnya. Matahari yang terik juga ada masa untuk ia benam; berehat memanaskan bumi. Perasaan marah ini adalah salah satu fitrah yang ada dalam diri setiap manusia. Setiap orang pula tahulah keupayaan mereka hendak menjaga amarah itu. Sekiranya tiada lagi daya (saya katakan marah yang melampau) untuk ia menahan, perlulah ia tahu bahawa dirinya sudah dikuasai nafsu amarah dan hasutan syaitan sesungguhnya. Tidaklah merdeka perasaan marahnya itu. Hilang punca pertimbangan akal. Allah SWT berfirman dalam surah al-A'raf ayat ke 200,
 
@@ -61,7 +66,7 @@ Berlakunya banyak punca utama berlakunya kes penceraian, kes jenayah, kes pembun
 وَإِمَّا يَنزَغَنَّكَ مِنَ ٱلشَّيْطَـٰنِ نَزْغٌۭ فَٱسْتَعِذْ بِٱللَّهِ ۚ إِنَّهُۥ سَمِيعٌ عَلِيمٌ
 :::
 
-yang bermaksud, "Dan jika engkau dihasut oleh sesuatu hasutan daripada syaitan, maka mintalah perlindungan kepada Allah, sesungguhnya Allah Maha Mendengar lagi Maha Mengetahui".
+yang bermaksud, "*Dan jika engkau dihasut oleh sesuatu hasutan daripada syaitan, maka mintalah perlindungan kepada Allah, sesungguhnya Allah Maha Mendengar lagi Maha Mengetahui*".
 
 Tiadalah dikatakan seseorang itu kuat, walau pada zahirnya sekiranya ia sendiri tidak berkuasa ke atas batinnya sendiri. Daripada hadis yang diriwayatkan oleh Abū Hurayrah RA,
 
@@ -77,9 +82,9 @@ Oleh berdemikian, perlu kita sedar bahawa, akan ada satu masa kita akan menghada
 أَنَّ رَسُولَ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ قَالَ لَيْسَ الشَّدِيدُ بِالصُّرَعَةِ إِنَّمَا الشَّدِيدُ الَّذِي يَمْلِكُ نَفْسَهُ عِنْدَ الْغَضَبِ
 :::
 
-Ertinya:"Apabila salah seorang dari kamu marah dalam keadaan dia berdiri, hendaklah dia duduk, maka apabila (perasaan) marah itu telah hilang (maka itu baik baginya) dan jika belum (hilang marahnya), maka hendaklah dia berbaring". (Hadis Sahih, Riwayat Abu Daud)
+Ertinya:"*Apabila salah seorang dari kamu marah dalam keadaan dia berdiri, **hendaklah dia duduk**, maka apabila (perasaan) marah itu telah hilang (maka itu baik baginya) dan jika belum (hilang marahnya), **makahendaklah dia berbaring***". (Hadis Sahih, Riwayat Abu Daud)
 
-Nabi SAW juga mengajarkan kita agar mengawal marah dengan mengucapkanأَعُوْذُ بِاللّٰهِ مِنَ الشَّيْطٰانِ الرَّجِيْمِ (A'ūżu billāhi min asy-syaiṭānir-rajīm) yakni Ta'awwuz. Dari Sulaimān bin Ṣurad RA, ia berkata, "Aku pernah duduk bersama Nabi SAW sedangkan dua orang laki-laki sedang saling mencaci, wajah salah seorang dari keduanya memerah dan urat-urat lehernya menegang, maka Nabi SAW bersabda, "Sesungguhnya aku tahu satu kalimat yang kalau diucapkan niscaya kemarahan yang dialaminya akan hilang, iaitu kalau dia mengucapkan, "A'ūżu billāhi min asy-syaiṭānir-rajīm," (Saya berlindung kepada Allah dari godaan syaitan yang terkutuk) niscaya kemarahan yang dirasakannya akan hilang. "Lalu para sahabat berkata kepada orang yang marah tersebut, "Sesungguhnya Nabi SAW bersabda, "Berlindunglah kepada Allah dari godaan setan yang terkutuk." (Hadis sahih - Muttafaq 'alaih)
+Nabi SAW juga mengajarkan kita agar mengawal marah dengan mengucapkanأَعُوْذُ بِاللّٰهِ مِنَ الشَّيْطٰانِ الرَّجِيْمِ (A'ūżu billāhi min asy-syaiṭānir-rajīm) yakni Ta'awwuz. Dari Sulaimān bin Ṣurad RA, ia berkata, "Aku pernah duduk bersama Nabi SAW sedangkan dua orang laki-laki sedang saling mencaci, wajah salah seorang dari keduanya memerah dan urat-urat lehernya menegang, maka Nabi SAW bersabda, "Sesungguhnya aku tahu satu kalimat yang kalau diucapkan niscaya kemarahan yang dialaminya akan hilang, iaitu kalau dia mengucapkan, "***A'ūżu billāhi min asy-syaiṭānir-rajīm***," (Saya berlindung kepada Allah dari godaan syaitan yang terkutuk) niscaya kemarahan yang dirasakannya akan hilang. "Lalu para sahabat berkata kepada orang yang marah tersebut, "Sesungguhnya Nabi SAW bersabda, "Berlindunglah kepada Allah dari godaan setan yang terkutuk." (Hadis sahih - Muttafaq 'alaih)
 
 Dan paling kurang kemampuan yang dapat engkau lakukan adalah diam. Diam tidak berkata apa-apa atau berpaling dari orang yang sedang kita permarahkan itu. Sabda Rasulullah SAW,
 
@@ -87,7 +92,7 @@ Dan paling kurang kemampuan yang dapat engkau lakukan adalah diam. Diam tidak be
 وَإِذَا غَضِبْتَ فَاسْكُتْ
 :::
 
-yang bermaksud, "Apabila kamu sedang marah maka berdiam dirilah oleh mu." (Hadis Bukhari)
+yang bermaksud, "*Apabila kamu sedang marah maka berdiam dirilah oleh mu.*" (Hadis Bukhari)
 
 Apabila kita pelihara mulut dengan diam, maka tiadalah kepincangan maksud atau pengaruh hasutan syaitan apabila berlaku perbalahan dalam menegakkan kebenaran atau hak masing-masing. Reda luar adalah cara reda akan dalamnya. Jika bahang marah engkau masih terasa, maka curahilah dengan air wuduk –biar lekas sejuk jiwanya. Hal ini diriwayatkan dalam sebuah hadis Rasulullah SAW bersabda,
 
@@ -95,7 +100,7 @@ Apabila kita pelihara mulut dengan diam, maka tiadalah kepincangan maksud atau p
 إِنَّ الْغَضَبَ مِنَ الشَّيْطَانِ،وَإِنَّ الشَّيْطَانَ خُلِقَ مِنَ النَّارِ،وَإِنَّمَا تُطْفَأُ النَّارُ بِالْمَاءِ،فَإِذَا غَضِبَ أَحَدُكُمْ فَلْيَتَوَضَّأْ
 :::
 
-yang bermaksud, "Sungguhnya marah itu daripada syaitan dan syaitan itu dicipta daripada api. Dan hanya yang memadamkan api itu ialah air. Maka apabila marah oleh seorang kamu maka hendaklah dia berwuduk." (Hadis Abu Daud)
+yang bermaksud, "*Sungguhnya marah itu daripada syaitan dan syaitan itu dicipta daripada api. Dan hanya yang memadamkan api itu ialah air. Maka apabila marah oleh seorang kamu maka hendaklah dia berwuduk*." (Hadis Abu Daud)
 
 Jika hanya kita bertindak dengan jaring cara yang betul, maka merdekalah perasaan marah itu. Tahulah engkau cara melepasi penjara yang semudahnya dengan seberapa cara untuk sabar. Bila engkau sabar itu, lawannya adalah amarah. Tenteram pulalah hati engkau setelah itu. Sifat amarah yang melampaui batas adalah satu sifat yang keji dan tidak disukai dalam Islam, demikianlah keperluannya mengendalikan kemarahan dengan sebaiknya, supaya selanjutnya kita dapat menjadi seorang yang sabar dan pemaaf. Besar keimanan bagi orang yang bersabar seperti firman Allah yang bermaksud: "Dan orang yang bersabar dalam musibah, penderitaan dan peperangan, mereka itulah orang yang benar imannya dan mereka itulah orang yang bertakwa." (Surah Al-Baqarah, ayat 177).
 
@@ -105,15 +110,15 @@ Namun, apa Allah SWT melarang kita untuk marah? Marah yang dibenarkan oleh syara
 
 Perasaan hasad dengki ini boleh wujud di dalam hati manusia disebabkan rasa permusuhan dan kebencian. Atau merasakan bahawa dirinya termulia daripada yang lain. Dan apabila kedudukan dirinya itu terletak pada tempat rendah, dia berasa tercabar dan tercemar. Apabila ia melihat keadaan orang lain mempunyai pengaruh yang tinggi darinya, demikianlah rasa-rasa sebagai dengki. Berhasad dengki inilah yang membenarkan kekacauan di dunia hari ini. Tiada pendamaian, ataupun jalan tengah. Hendak memasing merasa diri paling layaknya. Sebagaimana kisah Habil dan Qabil yang diceritakan di dalam al-Quran, Allah SWT berfirman dalam surah Al-Mai'idah ayat ke 27 yang bermaksud,
 
-"Ceritakanlah kepada mereka kisah dua putera Nabi Adam (Habil dan Qabil) menurut yang sebenarnya, ketika keduanya mempersembahkan korban, maka diterima dari salah seorang dari mereka berdua (Habil) dan tidak diterima dari yang lain (Qabil). Dia berkata (Qabil): “Aku pasti membunuhmu!”. Berkata Habil: Sesungguhnya Allah hanya menerima (korban) dari orang-orang yang bertakwa".
+"*Ceritakanlah kepada mereka kisah dua putera Nabi Adam (Habil dan Qabil) menurut yang sebenarnya, ketika keduanya mempersembahkan korban, maka diterima dari salah seorang dari mereka berdua (Habil) dan tidak diterima dari yang lain (Qabil). Dia berkata (Qabil): “Aku pasti membunuhmu!”. Berkata Habil: Sesungguhnya Allah hanya menerima (korban) dari orang-orang yang bertakwa*".
 
 Besar kesan buruknya pada diri jika hasad dengki ini tidak diurus dengan sebaiknya. Benar bahawa hasad dengki ini adalah kemuncak cemburu yang tidak dibendung. Apabila nafsu amarah dan syaitan menghasuti, terpenjaralah rasa hasad dengki itu di dalam dada seseorang. Suatu masa pula, ia meluakkan pula perasaan yang berhasad itu dalam bentuk kata-kata ghibah, bohong, mencaci dan memburuk-burukkan seseorang. Daripada Abdullah bin Basyar, Rasulullah SAW bersabda,
 
-yang bermaksud: "Tidak termasuk golonganku si pendengki, orang mengadu domba, orang yang mempunyai ilmu menilik dan akupun tidak dari golongannya."
+yang bermaksud: "*Tidak termasuk golonganku si pendengki, orang mengadu domba, orang yang mempunyai ilmu menilik dan akupun tidak dari golongannya*."
 
 Percayalah kataku, bahawa kita sememangnya akan mengalami perasaan cemburu. Itu adalah salah satu fitrah manusia. Namun, jika tidak merdeka perasaannya itu dengan kasih sayang sesama manusia -fikir bahawa engkau dan aku bahawa kita ingin bersama di syurga itu. Kerugiaanlah dirinya. Tidak ada orang yang duduknya di syurga hanya untuk ia seorang. Semaikanlah perasaan kasih sayang dalam diri kita, agar perasaan cemburu itu tidak melampaui batas sehingga membawa iri hati dan hasad dengki. Oleh sebab itu dalam sebuah hadis disebutkan, Rasulullah SAW bersabda,
 
-yang maksudnya, "Janganlah kalian saling membenci, saling mendengki, saling memalingkan muka, dan saling memutuskan ikatan, dan jadilah kalian sebagai hamba-hamba Allah bersaudara. Tidaklah halal bagi seseorang muslim untuk mengabaikan dan tidak bertegur sapa dengan saudaranya lebih dari tiga hari." (Hadith Riwayat Bukhari & Muslim)
+yang maksudnya, "*Janganlah kalian saling membenci, saling mendengki, saling memalingkan muka, dan saling memutuskan ikatan, dan jadilah kalian sebagai hamba-hamba Allah bersaudara. Tidaklah halal bagi seseorang muslim untuk mengabaikan dan tidak bertegur sapa dengan saudaranya lebih dari tiga hari.*" (Hadith Riwayat Bukhari & Muslim).
 
 Kita mencintai saudara kita, sudah tentu apabila kita mencintai mereka, kita inginkan kebaikan buat diri mereka. Seperti mana sabda Nabi Muhammad SAW:
 
@@ -121,7 +126,7 @@ Kita mencintai saudara kita, sudah tentu apabila kita mencintai mereka, kita ing
 لا يُؤْمِنُ أَحَدُكُمْ حَتَّى يُحِبَّ لأَخِيهِ مَا يُحِبُّ لِنَفْسِهِ
 :::
 
-"Tidak beriman seseorang dari kamu sampai ia menyukai untuk saudaranya apa yang ia sukai untuk dirinya." (Hadith Riwayat Bukhari & Muslim)
+"*Tidak beriman seseorang dari kamu sampai ia menyukai untuk saudaranya apa yang ia sukai untuk dirinya.*" (Hadith Riwayat Bukhari & Muslim)
 
 Memerdekakan perasaan dengki ini adalah dengan ikhlas dan redha. Kita ikhlas dan redha terhadap segala ketentuan yang Allah SWT berikan. Menghadirkan kedua ini adalah dengan syukur. Syukur dengan keupayaan dan kekurangan yang ada dalam diri kita. Tidaklah kurang akan darjatnya kita di sisi Allah ke atas kekurangan kita itu.
 
@@ -131,7 +136,7 @@ Namun, apakah ada perasaan hasad yang dibenarkan? Terdapat hadis yang memberi pe
 لاَ حَسَدَ إِلاَّ فِي اثْنَتَيْنِ رَجُلٌ آتَاهُ اللَّهُ مَالاً فَسُلِّطَ عَلَى هَلَكَتِهِ فِي الْحَقِّ، وَرَجُلٌ آتَاهُ اللَّهُ الْحِكْمَةَ، فَهْوَ يَقْضِي بِهَا وَيُعَلِّمُهَا
 :::
 
-yang bermaksud, "Perasaan hasad dan dengki itu dilarang kecuali pada dua perkara: dengki terhadap seseorang yang Allah SWT kurniakan kepadanya harta dan dia membelanjakannya pada jalan kebenaran, serta seseorang yang dikurniakan hikmah dan dia berhukum dengannya dan mengajarkannya." Sahih al-Bukhari (73)
+yang bermaksud, "Perasaan hasad dan dengki itu dilarang kecuali pada dua perkara: dengki terhadap seseorang yang Allah SWT kurniakan kepadanya harta dan dia membelanjakannya pada jalan kebenaran, serta seseorang yang dikurniakan hikmah dan dia berhukum dengannya dan mengajarkannya." Sahih al-Bukhari (73).
 
 Namun, melalui hadis di atas, ia pada asasnya tidaklah disebut sebagai hasad, bahkan ia lebih merupakan satu keinginan (ghibtoh atau raghbah) untuk dikurniakan kelebihan yang sama agar dapat meningkatkan amalan kebaikan yang mendekatkan diri kepada Allah SWT.
 
@@ -139,12 +144,12 @@ Namun, melalui hadis di atas, ia pada asasnya tidaklah disebut sebagai hasad, ba
 
 Cinta yang murni itu adalah cinta yang bebas daripada segala hawa nafsu dan hasutnya syaitan. Sebaliknya, cinta yang murni itu adanya perasaan tanggungjawab dan amanah terhadap apa yang ia cinta. Seorang laki-laki yang benar mencintai seorang perempuan itu tidak sekalipun meletakkan seorang perempuan itu pada tahap yang hina dina; rendah nilai dirinya. Ketahuilah bahawa cinta itu murni suci. Kerana perasaan cinta itu bukanlah dibuat-buat sebaliknya telah ditanam oleh Allah SWT. Abu Nasir as-Sarraj berkata,
 
-> "Sesungguhnya orang yang bercinta, akan taat kepada orang yang dicintainya."
+> "*Sesungguhnya orang yang bercinta, akan taat kepada orang yang dicintainya.*"
 
 Kecintaan di sini termasuklah cinta seorang makhluk kepada Tuhannya. Dia akan mentaati sepenuhnya perintah Allah tanpa mempersoalkannya. Begitu jugalah dengan pasangan suami isteri yang saling mencintai. Hayatilah cinta Rasulullah SAW dan Sayidatina Khadijah R.A. Tidak kira siapa yang berada di hadapannya, Rasulullah SAW tetap akan mengenangkan Khadijah dan menceritakan kisahnya kepada mereka. Sabda Nabi SAW,
 
-> "Sesungguhnya Allah SWT telah menanamkan rasa mahabbah di dalam kalbuku terhadap Khadijah."
+> "*Sesungguhnya Allah SWT telah menanamkan rasa mahabbah di dalam kalbuku terhadap Khadijah.*"
 
 Terhadap kecintaan sahabatnya juga sebagaimana diperkatankan oleh Abu Hatim,
 
-"Orang yang bijaksana, tidaklah mencari sahabat melainkan orang-orang yang panjang fikirannya, kuat agamanya, luas ilmunya, tinggi akhlaknya, lanjut akalnya, dan pada waktu mudanya hidup bergaul dengan orang-orang yang salih. Barangsiapa yang melalaikan percintaan sahabatnya, tidaklah dia akan merasai buah persaudaraan orang itu. Barangsiapa memutuskan persaudaraan lantaran "takut kena", hiduplah dia tidak bersaudara. Tidaklah ada kesenangan hati yang menyamai kesenangan bersahabat, dan tidaklah ada kedukaan yang melebihi putus persahabatan."
+"*Orang yang bijaksana, tidaklah mencari sahabat melainkan orang-orang yang panjang fikirannya, kuat agamanya, luas ilmunya, tinggi akhlaknya, lanjut akalnya, dan pada waktu mudanya hidup bergaul dengan orang-orang yang salih. Barangsiapa yang melalaikan percintaan sahabatnya, tidaklah dia akan merasai buah persaudaraan orang itu. Barangsiapa memutuskan persaudaraan lantaran 'takut kena', hiduplah dia tidak bersaudara. Tidaklah ada kesenangan hati yang menyamai kesenangan bersahabat, dan tidaklah ada kedukaan yang melebihi putus persahabatan.*"

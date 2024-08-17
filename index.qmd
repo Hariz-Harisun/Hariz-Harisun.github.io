@@ -1,5 +1,23 @@
 ---
 title: "Hariz-Harisun.github.io"
+listing:
+  - id: blog 
+    contents: 
+      - blog
+    sort: "date desc"
+    type: grid
+    categories: unnumbered
+    sort-ui: false
+    filter-ui: false
+    feed: true
+    fields:
+      - title
+      - subtitle
+      - categories
+      - date
+      - reading-time
+      - image
+    page-size: 3
 ---
 
 This is a Upcoming HH Blog
@@ -9,3 +27,8 @@ Will be replacing <https://catatanpenakuhh.blogsspot.com>.
 ```{r}
 1 + 1
 ```
+
+## Blog
+
+:::{#blog}
+:::
