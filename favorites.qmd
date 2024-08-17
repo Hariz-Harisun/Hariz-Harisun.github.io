@@ -1,0 +1,15 @@
+---
+title: "Favorites"
+editor: visual
+---
+
+## Favorite cat
+
+- Siamese cat
+- Ragdoll
+- Scottish Fold
+
+## Favorite film
+
+- All the bright places
+- idk
