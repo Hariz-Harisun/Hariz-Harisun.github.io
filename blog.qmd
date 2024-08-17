@@ -3,7 +3,7 @@ title: "Blog"
 # Configuration for listing blog posts
 listing:
   - id: blog
-    contents: posts  # Directory containing the blog posts
+    contents: blog  # Directory containing the blog posts
     sort: "date desc"  # Sort posts by date in descending order
     type: grid  # Display posts in a grid layout
     categories: unnumbered  # Do not number categories
