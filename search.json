@@ -1,10 +1,24 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Hariz-Harisun.github.io",
+    "objectID": "favorites.html",
+    "href": "favorites.html",
+    "title": "Favorites",
     "section": "",
-    "text": "This is a Upcoming HH Blog\nWill be replacing https://catatanpenakuhh.blogsspot.com.\n\n1 + 1\n\n[1] 2"
+    "text": "Siamese cat\nRagdoll\nScottish Fold"
+  },
+  {
+    "objectID": "favorites.html#favorite-cat",
+    "href": "favorites.html#favorite-cat",
+    "title": "Favorites",
+    "section": "",
+    "text": "Siamese cat\nRagdoll\nScottish Fold"
+  },
+  {
+    "objectID": "favorites.html#favorite-film",
+    "href": "favorites.html#favorite-film",
+    "title": "Favorites",
+    "section": "Favorite film",
+    "text": "Favorite film\n\nAll the bright places\nidk"
   },
   {
     "objectID": "about.html",
@@ -12,5 +26,12 @@
     "title": "About",
     "section": "",
     "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Hariz-Harisun.github.io",
+    "section": "",
+    "text": "This is a Upcoming HH Blog\nWill be replacing https://catatanpenakuhh.blogsspot.com.\n\n1 + 1\n\n[1] 2"
   }
 ]
