@@ -1,20 +1,22 @@
 ---
+title: "Blog"
+# Configuration for listing blog posts
 listing:
-  - id: blog 
-    contents: blog
-    sort: "date desc"
-    type: grid
-    categories: unnumbered
-    sort-ui: false
-    filter-ui: false
-    feed: true
-    fields:
+  - id: blog
+    contents: posts  # Directory containing the blog posts
+    sort: "date desc"  # Sort posts by date in descending order
+    type: grid  # Display posts in a grid layout
+    categories: unnumbered  # Do not number categories
+    sort-ui: false  # Disable sort user interface
+    filter-ui: false  # Disable filter user interface
+    feed: true  # Enable RSS feed for the blog
+    fields:  # Fields to display in the blog listing
       - title
       - subtitle
       - categories
       - date
       - reading-time
       - image
-page-layout: full
-title-block-banner: true
+page-layout: full  # Use full page layout for the blog
+title-block-banner: true  # Enable title block banner
 ---
