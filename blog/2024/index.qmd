@@ -1,6 +1,6 @@
 ---
 draft: false
-title: "Perasaan (Emosi) yang Merdeka"
+title: "Siri Diri Merdeka II: Merdekakan perasaan, memurnikan hati"
 subtitle: "Menggali pemahaman tentang kebebasan emosi dalam psikologi Islam"
 date: "2024-08-17"
 categories: ["🪐 Psikologi"]
