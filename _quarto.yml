@@ -12,7 +12,15 @@ website:
       - href: blog.qmd
         text: Blog
       - favorites.qmd
-
+    right:
+      - icon: github
+        href: https://github.com/hariz-harisun
+      - icon: facebook
+        href: https://www.facebook.com/hariz.harisun
+      - icon: linkedin
+        href: https://www.linkedin.com/in/harizhazril/
+      - icon: rss
+        href: index.xml
 format:
   html:
     theme: cosmo
