@@ -1,1 +1,30 @@
 /* css styles */
+body {
+  background-color: #f9f7f4;
+}
+
+/* Select the navbar links */
+.navbar-left a,
+.navbar-right a {
+  display: inline-block;
+  padding: 0 10px;
+  position: relative;
+  text-decoration: none;
+}
+
+/* Add separator after each link except the last one */
+.navbar-left a:not(:last-child)::after,
+.navbar-right a:not(:last-child)::after {
+  content: "|";
+  position: absolute;
+  right: -15px; /* Adjust spacing as needed */
+  color: #000;  /* Adjust color as needed */
+}
+
+/* Optional: Adjust spacing around the separator */
+.navbar-left a::after,
+.navbar-right a::after {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
