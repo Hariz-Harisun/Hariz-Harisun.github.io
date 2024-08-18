@@ -1,11 +1,11 @@
 /* css styles */
 body {
-  background-color: #f9f7f4;
+  background-color: #f9f7f4 !important;
 }
 
 .navbar {
-    background-color: #f4f1ea;
-    color: #382110;
+    background-color: #f4f1ea !important;
+    color: #382110 !important;
 }
 
 .navbar-container {
