@@ -9,14 +9,12 @@ website:
     search: true
     pinned: true
     left:
-      - href: index.qmd
-        text: Home
       - href: about.qmd
         text: About
       - href: blog.qmd
         text: Blog
       - href: Project.qmd
-        text: Project
+        text: Projects
     right:
       - icon: github
         href: https://github.com/hariz-harisun

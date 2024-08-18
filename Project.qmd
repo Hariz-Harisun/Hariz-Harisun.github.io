@@ -5,7 +5,7 @@ editor: visual
 date: 2024-08-17
 author: M. Hariz Hazril
 description: "A brief description of your project"
-tags: ["tag1", "tag2", "tag3"]
+include-after-body: "footer.html"
 ---
 
 # Project Title
