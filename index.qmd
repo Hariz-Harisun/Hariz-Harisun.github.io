@@ -1,5 +1,5 @@
 ---
-title: "Hariz-Harisun.github.io"
+title: "Hariz Harisun"
 listing:
   - id: blog 
     contents: 
@@ -20,7 +20,7 @@ listing:
     page-size: 3
 ---
 
-This is a Upcoming HH Blog
+Catatan pena ku.
 
 Will be replacing <https://catatanpenakuhh.blogsspot.com>.
 

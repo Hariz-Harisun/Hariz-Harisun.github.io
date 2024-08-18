@@ -1,1 +1,13 @@
 /* css styles */
+body {
+  background-color: #f9f7f4;
+}
+
+.navbar {
+    background-color: #f4f1ea;
+    color: #382110;
+}
+
+.navbar-container {
+    width: 1220px;
+}
