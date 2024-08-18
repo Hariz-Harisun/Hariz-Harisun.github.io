@@ -2,8 +2,12 @@ project:
   type: website
 
 website:
-  title: "Hariz Harisun"
+  title: "Laman Utama"
   navbar:
+    background: "#f4f1ea"
+    foreground: "#382110"
+    search: true
+    pinned: true
     left:
       - href: index.qmd
         text: Home
@@ -25,5 +29,6 @@ website:
 format:
   html:
     theme: cosmo
+    backgroundcolor: "#f9f7f4"
     css: styles.css
     toc: true
