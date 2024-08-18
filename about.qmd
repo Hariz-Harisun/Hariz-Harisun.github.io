@@ -1,7 +1,10 @@
 ---
-title: "M. Hariz Hazril"
+title: "🧑🏽‍💼 Tentang Saya"
 image: profile.png
 toc-title: Kandungan
+title-block-banner: true  # Enable title block banner
+include-after-body: abbrv-toc.html
+description: "Ini adalah laman portfolio, selamat berkenalan!"
 about:
   template: jolla
   links:
@@ -19,6 +22,7 @@ about:
     #   href: mailto:harizhazril@gmail.com
 ---
 
+## M․ Hariz Hazril {data-toc-text="Nama"}
 Nama pena diberikan hh. Seorang penghairah dalam bidang Pengkomputeran Fizik juga Falsafah. Beliau kini sedang melanjutkan pengajian dalam bidang Fizik Tulen di salah sebuah universiti tempatan di Malaysia. Catatan blog ini merupakan medium bebas penulis untuk berkongsi dan melontarkan perspektif. Sebarang kenyataan dalam blog ini tidaklah terlibat atau mewakili mana-mana badan organisasi.
 
 Semoga catatan pena ini memberi manfaat kepada para pembaca.
@@ -26,37 +30,28 @@ Semoga catatan pena ini memberi manfaat kepada para pembaca.
 – hh
 
 ## Pendidikan
-
 ::: {style="text-align: left;"}
-**2021 - Sekarang**
+**2021 - Sekarang**\
+↳ Universiti Sains Malaysia (Bachelor of Science (Hons.) (Pure Physics), Minor Computer Science)
 
-Universiti Sains Malaysia (Bachelor of Science (Hons.) (Pure Physics), Minor Computer Science)
+**2020 - 2021**\
+↳ Pre-University (Kolej Matrikulasi Kedah)
 
-**2020 - 2021**
+**2018 - 2019**\
+↳ Malaysia Certificate of Education
 
-Pre-University
+**2015 - 2017**\
+↳ Lower Secondary Assessment
 
-**2018 - 2019**
-
-Malaysia Certificate of Education
-
-**2015 - 2017**
-
-Lower Secondary Assessment
-
-**2008 - 2014**
-
-Primary School Evaluation Test
+**2008 - 2014**\
+↳ Primary School Evaluation Test
 :::
 
 ## Kepujian & Anugerah
-
 ::: {style="text-align: left;"}
-**Best Freelancer Award (Male) \| MDEC-USM 2024**
-
+**Best Freelancer Award (Male) \| MDEC-USM 2024**\
 ↳ Issued by MOHE-MDEC Global Outsourcing Talent (GOT) Bootcamp · Aug 2024
 
-**Computational Thinking Award (Negeri Selangor) 2019**
-
+**Computational Thinking Award (Negeri Selangor) 2019**\
 ↳ I am honoured to receive the Computational Thinking Award at APS Negeri Selangor 2019.
 :::
