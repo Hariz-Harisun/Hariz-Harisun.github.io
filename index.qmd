@@ -1,5 +1,5 @@
 ---
-title: "Hariz Harisun"
+title: "Laman Utama"
 listing:
   - id: blog 
     contents: 
@@ -20,15 +20,11 @@ listing:
     page-size: 3
 ---
 
-Catatan pena ku.
-
-Will be replacing <https://catatanpenakuhh.blogsspot.com>.
-
-```{r}
-1 + 1
-```
+Assalamualaikum wbt, selamat datang ke laman sesawang Hariz Harisun. Nama pena saya adalah hh, anak tempatan Malaysia berusia ```20-an```.Minat utama saya adalah ```fizik moden```, diikuti ```sains komputer``` sebagai teras minat saya, menggabungkan pendekatan komputasional dalam sains fizik.
 
 ## Blog
 
 :::{#blog}
 :::
+
+

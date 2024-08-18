@@ -1,6 +1,7 @@
 ---
 title: "M. Hariz Hazril"
 image: profile.png
+toc-title: Kandungan
 about:
   template: jolla
   links:
@@ -23,3 +24,39 @@ Nama pena diberikan hh. Seorang penghairah dalam bidang Pengkomputeran Fizik jug
 Semoga catatan pena ini memberi manfaat kepada para pembaca.
 
 – hh
+
+## Pendidikan
+
+::: {style="text-align: left;"}
+**2021 - Sekarang**
+
+Universiti Sains Malaysia (Bachelor of Science (Hons.) (Pure Physics), Minor Computer Science)
+
+**2020 - 2021**
+
+Pre-University
+
+**2018 - 2019**
+
+Malaysia Certificate of Education
+
+**2015 - 2017**
+
+Lower Secondary Assessment
+
+**2008 - 2014**
+
+Primary School Evaluation Test
+:::
+
+## Kepujian & Anugerah
+
+::: {style="text-align: left;"}
+**Best Freelancer Award (Male) \| MDEC-USM 2024**
+
+↳ Issued by MOHE-MDEC Global Outsourcing Talent (GOT) Bootcamp · Aug 2024
+
+**Computational Thinking Award (Negeri Selangor) 2019**
+
+↳ I am honoured to receive the Computational Thinking Award at APS Negeri Selangor 2019.
+:::
