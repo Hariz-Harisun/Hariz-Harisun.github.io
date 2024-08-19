@@ -4,6 +4,7 @@ format: html
 title-block-banner: true  # Enable title block banner
 description: "Ini adalah To-do list Hariz seharian."
 ---
+### Tekan untuk coret.
 
 ```{=html}
 <style>
@@ -21,7 +22,6 @@ description: "Ini adalah To-do list Hariz seharian."
     }
 
     li {
-        margin: 10px 0;
         display: flex;
         align-items: center;
     }
@@ -45,11 +45,11 @@ description: "Ini adalah To-do list Hariz seharian."
 ::: container
 <ul id="todo-list">
 
--   <li><input type="checkbox" class="task" id="task1"> <label for="task1" class="task-label">Task 1</label></li>
-
--   <li><input type="checkbox" class="task" id="task2"> <label for="task2" class="task-label">Task 2</label></li>
-
--   <li><input type="checkbox" class="task" id="task3"> <label for="task3" class="task-label">Task 3</label></li>
+<li><input type="checkbox" class="task" id="task1"> <label for="task1" class="task-label">[1]    Task 1</label></li>
+\
+<li><input type="checkbox" class="task" id="task2"> <label for="task2" class="task-label">[2]    Task 2</label></li>
+\
+<li><input type="checkbox" class="task" id="task3"> <label for="task3" class="task-label">[3]    Task 3</label></li>
 
 </ul>
 :::
