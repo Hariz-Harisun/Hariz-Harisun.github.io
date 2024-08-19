@@ -9,8 +9,12 @@ body {
 }
 
 .navbar-brand {
-color:#d97757 !important;
+color:#3d3929 !important;
 font-weight: bold;
+}
+
+.navbar-toggler {
+  color:#d97757 !important;
 }
 
 .navbar-container {
