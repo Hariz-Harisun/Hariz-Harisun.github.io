@@ -44,9 +44,16 @@
   {
     "objectID": "todo.html",
     "href": "todo.html",
-    "title": "Daily To-Do List",
+    "title": "Pengembaraan Tugas Diri",
     "section": "",
-    "text": "Tekan untuk coret.\n\n\n\n\n [1] Task 1\n\n\n\n\n [2] Task 2\n\n\n\n\n [3] Task 3"
+    "text": "[1] Labur Saham BISC (Profit per day: MYR 300+)1\n\n\n\n\n [2] Cover balik subjek Algebra2\n\n\n\n\n [3] Belajar Fundamental Software Engineering (untuk semester hadapan)3\n\n\n\n\n [4] Belajar Asas membina bahasa inggeris\n\n\n\n\n [5] Connect 5+ people in LinkedIn4"
+  },
+  {
+    "objectID": "todo.html#footnotes",
+    "href": "todo.html#footnotes",
+    "title": "Pengembaraan Tugas Diri",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nBursa Academy | Equities, Derivatives, Islamic Equities, Sustainability and Learning portal of Bursa Malaysia (bursaacademy.bursamarketplace.com).↩︎\nPaul’s Online Notes: Algebra (tutorial.math.lamar.edu/Classes/Alg/Alg.aspx).↩︎\nSoftware Engineering Tutorial - GeeksforGeeks (www.geeksforgeeks.org/software-engineering).↩︎\nM. Hariz Hazril | LinkedIn (www.linkedin.com/in/harizhazril/)↩︎\nHariz-Harisun/Hariz-Harisun.github.io↩︎\nPhysics Forums: Science Discussion, Homework Help, Articles (www.physicsforums.com).↩︎\n3 tips sekiranya tengah RUGI dalam SAHAM ! - YouTube↩︎\n100 derivatives (everything you have to know for your calculus class) - YouTube↩︎"
   },
   {
     "objectID": "about.html",
