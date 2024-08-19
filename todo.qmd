@@ -5,12 +5,14 @@ title-block-banner: true  # Enable title block banner
 description: "Ini adalah To-do list Hariz seharian."
 ---
 
+```{=html}
 <style>
     .container {
         background-color: white;
         padding: 20px;
         border-radius: 8px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 100%;
     }
 
     ul {
@@ -25,45 +27,50 @@ description: "Ini adalah To-do list Hariz seharian."
     }
 
     .task {
-        margin-right: 10px;
+        display: none;
     }
 
-    .completed {
+    .task-label {
+        margin-right: 10px;
+        cursor: pointer;
+        transition: color 0.3s, text-decoration 0.3s;
+    }
+
+    .task:checked + .task-label {
+        color: #999;
         text-decoration: line-through;
-        color: grey;
     }
 </style>
-<div style="width: 50%;background-color: white;padding: 20px;border-radius: 14px;">
+```
+::: container
 <ul id="todo-list">
-    <li><input type="checkbox" class="task"> <span class="task-text">Task 1</span></li>
-    <li><input type="checkbox" class="task"> <span class="task-text">Task 2</span></li>
-    <li><input type="checkbox" class="task"> <span class="task-text">Task 3</span></li>
+
+-   <li><input type="checkbox" class="task" id="task1"> <label for="task1" class="task-label">Task 1</label></li>
+
+-   <li><input type="checkbox" class="task" id="task2"> <label for="task2" class="task-label">Task 2</label></li>
+
+-   <li><input type="checkbox" class="task" id="task3"> <label for="task3" class="task-label">Task 3</label></li>
+
 </ul>
-</div>
+:::
+
+```{=html}
 <script>
     document.addEventListener('DOMContentLoaded', () => {
         const tasks = document.querySelectorAll('.task');
-        const taskTexts = document.querySelectorAll('.task-text');
 
         // Load saved tasks state from local storage
         tasks.forEach((task, index) => {
             const taskState = localStorage.getItem(`task${index}`);
             if (taskState === 'checked') {
                 task.checked = true;
-                taskTexts[index].classList.add('completed');
             }
         });
 
-        // Save task state on change and toggle strikethrough
+        // Add event listeners to update state on input change
         tasks.forEach((task, index) => {
             task.addEventListener('change', () => {
-                if (task.checked) {
-                    localStorage.setItem(`task${index}`, 'checked');
-                    taskTexts[index].classList.add('completed');
-                } else {
-                    localStorage.setItem(`task${index}`, 'unchecked');
-                    taskTexts[index].classList.remove('completed');
-                }
+                localStorage.setItem(`task${index}`, task.checked ? 'checked' : 'unchecked');
             });
         });
 
@@ -75,10 +82,10 @@ description: "Ini adalah To-do list Hariz seharian."
             // Reset all tasks
             tasks.forEach((task, index) => {
                 task.checked = false;
-                taskTexts[index].classList.remove('completed');
                 localStorage.setItem(`task${index}`, 'unchecked');
             });
             localStorage.setItem('lastVisit', today);
         }
     });
 </script>
+```
