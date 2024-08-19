@@ -1,10 +1,11 @@
 ---
-title: "Daily To-Do List"
+title: "Pengembaraan Tugas Diri"
 format: html
 title-block-banner: true  # Enable title block banner
-description: "Ini adalah To-do list Hariz seharian."
+description: "Ini adalah senarai tugasan seharian saya."
 ---
-### Tekan untuk coret.
+
+### 🗡️ Misi Harian 🗡️
 
 ```{=html}
 <style>
@@ -45,14 +46,34 @@ description: "Ini adalah To-do list Hariz seharian."
 ::: container
 <ul id="todo-list">
 
-<li><input type="checkbox" class="task" id="task1"> <label for="task1" class="task-label">[1]    Task 1</label></li>
+<li><input type="checkbox" class="task" id="task1"> <label for="task1" class="task-label">\[1\] Labur Saham BISC (Profit per day: MYR 300+)[^1]</label></li>
+
 \
-<li><input type="checkbox" class="task" id="task2"> <label for="task2" class="task-label">[2]    Task 2</label></li>
+
+<li><input type="checkbox" class="task" id="task2"> <label for="task2" class="task-label">\[2\] Cover balik subjek Algebra[^2]</label></li>
+
 \
-<li><input type="checkbox" class="task" id="task3"> <label for="task3" class="task-label">[3]    Task 3</label></li>
+
+<li><input type="checkbox" class="task" id="task3"> <label for="task3" class="task-label">\[3\] Belajar Fundamental Software Engineering (untuk semester hadapan)[^3]</label></li>
+
+\
+
+<li><input type="checkbox" class="task" id="task4"> <label for="task4" class="task-label">\[4\] Belajar Asas membina bahasa inggeris</label></li>
+
+\
+
+<li><input type="checkbox" class="task" id="task5"> <label for="task5" class="task-label">\[5\] Connect 5+ people in LinkedIn[^4]</label></li>
 
 </ul>
 :::
+
+[^1]: Bursa Academy \| Equities, Derivatives, Islamic Equities, Sustainability and Learning portal of Bursa Malaysia ([bursaacademy.bursamarketplace.com](bursaacademy.bursamarketplace.com)).
+
+[^2]: Paul's Online Notes: Algebra ([tutorial.math.lamar.edu/Classes/Alg/Alg.aspx](tutorial.math.lamar.edu/Classes/Alg/Alg.aspx)).
+
+[^3]: Software Engineering Tutorial - GeeksforGeeks ([www.geeksforgeeks.org/software-engineering](www.geeksforgeeks.org/software-engineering/)).
+
+[^4]: M. Hariz Hazril \| LinkedIn ([www.linkedin.com/in/harizhazril/](www.linkedin.com/in/harizhazril/))
 
 ```{=html}
 <script>
@@ -89,3 +110,62 @@ description: "Ini adalah To-do list Hariz seharian."
     });
 </script>
 ```
+### 🛡️ Tugas Sampingan 🛡️
+
+::: container
+<ul id="todo-list">
+
+<li><input type="checkbox" class="task" id="task6"> <label for="task6" class="task-label">\[1\] Baca 3 bab buku Enam Angka Menjelang Dua Puluh Lima</label></li>
+
+\
+
+<li><input type="checkbox" class="task" id="task7"> <label for="task7" class="task-label">\[2\] Buat pembetulan exam paper lepas</label></li>
+
+\
+
+<li><input type="checkbox" class="task" id="task8"> <label for="task8" class="task-label">\[3\] Tambahbaik blog github[^5]</label></li>
+
+\
+
+<li><input type="checkbox" class="task" id="task9"> <label for="task9" class="task-label">\[4\] Baca 3 entri physics forum[^6]</label></li>
+
+\
+
+<li><input type="checkbox" class="task" id="task10"> <label for="task10" class="task-label">\[5\] Belajar ilmu Saham Bursa[^7]</label></li>
+
+</ul>
+:::
+
+[^5]: [Hariz-Harisun/Hariz-Harisun.github.io](https://github.com/Hariz-Harisun/Hariz-Harisun.github.io)
+
+[^6]: Physics Forums: Science Discussion, Homework Help, Articles ([www.physicsforums.com](www.physicsforums.com)).
+
+[^7]: [3 tips sekiranya tengah RUGI dalam SAHAM ! - YouTube](https://www.youtube.com/watch?v=hxROGx-nOeA)
+
+### 🏆 Misi Pencapaian 🏆
+
+::: container
+<ul id="todo-list">
+
+<li><input type="checkbox" class="task" id="task11"> <label for="task11" class="task-label"> \[1\] IBM Z Day - open \| on \| secure - 1 October 2024 <br> Rewards: e-cert, knowledge </label></li>
+
+<br>
+
+<li><input type="checkbox" class="task" id="task12"> <label for="task12" class="task-label">\[2\] 10 Derivatives Question <br> Rewards: gula-gula </label></li>
+
+<br>
+
+<li><input type="checkbox" class="task" id="task13"> <label for="task13" class="task-label">\[3\] 20 Derivatives Question <br> Rewards: gula-gula </label></li>
+
+<br>
+
+<li><input type="checkbox" class="task" id="task14"> <label for="task14" class="task-label">\[4\] 50 Derivatives Question <br> Rewards: gula-gula </label></li>
+
+<br>
+
+<li><input type="checkbox" class="task" id="task15"> <label for="task15" class="task-label">\[5\] 100 Derivatives Question[^8] <br> Rewards: gula-gula </label></li>
+
+</ul>
+:::
+
+[^8]: [100 derivatives (everything you have to know for your calculus class) - YouTube](https://www.youtube.com/watch?v=AegzQ_dip8k)
