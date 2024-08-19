@@ -6,6 +6,7 @@ website:
   navbar:
     background: "#f4f1ea"
     foreground: "#382110"
+    linkcolor: "#d97757"
     search: true
     pinned: true
     left:
@@ -30,5 +31,6 @@ format:
   html:
     theme: cosmo
     backgroundcolor: "#f9f7f4"
+    linkcolor: "#d97757"
     css: styles.css
     toc: true

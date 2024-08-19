@@ -8,6 +8,19 @@ body {
     color: #382110;
 }
 
+.navbar-brand {
+color:#d97757 !important;
+font-weight: bold;
+}
+
 .navbar-container {
     width: 1220px;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: #d97757 !important;
+}
+
+.nav-link:hover, .nav-link:focus {
+    color: #d97757 !important;
 }
