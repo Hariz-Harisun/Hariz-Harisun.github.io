@@ -1,0 +1,80 @@
+ <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 10px 0;
+            display: flex;
+            align-items: center;
+        }
+
+        .task {
+            margin-right: 10px;
+        }
+    </style>
+    <div class="container">
+        <h1>Daily To-Do List</h1>
+        <ul id="todo-list">
+            <li><input type="checkbox" class="task"> Task 1</li>
+            <li><input type="checkbox" class="task"> Task 2</li>
+            <li><input type="checkbox" class="task"> Task 3</li>
+        </ul>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const tasks = document.querySelectorAll('.task');
+            
+            // Load saved tasks state from local storage
+            tasks.forEach((task, index) => {
+                const taskState = localStorage.getItem(`task${index}`);
+                if (taskState === 'checked') {
+                    task.checked = true;
+                }
+            });
+
+            // Save task state on change
+            tasks.forEach((task, index) => {
+                task.addEventListener('change', () => {
+                    localStorage.setItem(`task${index}`, task.checked ? 'checked' : 'unchecked');
+                });
+            });
+
+            // Check if the date has changed
+            const lastVisit = localStorage.getItem('lastVisit');
+            const today = new Date().toDateString();
+
+            if (lastVisit !== today) {
+                // Reset all tasks
+                tasks.forEach((task, index) => {
+                    task.checked = false;
+                    localStorage.setItem(`task${index}`, 'unchecked');
+                });
+                localStorage.setItem('lastVisit', today);
+            }
+        });
+    </script>

@@ -1,0 +1,84 @@
+---
+title: "Daily To-Do List"
+format: html
+title-block-banner: true  # Enable title block banner
+description: "Ini adalah To-do list Hariz seharian."
+---
+
+<style>
+    .container {
+        background-color: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    li {
+        margin: 10px 0;
+        display: flex;
+        align-items: center;
+    }
+
+    .task {
+        margin-right: 10px;
+    }
+
+    .completed {
+        text-decoration: line-through;
+        color: grey;
+    }
+</style>
+<div style="width: 50%;background-color: white;padding: 20px;border-radius: 14px;">
+<ul id="todo-list">
+    <li><input type="checkbox" class="task"> <span class="task-text">Task 1</span></li>
+    <li><input type="checkbox" class="task"> <span class="task-text">Task 2</span></li>
+    <li><input type="checkbox" class="task"> <span class="task-text">Task 3</span></li>
+</ul>
+</div>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const tasks = document.querySelectorAll('.task');
+        const taskTexts = document.querySelectorAll('.task-text');
+
+        // Load saved tasks state from local storage
+        tasks.forEach((task, index) => {
+            const taskState = localStorage.getItem(`task${index}`);
+            if (taskState === 'checked') {
+                task.checked = true;
+                taskTexts[index].classList.add('completed');
+            }
+        });
+
+        // Save task state on change and toggle strikethrough
+        tasks.forEach((task, index) => {
+            task.addEventListener('change', () => {
+                if (task.checked) {
+                    localStorage.setItem(`task${index}`, 'checked');
+                    taskTexts[index].classList.add('completed');
+                } else {
+                    localStorage.setItem(`task${index}`, 'unchecked');
+                    taskTexts[index].classList.remove('completed');
+                }
+            });
+        });
+
+        // Check if the date has changed
+        const lastVisit = localStorage.getItem('lastVisit');
+        const today = new Date().toDateString();
+
+        if (lastVisit !== today) {
+            // Reset all tasks
+            tasks.forEach((task, index) => {
+                task.checked = false;
+                taskTexts[index].classList.remove('completed');
+                localStorage.setItem(`task${index}`, 'unchecked');
+            });
+            localStorage.setItem('lastVisit', today);
+        }
+    });
+</script>
