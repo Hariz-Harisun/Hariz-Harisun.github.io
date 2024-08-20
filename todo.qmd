@@ -108,6 +108,44 @@ description: "Ini adalah senarai tugasan seharian saya."
             localStorage.setItem('lastVisit', today);
         }
     });
+    
+    document.getElementById('report-form').addEventListener('submit', function(event) {
+    event.preventDefault();
+    generatePDF();
+});
+
+function generatePDF() {
+    const title = document.getElementById('title').value;
+    const description = document.getElementById('description').value;
+
+    const doc = new jsPDF();
+    doc.text(20, 20, `Title: ${title}`);
+    doc.text(20, 30, `Description: ${description}`);
+    const pdfData = doc.output('blob');
+
+    // Use FormData to prepare the data for the server
+    const formData = new FormData();
+    formData.append('file', pdfData, 'report.pdf');
+
+    // Send the PDF to the server to save it in the GitHub repository
+    fetch('/upload', {
+        method: 'POST',
+        body: formData
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.success) {
+            alert('Report submitted successfully!');
+        } else {
+            alert('Failed to submit the report.');
+        }
+    })
+    .catch(error => {
+        console.error('Error:', error);
+        alert('Error submitting the report.');
+    });
+}
+
 </script>
 ```
 ### 🛡️ Tugas Sampingan 🛡️
@@ -169,3 +207,16 @@ description: "Ini adalah senarai tugasan seharian saya."
 :::
 
 [^8]: [100 derivatives (everything you have to know for your calculus class) - YouTube](https://www.youtube.com/watch?v=AegzQ_dip8k)
+
+### Hantar Laporan Harian
+
+::: container
+<form id="report-form">
+    <input type="text" id="title" name="title" placeholder="Report Title" required>
+    <br>
+    <textarea id="description" name="description" rows="4" placeholder="Report Description" required></textarea>
+    <br>
+    <button type="submit">Submit</button>
+</form>
+
+:::
