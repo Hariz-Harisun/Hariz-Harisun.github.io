@@ -1,5 +1,7 @@
 library(shiny)
 library(rmarkdown)
+
+# UI
 ui <- fluidPage(
   titlePanel("Daily Report Form"),
   
@@ -18,6 +20,7 @@ ui <- fluidPage(
   )
 )
 
+# Server
 server <- function(input, output) {
   
   # Create a reactive expression to store form data
@@ -31,13 +34,15 @@ server <- function(input, output) {
   
   # Render the report in the UI
   output$report_ui <- renderUI({
-    if(input$submit > 0){
-      h4("Preview of Your Report")
-      p(paste("Name:", formData()$name))
-      p(paste("Email:", formData()$email))
-      p("Report:")
+    req(input$submit > 0)  # Ensure the submit button has been pressed
+    
+    tagList(
+      h4("Preview of Your Report"),
+      p(paste("Name:", formData()$name)),
+      p(paste("Email:", formData()$email)),
+      p("Report:"),
       p(formData()$report)
-    }
+    )
   })
   
   # Generate the PDF report
@@ -46,11 +51,15 @@ server <- function(input, output) {
       paste("report_", Sys.Date(), ".pdf", sep = "")
     },
     content = function(file) {
-      rmarkdown::render("report_template.Rmd", 
-                        output_file = file,
-                        params = formData())
+      rmarkdown::render(
+        input = "report_template.Rmd", 
+        output_file = file,
+        params = formData(),
+        envir = new.env(parent = globalenv()) # Use a clean environment
+      )
     }
   )
 }
 
+# Run the app
 shinyApp(ui = ui, server = server)
