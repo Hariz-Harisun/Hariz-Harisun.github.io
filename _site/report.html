@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Ini adalah senarai tugasan seharian saya.">
 
-<title>Hariz Harisun - Pengembaraan Tugas Diri</title>
+<title>Hariz Harisun - Report Form</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -67,6 +66,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -74,7 +102,7 @@ ul.task-list li input[type="checkbox"] {
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
@@ -134,267 +162,53 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-body">
-      <h1 class="title">Pengembaraan Tugas Diri</h1>
-                  <div>
-        <div class="description">
-          Ini adalah senarai tugasan seharian saya.
-        </div>
-      </div>
-                </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta">
-
-      
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#misi-harian" id="toc-misi-harian" class="nav-link active" data-scroll-target="#misi-harian">🗡️ Misi Harian 🗡️</a></li>
-  <li><a href="#tugas-sampingan" id="toc-tugas-sampingan" class="nav-link" data-scroll-target="#tugas-sampingan">🛡️ Tugas Sampingan 🛡️</a></li>
-  <li><a href="#misi-pencapaian" id="toc-misi-pencapaian" class="nav-link" data-scroll-target="#misi-pencapaian">🏆 Misi Pencapaian 🏆</a></li>
-  <li><a href="#hantar-laporan-harian" id="toc-hantar-laporan-harian" class="nav-link" data-scroll-target="#hantar-laporan-harian">Hantar Laporan Harian</a></li>
-  </ul>
-</nav>
+        
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
-
-
-
-
-<section id="misi-harian" class="level3">
-<h3 class="anchored" data-anchor-id="misi-harian">🗡️ Misi Harian 🗡️</h3>
-<style>
-    .container {
-        background-color: white;
-        padding: 20px;
-        border-radius: 8px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        width: 100%;
-    }
-
-    ul {
-        list-style-type: none;
-        padding: 0;
-    }
-
-    li {
-        display: flex;
-        align-items: center;
-    }
-
-    .task {
-        display: none;
-    }
-
-    .task-label {
-        margin-right: 10px;
-        cursor: pointer;
-        transition: color 0.3s, text-decoration 0.3s;
-    }
-
-    .task:checked + .task-label {
-        color: #999;
-        text-decoration: line-through;
-    }
-</style>
-<div class="container">
-<ul id="todo-list">
-<li>
-<input type="checkbox" class="task" id="task1"> <label for="task1" class="task-label">[1] Labur Saham BISC (Profit per day: MYR 300+)<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></label>
-</li>
-<p><br>
-</p>
-<li>
-<input type="checkbox" class="task" id="task2"> <label for="task2" class="task-label">[2] Cover balik subjek Algebra<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></label>
-</li>
-<p><br>
-</p>
-<li>
-<input type="checkbox" class="task" id="task3"> <label for="task3" class="task-label">[3] Belajar Fundamental Software Engineering (untuk semester hadapan)<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a></label>
-</li>
-<p><br>
-</p>
-<li>
-<input type="checkbox" class="task" id="task4"> <label for="task4" class="task-label">[4] Belajar Asas membina bahasa inggeris</label>
-</li>
-<p><br>
-</p>
-<li>
-<input type="checkbox" class="task" id="task5"> <label for="task5" class="task-label">[5] Connect 5+ people in LinkedIn<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a></label>
-</li>
-</ul>
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Report Form</h1>
 </div>
-<script>
-    document.addEventListener('DOMContentLoaded', () => {
-        const tasks = document.querySelectorAll('.task');
 
-        // Load saved tasks state from local storage
-        tasks.forEach((task, index) => {
-            const taskState = localStorage.getItem(`task${index}`);
-            if (taskState === 'checked') {
-                task.checked = true;
-            }
-        });
 
-        // Add event listeners to update state on input change
-        tasks.forEach((task, index) => {
-            task.addEventListener('change', () => {
-                localStorage.setItem(`task${index}`, task.checked ? 'checked' : 'unchecked');
-            });
-        });
 
-        // Check if the date has changed
-        const lastVisit = localStorage.getItem('lastVisit');
-        const today = new Date().toDateString();
+<div class="quarto-title-meta">
 
-        if (lastVisit !== today) {
-            // Reset all tasks
-            tasks.forEach((task, index) => {
-                task.checked = false;
-                localStorage.setItem(`task${index}`, 'unchecked');
-            });
-            localStorage.setItem('lastVisit', today);
-        }
-    });
     
-    document.getElementById('report-form').addEventListener('submit', function(event) {
-    event.preventDefault();
-    generatePDF();
-});
-
-function generatePDF() {
-    const title = document.getElementById('title').value;
-    const description = document.getElementById('description').value;
-
-    const doc = new jsPDF();
-    doc.text(20, 20, `Title: ${title}`);
-    doc.text(20, 30, `Description: ${description}`);
-    const pdfData = doc.output('blob');
-
-    // Use FormData to prepare the data for the server
-    const formData = new FormData();
-    formData.append('file', pdfData, 'report.pdf');
-
-    // Send the PDF to the server to save it in the GitHub repository
-    fetch('/upload', {
-        method: 'POST',
-        body: formData
-    })
-    .then(response => response.json())
-    .then(data => {
-        if (data.success) {
-            alert('Report submitted successfully!');
-        } else {
-            alert('Failed to submit the report.');
-        }
-    })
-    .catch(error => {
-        console.error('Error:', error);
-        alert('Error submitting the report.');
-    });
-}
-
-</script>
-</section>
-<section id="tugas-sampingan" class="level3">
-<h3 class="anchored" data-anchor-id="tugas-sampingan">🛡️ Tugas Sampingan 🛡️</h3>
-<div class="container">
-<ul id="todo-list">
-<li>
-<input type="checkbox" class="task" id="task6"> <label for="task6" class="task-label">[1] Baca 3 bab buku Enam Angka Menjelang Dua Puluh Lima</label>
-</li>
-<p><br>
-</p>
-<li>
-<input type="checkbox" class="task" id="task7"> <label for="task7" class="task-label">[2] Buat pembetulan exam paper lepas</label>
-</li>
-<p><br>
-</p>
-<li>
-<input type="checkbox" class="task" id="task8"> <label for="task8" class="task-label">[3] Tambahbaik blog github<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a></label>
-</li>
-<p><br>
-</p>
-<li>
-<input type="checkbox" class="task" id="task9"> <label for="task9" class="task-label">[4] Baca 3 entri physics forum<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a></label>
-</li>
-<p><br>
-</p>
-<li>
-<input type="checkbox" class="task" id="task10"> <label for="task10" class="task-label">[5] Belajar ilmu Saham Bursa<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a></label>
-</li>
-</ul>
-</div>
-</section>
-<section id="misi-pencapaian" class="level3">
-<h3 class="anchored" data-anchor-id="misi-pencapaian">🏆 Misi Pencapaian 🏆</h3>
-<div class="container">
-<ul id="todo-list">
-<li>
-<input type="checkbox" class="task" id="task11"> <label for="task11" class="task-label"> [1] IBM Z Day - open | on | secure - 1 October 2024 <br> Rewards: e-cert, knowledge </label>
-</li>
-<p><br></p>
-<li>
-<input type="checkbox" class="task" id="task12"> <label for="task12" class="task-label">[2] 10 Derivatives Question <br> Rewards: gula-gula </label>
-</li>
-<p><br></p>
-<li>
-<input type="checkbox" class="task" id="task13"> <label for="task13" class="task-label">[3] 20 Derivatives Question <br> Rewards: gula-gula </label>
-</li>
-<p><br></p>
-<li>
-<input type="checkbox" class="task" id="task14"> <label for="task14" class="task-label">[4] 50 Derivatives Question <br> Rewards: gula-gula </label>
-</li>
-<p><br></p>
-<li>
-<input type="checkbox" class="task" id="task15"> <label for="task15" class="task-label">[5] 100 Derivatives Question<a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a> <br> Rewards: gula-gula </label>
-</li>
-</ul>
-</div>
-</section>
-<section id="hantar-laporan-harian" class="level3">
-<h3 class="anchored" data-anchor-id="hantar-laporan-harian">Hantar Laporan Harian</h3>
-<div class="container">
-<form id="report-form">
-<input type="text" id="title" name="title" placeholder="Report Title" required=""> <br>
-<textarea id="description" name="description" rows="4" placeholder="Report Description" required=""></textarea>
-<br> <button type="submit">Submit</button>
-</form>
-</div>
+  
+    
+  </div>
+  
 
 
-</section>
+</header>
 
 
-<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+<p>library(shiny) library(rmarkdown) ui &lt;- fluidPage( titlePanel(“Daily Report Form”),</p>
+<p>sidebarLayout( sidebarPanel( textInput(“name”, “Name:”, ““), textInput(”email”, “Email:”, ““), textAreaInput(”report”, “Today’s Report:”, ““), actionButton(”submit”, “Submit”) ),</p>
+<pre><code>mainPanel(
+  uiOutput("report_ui"),
+  downloadButton("downloadReport", "Download Report")
+)</code></pre>
+<p>) )</p>
+<p>server &lt;- function(input, output) {</p>
+<p># Create a reactive expression to store form data formData &lt;- reactive({ list( name = input<span class="math inline">\(name,
+      email = input\)</span>email, report = input$report ) })</p>
+<p># Render the report in the UI output<span class="math inline">\(report_ui &lt;- renderUI({
+    if(input\)</span>submit &gt; 0){ h4(“Preview of Your Report”) p(paste(“Name:”, formData()<span class="math inline">\(name))
+      p(paste("Email:", formData()\)</span>email)) p(“Report:”) p(formData()$report) } })</p>
+<p># Generate the PDF report output$downloadReport &lt;- downloadHandler( filename = function() { paste(“report_”, Sys.Date(), “.pdf”, sep = ““) }, content = function(file) { rmarkdown::render(”report_template.Rmd”, output_file = file, params = formData()) } ) }</p>
+<p>shinyApp(ui = ui, server = server)</p>
 
-<ol>
-<li id="fn1"><p>Bursa Academy | Equities, Derivatives, Islamic Equities, Sustainability and Learning portal of Bursa Malaysia (<a href="bursaacademy.bursamarketplace.com">bursaacademy.bursamarketplace.com</a>).<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2"><p>Paul’s Online Notes: Algebra (<a href="tutorial.math.lamar.edu/Classes/Alg/Alg.aspx">tutorial.math.lamar.edu/Classes/Alg/Alg.aspx</a>).<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn3"><p>Software Engineering Tutorial - GeeksforGeeks (<a href="www.geeksforgeeks.org/software-engineering/">www.geeksforgeeks.org/software-engineering</a>).<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn4"><p>M. Hariz Hazril | LinkedIn (<a href="www.linkedin.com/in/harizhazril/">www.linkedin.com/in/harizhazril/</a>)<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn5"><p><a href="https://github.com/Hariz-Harisun/Hariz-Harisun.github.io">Hariz-Harisun/Hariz-Harisun.github.io</a><a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn6"><p>Physics Forums: Science Discussion, Homework Help, Articles (<a href="www.physicsforums.com">www.physicsforums.com</a>).<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn7"><p><a href="https://www.youtube.com/watch?v=hxROGx-nOeA">3 tips sekiranya tengah RUGI dalam SAHAM ! - YouTube</a><a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn8"><p><a href="https://www.youtube.com/watch?v=AegzQ_dip8k">100 derivatives (everything you have to know for your calculus class) - YouTube</a><a href="#fnref8" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol>
-</section></div></main> <!-- /main -->
+
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

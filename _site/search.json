@@ -14,6 +14,13 @@
     "text": "Footnotes\n\n\nBursa Academy | Equities, Derivatives, Islamic Equities, Sustainability and Learning portal of Bursa Malaysia (bursaacademy.bursamarketplace.com).↩︎\nPaul’s Online Notes: Algebra (tutorial.math.lamar.edu/Classes/Alg/Alg.aspx).↩︎\nSoftware Engineering Tutorial - GeeksforGeeks (www.geeksforgeeks.org/software-engineering).↩︎\nM. Hariz Hazril | LinkedIn (www.linkedin.com/in/harizhazril/)↩︎\nHariz-Harisun/Hariz-Harisun.github.io↩︎\nPhysics Forums: Science Discussion, Homework Help, Articles (www.physicsforums.com).↩︎\n3 tips sekiranya tengah RUGI dalam SAHAM ! - YouTube↩︎\n100 derivatives (everything you have to know for your calculus class) - YouTube↩︎"
   },
   {
+    "objectID": "report.html",
+    "href": "report.html",
+    "title": "Report Form",
+    "section": "",
+    "text": "library(shiny) library(rmarkdown) ui &lt;- fluidPage( titlePanel(“Daily Report Form”),\nsidebarLayout( sidebarPanel( textInput(“name”, “Name:”, ““), textInput(”email”, “Email:”, ““), textAreaInput(”report”, “Today’s Report:”, ““), actionButton(”submit”, “Submit”) ),\nmainPanel(\n  uiOutput(\"report_ui\"),\n  downloadButton(\"downloadReport\", \"Download Report\")\n)\n) )\nserver &lt;- function(input, output) {\n# Create a reactive expression to store form data formData &lt;- reactive({ list( name = input\\(name,\n      email = input\\)email, report = input$report ) })\n# Render the report in the UI output\\(report_ui &lt;- renderUI({\n    if(input\\)submit &gt; 0){ h4(“Preview of Your Report”) p(paste(“Name:”, formData()\\(name))\n      p(paste(\"Email:\", formData()\\)email)) p(“Report:”) p(formData()$report) } })\n# Generate the PDF report output$downloadReport &lt;- downloadHandler( filename = function() { paste(“report_”, Sys.Date(), “.pdf”, sep = ““) }, content = function(file) { rmarkdown::render(”report_template.Rmd”, output_file = file, params = formData()) } ) }\nshinyApp(ui = ui, server = server)"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Laman Utama",
@@ -145,5 +152,19 @@
     "title": "🎯  Project",
     "section": "",
     "text": "Reference 1\nReference 2\nReference 3"
+  },
+  {
+    "objectID": "report_template.html",
+    "href": "report_template.html",
+    "title": "Daily Report",
+    "section": "",
+    "text": "Name:\nEmail:\nReport:"
+  },
+  {
+    "objectID": "report_template.html#report-summary",
+    "href": "report_template.html#report-summary",
+    "title": "Daily Report",
+    "section": "",
+    "text": "Name:\nEmail:\nReport:"
   }
 ]
