@@ -1,0 +1,18 @@
+---
+title: "Daily Report"
+output: pdf_document
+params:
+  name: ""
+  email: ""
+  report: ""
+---
+
+## Report Summary
+
+**Name:** `r params$name`
+
+**Email:** `r params$email`
+
+**Report:**
+
+`r params$report`
