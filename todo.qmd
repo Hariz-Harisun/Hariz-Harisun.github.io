@@ -211,6 +211,6 @@ function generatePDF() {
 ### Hantar Laporan Harian
 
 ::: container
-<iframe src="https://hariz-harisun.shinyapps.io/report/" width="100%" height="800px" style="border: none;"></iframe>
+<iframe src="https://hariz-harisun.shinyapps.io/report/" width="100%" height="370px" style="border: none;"></iframe>
 
 :::

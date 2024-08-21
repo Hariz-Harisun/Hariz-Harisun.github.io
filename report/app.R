@@ -3,19 +3,18 @@ library(rmarkdown)
 
 # UI
 ui <- fluidPage(
-  titlePanel("Daily Report Form"),
   
   sidebarLayout(
     sidebarPanel(
       textInput("name", "Name:", ""),
       textInput("email", "Email:", ""),
       textAreaInput("report", "Today's Report:", ""),
-      actionButton("submit", "Submit")
+      actionButton("submit", "View Report")
     ),
     
     mainPanel(
       uiOutput("report_ui"),
-      downloadButton("downloadReport", "Download Report")
+      downloadButton("downloadReport", "Submit Report")
     )
   )
 )

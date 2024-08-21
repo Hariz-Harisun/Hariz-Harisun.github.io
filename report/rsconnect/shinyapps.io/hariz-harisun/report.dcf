@@ -5,7 +5,7 @@ account: hariz-harisun
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 12481191
-bundleId: 9004848
+bundleId: 9008017
 url: https://hariz-harisun.shinyapps.io/report/
 version: 1
 asMultiple: FALSE
