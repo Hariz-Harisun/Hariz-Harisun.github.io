@@ -46,11 +46,13 @@ Di mana, $cis(\theta)$ adalah $cos(\theta)+i~sin(\theta)$.
 
 Dengan mengambil punca kuasa empat,
 
-$(-16)^{\frac14}=(16~\text{cis}\left(\pi\right))^{\frac14}=2~\text{cis}\left(\frac{\pi+2k\pi}4\right)\text{for}~k=0,1,2,3$
+$(-16)^{\frac14}=(16~\text{cis}\left(\pi\right))^{\frac14}$
 
 $(16~\text{cis}\left(\pi\right))^{\frac14}=2~\text{cis}\left(\frac{\pi+2k\pi}4\right)\text{for}~k=0,1,2,3$
 
-Penyelesaian ini memberikan nilai-nilai berikut: $2~\text{cis}\left(\frac{\pi}{4}\right),\quad2~\text{cis}\left(\frac{3\pi}{4}\right),\quad2~\text{cis}\left(\frac{5\pi}{4}\right),\quad2~\text{cis}\left(\frac{7\pi}{4}\right)$
+Penyelesaian ini memberikan nilai-nilai berikut:
+
+$2~\text{cis}\left(\frac{\pi}{4}\right),\quad2~\text{cis}\left(\frac{3\pi}{4}\right),\quad2~\text{cis}\left(\frac{5\pi}{4}\right),\quad2~\text{cis}\left(\frac{7\pi}{4}\right)$
 
 Jika dalam bentuk eksponen adalah: $2e^{i\pi/4},~2e^{3i\pi/4},~2e^{5i\pi/4}$, dan $2e^{7i\pi/4}$
 

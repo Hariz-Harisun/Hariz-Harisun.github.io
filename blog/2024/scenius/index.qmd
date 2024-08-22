@@ -4,7 +4,7 @@ title: "Scenius: Sekumpulan yang membentuk kebijaksanaan"
 subtitle: "Bagaimana berkumpulan dapat membentuk idea yang kreatif & kritis."
 date: "2024-08-22"
 categories: ["🔢 Matematika"]
-image: "23082024-2.png"
+image: "images/23082024-2.png"
 authors: ["M. Hariz Hazril"]
 ---
 
