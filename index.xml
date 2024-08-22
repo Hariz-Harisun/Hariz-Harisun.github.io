@@ -10,7 +10,54 @@
 <atom:link href="https://Hariz-Harisun.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.5.56</generator>
-<lastBuildDate>Mon, 04 Sep 2023 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 22 Aug 2024 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Cis!</title>
+  <link>https://Hariz-Harisun.github.io/blog/2024/cis/</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://Hariz-Harisun.github.io/blog/2024/cis/22082024.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<section id="arghh-cis-kamu" class="level2">
+<h2 class="anchored" data-anchor-id="arghh-cis-kamu">Arghh, ‘cis’ kamu!</h2>
+<p>Bayangkan seorang remaja sekolah mendatangi engkau dengan soalan yang melibatkan eksponen rational yang berbentuk,</p>
+<p><img src="https://latex.codecogs.com/png.latex?(-16)%5E%7B%5Cfrac%7B1%7D%7B4%7D%7D"></p>
+<p>dan meminta tolong engkau menyelesaikannya.</p>
+<p>Kita perlu bertanya: adakah wujud sebarang nombor nyata yang apabila dikuasakan dengan empat menghasilkan nilai negatif <img src="https://latex.codecogs.com/png.latex?-16~?"> <img src="https://latex.codecogs.com/png.latex?%0Ay%5E4=-16%0A">Secara logik, sebarang nombor nyata <img src="https://latex.codecogs.com/png.latex?y">, apabila dikuasakan dengan nombor genap, hasilnya sentiasa positif.</p>
+<p>Ini bermakna, tidak mungkin ada nombor nyata <img src="https://latex.codecogs.com/png.latex?y"> yang dapat memuaskan persamaan <img src="https://latex.codecogs.com/png.latex?y%5E4%20=%20-16">.</p>
+<p>Namun, jika kita pergi lebih mendalam, hal ini dapat diselesaikan dengan konsep nombor khayalan.</p>
+<p><img src="https://latex.codecogs.com/png.latex?%5Ccdot~%5Ccdot~%5Ccdot"> “<em>Cis!!</em>”, saya berkata.</p>
+<p>Dengan wajah kebingungan, remaja itu memandang aku dan berkata dengan gugup, “<em>Maafkan saya, bang</em>.”</p>
+<p>Aku tersenyum dan menjelaskan, “<em>Bukan ‘cis’ yang itu, tetapi ‘cis(x)’ dalam matematik.</em>”</p>
+<p>“<em>cis(x) = cos(x) + i sin(x)</em>”, sambung aku.</p>
+</section>
+<section id="merungkap-jawapan-disebalik-khayalan" class="level2">
+<h2 class="anchored" data-anchor-id="merungkap-jawapan-disebalik-khayalan">Merungkap jawapan disebalik khayalan</h2>
+<p>Aku menerangkan bahawa dalam konteks nombor kompleks, kita boleh menggunakan kaedah ‘cis’ untuk menyelesaikan masalah ini. Jika dalam bentuk polar,</p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A-16=16~%5Ctext%7Bcis%7D(%5Cpi)%0A"></p>
+<p>Di mana, <img src="https://latex.codecogs.com/png.latex?cis(%5Ctheta)"> adalah <img src="https://latex.codecogs.com/png.latex?cos(%5Ctheta)+i~sin(%5Ctheta)">.</p>
+<p>Dengan mengambil punca kuasa empat,</p>
+<p><img src="https://latex.codecogs.com/png.latex?(-16)%5E%7B%5Cfrac14%7D=(16~%5Ctext%7Bcis%7D%5Cleft(%5Cpi%5Cright))%5E%7B%5Cfrac14%7D=2~%5Ctext%7Bcis%7D%5Cleft(%5Cfrac%7B%5Cpi+2k%5Cpi%7D4%5Cright)%5Ctext%7Bfor%7D~k=0,1,2,3"></p>
+<p>Penyelesaian ini memberikan nilai-nilai berikut: <img src="https://latex.codecogs.com/png.latex?2~%5Ctext%7Bcis%7D%5Cleft(%5Cfrac%7B%5Cpi%7D%7B4%7D%5Cright),%5Cquad2~%5Ctext%7Bcis%7D%5Cleft(%5Cfrac%7B3%5Cpi%7D%7B4%7D%5Cright),%5Cquad2~%5Ctext%7Bcis%7D%5Cleft(%5Cfrac%7B5%5Cpi%7D%7B4%7D%5Cright),%5Cquad2~%5Ctext%7Bcis%7D%5Cleft(%5Cfrac%7B7%5Cpi%7D%7B4%7D%5Cright)"></p>
+<p>Jika dalam bentuk eksponen adalah: <img src="https://latex.codecogs.com/png.latex?2e%5E%7Bi%5Cpi/4%7D,~2e%5E%7B3i%5Cpi/4%7D,~2e%5E%7B5i%5Cpi/4%7D">, dan <img src="https://latex.codecogs.com/png.latex?2e%5E%7B7i%5Cpi/4%7D"></p>
+<p>Tidak semuanya yang berbunyi negatif itu membawa keburukan, maka Cis!</p>
+<p><img src="https://latex.codecogs.com/png.latex?%5Ccdot~%5Ccdot~%5Ccdot"></p>
+
+
+</section>
+
+ ]]></description>
+  <category>🔢 Matematika</category>
+  <guid>https://Hariz-Harisun.github.io/blog/2024/cis/</guid>
+  <pubDate>Thu, 22 Aug 2024 00:00:00 GMT</pubDate>
+  <media:content url="https://Hariz-Harisun.github.io/blog/2024/cis/22082024.png" medium="image" type="image/png" height="81" width="144"/>
+</item>
 <item>
   <title>Siri Diri Merdeka II: Merdekakan perasaan, memurnikan hati</title>
   <link>https://Hariz-Harisun.github.io/blog/2023/Siri Diri Merdeka II - Merdekakan perasaan, memurnikan hati/</link>
@@ -21,7 +68,7 @@
 
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://Hariz-Harisun.github.io/blog/2023/Siri Diri Merdeka II - Merdekakan perasaan, memurnikan hati/self-reliance.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+<p><img src="https://Hariz-Harisun.github.io/blog/2023/Siri Diri Merdeka II - Merdekakan perasaan, memurnikan hati/04092023.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
 </figure>
 </div>
 <section id="perasaan-emosi-yang-merdeka" class="level2">
@@ -132,7 +179,7 @@
   <category>📓 Jurnal Kembara Hidup</category>
   <guid>https://Hariz-Harisun.github.io/blog/2023/Siri Diri Merdeka II - Merdekakan perasaan, memurnikan hati/</guid>
   <pubDate>Mon, 04 Sep 2023 00:00:00 GMT</pubDate>
-  <media:content url="https://Hariz-Harisun.github.io/blog/2023/Siri Diri Merdeka II - Merdekakan perasaan, memurnikan hati/self-reliance.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://Hariz-Harisun.github.io/blog/2023/Siri Diri Merdeka II - Merdekakan perasaan, memurnikan hati/04092023.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 </channel>
 </rss>
