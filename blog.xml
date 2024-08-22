@@ -43,9 +43,10 @@
 <p><img src="https://latex.codecogs.com/png.latex?%0A-16=16~%5Ctext%7Bcis%7D(%5Cpi)%0A"></p>
 <p>Di mana, <img src="https://latex.codecogs.com/png.latex?cis(%5Ctheta)"> adalah <img src="https://latex.codecogs.com/png.latex?cos(%5Ctheta)+i~sin(%5Ctheta)">.</p>
 <p>Dengan mengambil punca kuasa empat,</p>
-<p><img src="https://latex.codecogs.com/png.latex?(-16)%5E%7B%5Cfrac14%7D=(16~%5Ctext%7Bcis%7D%5Cleft(%5Cpi%5Cright))%5E%7B%5Cfrac14%7D=2~%5Ctext%7Bcis%7D%5Cleft(%5Cfrac%7B%5Cpi+2k%5Cpi%7D4%5Cright)%5Ctext%7Bfor%7D~k=0,1,2,3"></p>
+<p><img src="https://latex.codecogs.com/png.latex?(-16)%5E%7B%5Cfrac14%7D=(16~%5Ctext%7Bcis%7D%5Cleft(%5Cpi%5Cright))%5E%7B%5Cfrac14%7D"></p>
 <p><img src="https://latex.codecogs.com/png.latex?(16~%5Ctext%7Bcis%7D%5Cleft(%5Cpi%5Cright))%5E%7B%5Cfrac14%7D=2~%5Ctext%7Bcis%7D%5Cleft(%5Cfrac%7B%5Cpi+2k%5Cpi%7D4%5Cright)%5Ctext%7Bfor%7D~k=0,1,2,3"></p>
-<p>Penyelesaian ini memberikan nilai-nilai berikut: <img src="https://latex.codecogs.com/png.latex?2~%5Ctext%7Bcis%7D%5Cleft(%5Cfrac%7B%5Cpi%7D%7B4%7D%5Cright),%5Cquad2~%5Ctext%7Bcis%7D%5Cleft(%5Cfrac%7B3%5Cpi%7D%7B4%7D%5Cright),%5Cquad2~%5Ctext%7Bcis%7D%5Cleft(%5Cfrac%7B5%5Cpi%7D%7B4%7D%5Cright),%5Cquad2~%5Ctext%7Bcis%7D%5Cleft(%5Cfrac%7B7%5Cpi%7D%7B4%7D%5Cright)"></p>
+<p>Penyelesaian ini memberikan nilai-nilai berikut:</p>
+<p><img src="https://latex.codecogs.com/png.latex?2~%5Ctext%7Bcis%7D%5Cleft(%5Cfrac%7B%5Cpi%7D%7B4%7D%5Cright),%5Cquad2~%5Ctext%7Bcis%7D%5Cleft(%5Cfrac%7B3%5Cpi%7D%7B4%7D%5Cright),%5Cquad2~%5Ctext%7Bcis%7D%5Cleft(%5Cfrac%7B5%5Cpi%7D%7B4%7D%5Cright),%5Cquad2~%5Ctext%7Bcis%7D%5Cleft(%5Cfrac%7B7%5Cpi%7D%7B4%7D%5Cright)"></p>
 <p>Jika dalam bentuk eksponen adalah: <img src="https://latex.codecogs.com/png.latex?2e%5E%7Bi%5Cpi/4%7D,~2e%5E%7B3i%5Cpi/4%7D,~2e%5E%7B5i%5Cpi/4%7D">, dan <img src="https://latex.codecogs.com/png.latex?2e%5E%7B7i%5Cpi/4%7D"></p>
 <p>Tidak semuanya yang berbunyi negatif itu membawa keburukan, maka Cis!</p>
 <p><img src="https://latex.codecogs.com/png.latex?%5Ccdot~%5Ccdot~%5Ccdot"></p>
@@ -108,7 +109,7 @@
   <category>🔢 Matematika</category>
   <guid>https://Hariz-Harisun.github.io/blog/2024/scenius/</guid>
   <pubDate>Thu, 22 Aug 2024 00:00:00 GMT</pubDate>
-  <media:content url="https://Hariz-Harisun.github.io/blog/2024/scenius/23082024-2.png" medium="image" type="image/png"/>
+  <media:content url="https://Hariz-Harisun.github.io/blog/2024/scenius/images/23082024-2.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 <item>
   <title>Siri Diri Merdeka II: Merdekakan perasaan, memurnikan hati</title>
