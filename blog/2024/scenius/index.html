@@ -67,6 +67,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../../styles.css">
 </head>
@@ -212,6 +241,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="jadi-aku-rumuskan-begini" class="level2">
 <h2 class="anchored" data-anchor-id="jadi-aku-rumuskan-begini">Jadi, aku rumuskan begini</h2>
 <p>Konsep scenius mengajar kita bahawa kehebatan bukanlah hasil usaha individu semata-mata, tetapi juga merupakan produk daripada kerjasama dan interaksi dalam kumpulan. Dalam konteks pensyarah matematik yang aku ceritakan, walaupun perbincangan mereka mungkin kelihatan tidak formal, ia adalah contoh bagaimana scenius berfungsi dalam menghasilkan idea-idea yang berharga dan memperkaya pengetahuan kita. Dengan memahami dan mengamalkan konsep scenius, kita boleh lebih menghargai kepentingan kerjasama dan persekitaran yang menyokong dalam mencapai kejayaan dan inovasi.</p>
+<p><span class="math display">\[\cdot~\cdot~\cdot\]</span></p>
 
 
 </section>
