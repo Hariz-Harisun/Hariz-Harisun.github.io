@@ -1,5 +1,5 @@
 ---
-title: "Daily Report"
+title: "Laporan Harian"
 output: pdf_document
 params:
   name: ""

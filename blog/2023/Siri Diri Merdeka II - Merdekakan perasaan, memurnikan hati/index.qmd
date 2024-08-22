@@ -4,7 +4,7 @@ title: "Siri Diri Merdeka II: Merdekakan perasaan, memurnikan hati"
 subtitle: "Menggali pemahaman tentang kebebasan emosi dalam psikologi Islam"
 date: "2023-09-04"
 categories: ["📓 Jurnal Kembara Hidup"]
-image: "self-reliance.jpg"
+image: "04092023.png"
 authors: ["M. Hariz Hazril"]
 canonical:
   date: "2023-09-04"
@@ -14,7 +14,7 @@ canonical:
   type: "blog"
 ---
 
-![](self-reliance.jpg){fig-align="center"}
+![](04092023.png){fig-align="center"}
 
 ## Perasaan (Emosi) yang merdeka
 

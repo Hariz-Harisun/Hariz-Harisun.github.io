@@ -1,0 +1,57 @@
+---
+draft: false
+title: "Cis!"
+subtitle: "Mengungkap rahsia Nombor Kompleks."
+date: "2024-08-22"
+categories: ["🔢 Matematika"]
+image: "22082024.png"
+authors: ["M. Hariz Hazril"]
+---
+
+![](22082024.png){fig-align="center"}
+
+## Arghh, 'cis' kamu!
+
+Bayangkan seorang remaja sekolah mendatangi engkau dengan soalan yang melibatkan eksponen rational yang berbentuk,
+
+$$(-16)^{\frac{1}{4}}$$
+
+dan meminta tolong engkau menyelesaikannya.
+
+Kita perlu bertanya: adakah wujud sebarang nombor nyata yang apabila dikuasakan dengan empat menghasilkan nilai negatif $-16~?$ $$
+y^4=-16
+$$Secara logik, sebarang nombor nyata $y$, apabila dikuasakan dengan nombor genap, hasilnya sentiasa positif.
+
+Ini bermakna, tidak mungkin ada nombor nyata $y$ yang dapat memuaskan persamaan $y^4 = -16$.
+
+Namun, jika kita pergi lebih mendalam, hal ini dapat diselesaikan dengan konsep nombor khayalan.
+
+$$\cdot~\cdot~\cdot$$ "*Cis!!*", saya berkata.
+
+Dengan wajah kebingungan, remaja itu memandang aku dan berkata dengan gugup, "*Maafkan saya, bang*."
+
+Aku tersenyum dan menjelaskan, "*Bukan 'cis' yang itu, tetapi 'cis(x)' dalam matematik.*"
+
+"*cis(x) = cos(x) + i sin(x)*", sambung aku.
+
+## Merungkap jawapan disebalik khayalan
+
+Aku menerangkan bahawa dalam konteks nombor kompleks, kita boleh menggunakan kaedah 'cis' untuk menyelesaikan masalah ini. Jika dalam bentuk polar,
+
+$$
+-16=16~\text{cis}(\pi)
+$$
+
+Di mana, $cis(\theta)$ adalah $cos(\theta)+i~sin(\theta)$.
+
+Dengan mengambil punca kuasa empat,
+
+$$(-16)^{\frac14}=(16~\text{cis}\left(\pi\right))^{\frac14}=2~\text{cis}\left(\frac{\pi+2k\pi}4\right)\text{for}~k=0,1,2,3$$
+
+Penyelesaian ini memberikan nilai-nilai berikut: $$2~\text{cis}\left(\frac{\pi}{4}\right),\quad2~\text{cis}\left(\frac{3\pi}{4}\right),\quad2~\text{cis}\left(\frac{5\pi}{4}\right),\quad2~\text{cis}\left(\frac{7\pi}{4}\right)$$
+
+Jika dalam bentuk eksponen adalah: $2e^{i\pi/4},~2e^{3i\pi/4},~2e^{5i\pi/4}$, dan $2e^{7i\pi/4}$
+
+Tidak semuanya yang berbunyi negatif itu membawa keburukan, maka Cis!
+
+$$\cdot~\cdot~\cdot$$

@@ -19,6 +19,7 @@ listing:
       - image
     page-size: 3
 include-after-body: "footer.html"
+page-layout: full
 ---
 
 Assalamualaikum wbt, selamat datang ke laman sesawang Hariz Harisun. Nama pena saya adalah hh, anak tempatan Malaysia berusia ```20-an```.Minat utama saya adalah ```fizik moden```, diikuti ```sains komputer``` sebagai teras minat saya, menggabungkan pendekatan komputasional dalam sains fizik.
