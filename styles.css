@@ -28,3 +28,23 @@ font-weight: bold;
 .nav-link:hover, .nav-link:focus {
     color: #d97757 !important;
 }
+
+.quarto-grid-item p.card-img-top>img {
+    object-fit: cover !important;
+    height: 160px !important;
+}
+
+.quarto-grid-item .card-subtitle {
+    padding-top: .25em;
+    font-size: medium;
+    color: #666363;
+}
+
+.quarto-grid-item .card-title {
+    margin-bottom: .1em;
+    font-weight: bolder;
+}
+
+.quarto-grid-item.card.h-100.card-left:hover .listing-title {
+  color: #d97757;
+}
