@@ -1,7 +1,7 @@
 ---
 draft: false
-title: "Apabila Daya Nuklear Kuat Bertukar Menjadi Repulsif"
-subtitle: "   "
+title: "Kerepulsifan Daya Nuklear Kuat"
+subtitle: "Keupayaan gabungan dua daya dalam kelakuan daya nuklear kuat."
 date: "2024-08-24"
 time: "10:30 PM"
 categories: ["⚛️ Tenaga Tinggi, Nuklear, Fizik Zarah"]
@@ -37,7 +37,11 @@ Namun, ada satu syarat:
 
 > Walaupun proton cukup dekat untuk daya nuklear kuat bertindak, keadaannya adalah rumit. Daya nuklear yang kuat boleh berkelakuan repulsif jika proton terlalu dekat, yang akan menyebabkan ia menolaknya kembali. Oleh sebab itu, terdapat daya lain yang akan terlibat dalam situasi ini, iaitu daya nuklear yang lemah.
 
-Daya nuklear lemah bertanggungjawab untuk menukar identiti zarah dalam tindak balas nuklear tertentu. Langkah pertama dalam rantaian p-p melibatkan interaksi lemah, di mana salah satu proton ditukar menjadi neutron melalui pereputan beta, membentuk nukleus deuterium (pasangan proton-neutron). Perubahan ini membolehkan kedua-dua zarah membentuk pasangan yang stabil, dan bukannya ditolak. Walau bagaimanapun, proses ini perlahan, sebab itu Matahari telah bersinar selama berbilion tahun dan akan terus bersinar selama berbilion tahun lagi.
+Daya nuklear lemah bertanggungjawab untuk menukar identiti zarah dalam tindak balas nuklear tertentu. Langkah pertama dalam rantaian p-p melibatkan interaksi lemah, di mana salah satu proton ditukar menjadi neutron membentuk nukleus deuterium (pasangan proton-neutron)[^1]. Perubahan ini membolehkan kedua-dua zarah membentuk pasangan yang stabil, dan bukannya ditolak. Walau bagaimanapun, proses ini perlahan, sebab itu Matahari telah bersinar selama berbilion tahun dan akan terus bersinar selama berbilion tahun lagi.
+
+[^1]: Adalah penting untuk menjelaskan bahawa proton itu sendiri sangat stabil dan tidak akan mereput menjadi neutron secara spontan. Sebaliknya, untuk proton berubah menjadi neutron, ia mesti berinteraksi dengan zarah-zarah lain di bawah keadaan khusus yang membolehkan pengurangan cas dan keseimbangan jisim-tenaga, seperti yang berlaku dalam persekitaran padat dan bertenaga tinggi di teras bintang.
+
+    Transformasi ini difasilitasi oleh daya nuklear lemah, yang membolehkan proton menangkap elektron (atau berinteraksi dengan proton lain), dengan itu menukar salah satu kuark 'up' dalam proton menjadi kuark 'down', menjadikan proton tersebut bertukar menjadi neutron. Proses ini penting dalam peleburan bintang tetapi tidak boleh dikelirukan dengan pereputan proton, yang tidak berlaku secara terasing dalam kerangka Model Standard Fizik Zarah.
 
 ## Mengapa Nukleus Tidak Runtuh?
 
@@ -49,5 +53,9 @@ Kelakuan daya nuklear kuat adalah contoh utama sifat kontraintuitif (*conterintu
 
 1.  Menarik nukleon bersama untuk membentuk nukleus yang stabil
 2.  Menolak zarah-zarah ini pada jarak yang sangat dekat untuk menghalang daripada keruntuhan.
+
+## Ucap Seru
+
+Kandungan ini bersifat dinamik. Akan terdapat perubahan daripada masa ke semasa. Ucap seru kepada @Vanadium50, @FusionJim, @Bandersnatch, dan @ohwilleke atas membangkitkan perbincangan terhadap topik, "*When is the force of strong nuclear interaction repulsive?*" dalam forum fizik.
 
 $$\cdot~\cdot~\cdot$$
