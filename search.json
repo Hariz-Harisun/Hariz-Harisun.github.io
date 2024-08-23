@@ -147,18 +147,11 @@
     "text": "Merungkap jawapan disebalik khayalan\nAku menerangkan bahawa dalam konteks nombor kompleks, kita boleh menggunakan kaedah ‘cis’ untuk menyelesaikan masalah ini. Jika dalam bentuk polar,\n\\[\n-16=16~\\text{cis}(\\pi)\n\\]\nDi mana, \\(cis(\\theta)\\) adalah \\(cos(\\theta)+i~sin(\\theta)\\).\nDengan mengambil punca kuasa empat,\n\\((-16)^{\\frac14}=(16~\\text{cis}\\left(\\pi\\right))^{\\frac14}\\)\n\\((16~\\text{cis}\\left(\\pi\\right))^{\\frac14}=2~\\text{cis}\\left(\\frac{\\pi+2k\\pi}4\\right)\\)\n\\(\\text{for}~k=0,1,2,3\\)\nPenyelesaian ini memberikan nilai-nilai berikut:\n\\(2~\\text{cis}\\left(\\frac{\\pi}{4}\\right),\\quad2~\\text{cis}\\left(\\frac{3\\pi}{4}\\right),\\)\n\\(\\quad2~\\text{cis}\\left(\\frac{5\\pi}{4}\\right),\\quad2~\\text{cis}\\left(\\frac{7\\pi}{4}\\right)\\)\nJika dalam bentuk eksponen adalah: \\(2e^{i\\pi/4},~2e^{3i\\pi/4},~2e^{5i\\pi/4}\\), dan \\(2e^{7i\\pi/4}\\)\nTidak semuanya yang berbunyi negatif itu membawa keburukan, maka Cis!\n\\[\\cdot~\\cdot~\\cdot\\]"
   },
   {
-    "objectID": "blog/2024/repulsif/index.html",
-    "href": "blog/2024/repulsif/index.html",
-    "title": "Apabila Daya Nuklear Kuat Bertukar Menjadi Repulsif",
-    "section": "",
-    "text": "Daya nuklear kuat (strong nuclear force) adalah salah satu daripada empat daya asas alam semesta (yang sekurang-kurangnya dikenalpasti), memainkan peranan penting dalam mengikat proton dan neutron bersama-sama dalam atom nukleus. Daya ini mempunyai keupayaan yang luar biasa dalam menahan blok binaan jirim bersama-sama walaupun terdapat tolakan elektrostatik yang kuat antara proton yang bercas positif. Walau bagaimanapun, memahami kelakuan daya nuklear kuat ini tidaklah semudah yang disangka. Di bawah keadaan tertentu, daya ini boleh berubah daripada daya tarikan kepada daya tolakan, di mana menjadi asas kepada kestabilan nukleus atom."
-  },
-  {
     "objectID": "blog/2024/repulsif/index.html#daya-nuklear-kuat",
     "href": "blog/2024/repulsif/index.html#daya-nuklear-kuat",
     "title": "Apabila Daya Nuklear Kuat Bertukar Menjadi Repulsif",
-    "section": "",
-    "text": "Daya nuklear kuat (strong nuclear force) adalah salah satu daripada empat daya asas alam semesta (yang sekurang-kurangnya dikenalpasti), memainkan peranan penting dalam mengikat proton dan neutron bersama-sama dalam atom nukleus. Daya ini mempunyai keupayaan yang luar biasa dalam menahan blok binaan jirim bersama-sama walaupun terdapat tolakan elektrostatik yang kuat antara proton yang bercas positif. Walau bagaimanapun, memahami kelakuan daya nuklear kuat ini tidaklah semudah yang disangka. Di bawah keadaan tertentu, daya ini boleh berubah daripada daya tarikan kepada daya tolakan, di mana menjadi asas kepada kestabilan nukleus atom."
+    "section": "Daya Nuklear Kuat",
+    "text": "Daya Nuklear Kuat\nDaya nuklear kuat (strong nuclear force) adalah salah satu daripada empat daya asas alam semesta (yang sekurang-kurangnya dikenalpasti), memainkan peranan penting dalam mengikat proton dan neutron bersama-sama dalam atom nukleus. Daya ini mempunyai keupayaan yang luar biasa dalam menahan blok binaan jirim bersama-sama walaupun terdapat tolakan elektrostatik yang kuat antara proton yang bercas positif. Walau bagaimanapun, memahami kelakuan daya nuklear kuat ini tidaklah semudah yang disangka. Di bawah keadaan tertentu, daya ini boleh berubah daripada daya tarikan kepada daya tolakan, di mana menjadi asas kepada kestabilan nukleus atom."
   },
   {
     "objectID": "blog/2024/repulsif/index.html#sifat-daya-nuklear-kuat",
