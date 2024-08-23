@@ -74,49 +74,56 @@
     "href": "blog.html",
     "title": "✍🏼 Blog",
     "section": "",
-    "text": "Cis!\n\n\nMengungkap rahsia Nombor Kompleks.\n\n\n1 min\n\n\n\n🔢 Matematika\n\n\n\n\nAug 22, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nScenius: Sekumpulan yang membentuk kebijaksanaan\n\n\nBagaimana berkumpulan dapat membentuk idea yang kreatif & kritis.\n\n\n4 min\n\n\n\n🔢 Matematika\n\n\n\n\nAug 22, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSiri Diri Merdeka II: Merdekakan perasaan, memurnikan hati\n\n\nMenggali pemahaman tentang kebebasan emosi dalam psikologi Islam\n\n\n13 min\n\n\n\n📓 Jurnal Kembara Hidup\n\n\n\n\nSep 4, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Apabila Daya Nuklear Kuat Bertukar Menjadi Repulsif\n\n\n\n\n\n4 min\n\n\n\n⚛️ Tenaga Tinggi, Nuklear, Fizik Zarah\n\n\n\n\nAug 24, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCis!\n\n\nMengungkap rahsia Nombor Kompleks.\n\n\n1 min\n\n\n\n🔢 Matematika\n\n\n\n\nAug 23, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nScenius: Sekumpulan yang membentuk kebijaksanaan\n\n\nBagaimana berkumpulan dapat membentuk idea yang kreatif & kritis.\n\n\n4 min\n\n\n\n🔢 Matematika\n\n\n\n\nAug 22, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSiri Diri Merdeka II: Merdekakan perasaan, memurnikan hati\n\n\nMenggali pemahaman tentang kebebasan emosi dalam psikologi Islam\n\n\n13 min\n\n\n\n📓 Jurnal Kembara Hidup\n\n\n\n\nSep 4, 2023\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "blog/2024/cis/index.html#arghh-cis-kamu",
-    "href": "blog/2024/cis/index.html#arghh-cis-kamu",
-    "title": "Cis!",
-    "section": "Arghh, ‘cis’ kamu!",
-    "text": "Arghh, ‘cis’ kamu!\nBayangkan seorang remaja sekolah mendatangi engkau dengan soalan yang melibatkan eksponen rational yang berbentuk,\n\\[(-16)^{\\frac{1}{4}}\\]\ndan meminta tolong engkau menyelesaikannya.\nKita perlu bertanya: adakah wujud sebarang nombor nyata yang apabila dikuasakan dengan empat menghasilkan nilai negatif \\(-16~?\\) \\[\ny^4=-16\n\\]Secara logik, sebarang nombor nyata \\(y\\), apabila dikuasakan dengan nombor genap, hasilnya sentiasa positif.\nIni bermakna, tidak mungkin ada nombor nyata \\(y\\) yang dapat memuaskan persamaan \\(y^4 = -16\\).\nNamun, jika kita pergi lebih mendalam, hal ini dapat diselesaikan dengan konsep nombor khayalan.\n\\[\\cdot~\\cdot~\\cdot\\] “Cis!!”, saya berkata.\nDengan wajah kebingungan, remaja itu memandang aku dan berkata dengan gugup, “Maafkan saya, bang.”\nAku tersenyum dan menjelaskan, “Bukan ‘cis’ yang itu, tetapi ‘cis(x)’ dalam matematik.”\n“cis(x) = cos(x) + i sin(x)”, sambung aku."
-  },
-  {
-    "objectID": "blog/2024/cis/index.html#merungkap-jawapan-disebalik-khayalan",
-    "href": "blog/2024/cis/index.html#merungkap-jawapan-disebalik-khayalan",
-    "title": "Cis!",
-    "section": "Merungkap jawapan disebalik khayalan",
-    "text": "Merungkap jawapan disebalik khayalan\nAku menerangkan bahawa dalam konteks nombor kompleks, kita boleh menggunakan kaedah ‘cis’ untuk menyelesaikan masalah ini. Jika dalam bentuk polar,\n\\[\n-16=16~\\text{cis}(\\pi)\n\\]\nDi mana, \\(cis(\\theta)\\) adalah \\(cos(\\theta)+i~sin(\\theta)\\).\nDengan mengambil punca kuasa empat,\n\\((-16)^{\\frac14}=(16~\\text{cis}\\left(\\pi\\right))^{\\frac14}\\)\n\\((16~\\text{cis}\\left(\\pi\\right))^{\\frac14}=2~\\text{cis}\\left(\\frac{\\pi+2k\\pi}4\\right)\\text{for}~k=0,1,2,3\\)\nPenyelesaian ini memberikan nilai-nilai berikut:\n\\(2~\\text{cis}\\left(\\frac{\\pi}{4}\\right),\\quad2~\\text{cis}\\left(\\frac{3\\pi}{4}\\right),\\quad2~\\text{cis}\\left(\\frac{5\\pi}{4}\\right),\\quad2~\\text{cis}\\left(\\frac{7\\pi}{4}\\right)\\)\nJika dalam bentuk eksponen adalah: \\(2e^{i\\pi/4},~2e^{3i\\pi/4},~2e^{5i\\pi/4}\\), dan \\(2e^{7i\\pi/4}\\)\nTidak semuanya yang berbunyi negatif itu membawa keburukan, maka Cis!\n\\[\\cdot~\\cdot~\\cdot\\]"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "🧑🏽‍💼 Tentang Saya",
+    "objectID": "blog/2024/repulsif/index.html",
+    "href": "blog/2024/repulsif/index.html",
+    "title": "Apabila Daya Nuklear Kuat Bertukar Menjadi Repulsif",
     "section": "",
-    "text": "Nama pena diberikan hh. Seorang penghairah dalam bidang Pengkomputeran Fizik juga Falsafah. Beliau kini sedang melanjutkan pengajian dalam bidang Fizik Tulen di salah sebuah universiti tempatan di Malaysia. Catatan blog ini merupakan medium bebas penulis untuk berkongsi dan melontarkan perspektif. Sebarang kenyataan dalam blog ini tidaklah terlibat atau mewakili mana-mana badan organisasi.\nSemoga catatan pena ini memberi manfaat kepada para pembaca.\n– hh"
+    "text": "Daya nuklear kuat (strong nuclear force) adalah salah satu daripada empat daya asas alam semesta (yang sekurang-kurangnya dikenalpasti), memainkan peranan penting dalam mengikat proton dan neutron bersama-sama dalam atom nukleus. Daya ini mempunyai keupayaan yang luar biasa dalam menahan blok binaan jirim bersama-sama walaupun terdapat tolakan elektrostatik yang kuat antara proton yang bercas positif. Walau bagaimanapun, memahami kelakuan daya nuklear kuat ini tidaklah semudah yang disangka. Di bawah keadaan tertentu, daya ini boleh berubah daripada daya tarikan kepada daya tolakan, di mana menjadi asas kepada kestabilan nukleus atom."
   },
   {
-    "objectID": "about.html#m-hariz-hazril",
-    "href": "about.html#m-hariz-hazril",
-    "title": "🧑🏽‍💼 Tentang Saya",
+    "objectID": "blog/2024/repulsif/index.html#daya-nuklear-kuat",
+    "href": "blog/2024/repulsif/index.html#daya-nuklear-kuat",
+    "title": "Apabila Daya Nuklear Kuat Bertukar Menjadi Repulsif",
     "section": "",
-    "text": "Nama pena diberikan hh. Seorang penghairah dalam bidang Pengkomputeran Fizik juga Falsafah. Beliau kini sedang melanjutkan pengajian dalam bidang Fizik Tulen di salah sebuah universiti tempatan di Malaysia. Catatan blog ini merupakan medium bebas penulis untuk berkongsi dan melontarkan perspektif. Sebarang kenyataan dalam blog ini tidaklah terlibat atau mewakili mana-mana badan organisasi.\nSemoga catatan pena ini memberi manfaat kepada para pembaca.\n– hh"
+    "text": "Daya nuklear kuat (strong nuclear force) adalah salah satu daripada empat daya asas alam semesta (yang sekurang-kurangnya dikenalpasti), memainkan peranan penting dalam mengikat proton dan neutron bersama-sama dalam atom nukleus. Daya ini mempunyai keupayaan yang luar biasa dalam menahan blok binaan jirim bersama-sama walaupun terdapat tolakan elektrostatik yang kuat antara proton yang bercas positif. Walau bagaimanapun, memahami kelakuan daya nuklear kuat ini tidaklah semudah yang disangka. Di bawah keadaan tertentu, daya ini boleh berubah daripada daya tarikan kepada daya tolakan, di mana menjadi asas kepada kestabilan nukleus atom."
   },
   {
-    "objectID": "about.html#pendidikan",
-    "href": "about.html#pendidikan",
-    "title": "🧑🏽‍💼 Tentang Saya",
-    "section": "Pendidikan",
-    "text": "Pendidikan\n\n2021 - Sekarang\n↳ Universiti Sains Malaysia (Bachelor of Science (Hons.) (Pure Physics), Minor Computer Science)\n2020 - 2021\n↳ Pre-University (Kolej Matrikulasi Kedah)\n2018 - 2019\n↳ Malaysia Certificate of Education\n2015 - 2017\n↳ Lower Secondary Assessment\n2008 - 2014\n↳ Primary School Evaluation Test"
+    "objectID": "blog/2024/repulsif/index.html#sifat-daya-nuklear-kuat",
+    "href": "blog/2024/repulsif/index.html#sifat-daya-nuklear-kuat",
+    "title": "Apabila Daya Nuklear Kuat Bertukar Menjadi Repulsif",
+    "section": "Sifat Daya Nuklear Kuat",
+    "text": "Sifat Daya Nuklear Kuat\nDaya nuklear kuat beroperasi dalam jarak yang sangat pendek, biasanya dalam jarak beberapa femtometer (\\(1~\\text{femtometer}~=~10^{-15}~\\text{meter}\\)). Ia bertanggungjawab mengatasi tolakan elektrostatik antara proton dalam nukleus, mengikat zarah ini bersama-sama dengan neutron untuk membentuk struktur atom yang stabil. Namun, daya ini bukan sekadar “gam” yang menyatukan nukleon; ia juga bergantung pada faktor seperti jenis zarah yang terlibat (proton atau neutron), putaran (spin) mereka, dan jarak antara mereka."
   },
   {
-    "objectID": "about.html#kepujian-anugerah",
-    "href": "about.html#kepujian-anugerah",
-    "title": "🧑🏽‍💼 Tentang Saya",
-    "section": "Kepujian & Anugerah",
-    "text": "Kepujian & Anugerah\n\nBest Freelancer Award (Male) | MDEC-USM 2024\n↳ Issued by MOHE-MDEC Global Outsourcing Talent (GOT) Bootcamp · Aug 2024\nComputational Thinking Award (Negeri Selangor) 2019\n↳ I am honoured to receive the Computational Thinking Award at APS Negeri Selangor 2019."
+    "objectID": "blog/2024/repulsif/index.html#bilakah-daya-nuklear-kuat-menjadi-repulsif",
+    "href": "blog/2024/repulsif/index.html#bilakah-daya-nuklear-kuat-menjadi-repulsif",
+    "title": "Apabila Daya Nuklear Kuat Bertukar Menjadi Repulsif",
+    "section": "Bilakah Daya Nuklear Kuat Menjadi Repulsif?",
+    "text": "Bilakah Daya Nuklear Kuat Menjadi Repulsif?\nSecara umumnya kita ketahui daya nuklear kuat adalah daya menarik, menarik nukleon (proton dan neutron) bersama-sama. Namun, apabila dua proton atau neutron ini terlalu mendekati satu sama lain—biasanya lebih dekat daripada sekitar 0.7 femtometer—daya ini akan bertukar watak (baca: kelakuan) berlawanan, menghasilkan daya tolakan (repulsive). Tolakan ini penting dalam menghalang nukleus daripada runtuh menjadi ketunggalan (singuarity), di mana semua nukleon akan dihimpit menjadi satu titik yang sangat kecil.\nKelakuan repulsif ini berlaku kerana sifat kompleks interaksi antara kuark (zarah asas yang membentuk proton dan neutron) dan gluon (zarah yang mengantarai daya kuat). Pada jarak yang sangat dekat, pertindihan fungsi gelombang zarah-zarah ini membawa kepada interaksi repulsif, memastikan nukleon mengekalkan jarak stabil dalam nukleus."
+  },
+  {
+    "objectID": "blog/2024/repulsif/index.html#rantaian-proton-proton-dan-peranan-daya-lemah",
+    "href": "blog/2024/repulsif/index.html#rantaian-proton-proton-dan-peranan-daya-lemah",
+    "title": "Apabila Daya Nuklear Kuat Bertukar Menjadi Repulsif",
+    "section": "Rantaian Proton-Proton dan Peranan Daya Lemah",
+    "text": "Rantaian Proton-Proton dan Peranan Daya Lemah\n\n\n\n\n\nRantaian proton-proton (p-p) adalah proses yang memberi tenaga kepada bintang seperti Matahari kita. Dalam tindak balas ini, dua proton bergabung untuk akhirnya membentuk helium, melepaskan jumlah tenaga yang luar biasa dalam proses tersebut. Mungkin timbul persoalan bagaimana dua proton yang bercas positif (yang secara semula jadi menolak satu sama lain kerana daya elektrostatik) boleh mendekati satu sama lain sehingga bergabung?\nJawapannya terletak pada mekanik kuantum, khususnya fenomena yang dipanggil penerowongan kuantum (quantum tunneling). Penerowongan kuantum membolehkan zarah melepasi halangan tenaga yang biasanya tidak dapat dilalui. Meskipun proton menolak satu sama lain, keadaan dalam teras bintang begitu ekstrem sehingga proton mempunyai tenaga kinetik yang mencukupi untuk mendekati satu sama lain. Apabila zarah proton mendekati antaranya, penerowongan kuantum membolehkan mereka mengatasi halangan elektrostatik dan mendekati jarak di mana daya nuklear kuat boleh mengikat nukleus atom bersama-sama.\nNamun, ada satu syarat:\n\nWalaupun proton cukup dekat untuk kuasa nuklear yang kuat bertindak, keadaannya adalah rumit. Daya nuklear yang kuat boleh berkelakuan repulsif jika proton terlalu dekat, yang akan menyebabkan ia menolaknya kembali. Oleh sebab itu, terdapat daya lain yang akan terlibat dalam situasi ini, iaitu daya nuklear yang lemah.\n\nDaya nuklear yang lemah bertanggungjawab untuk menukar identiti zarah dalam tindak balas nuklear tertentu. Langkah pertama dalam rantaian p-p melibatkan interaksi lemah, di mana salah satu proton ditukar menjadi neutron melalui pereputan beta, membentuk nukleus deuterium (pasangan proton-neutron). Perubahan ini membolehkan kedua-dua zarah membentuk pasangan yang stabil, dan bukannya ditolak. Walau bagaimanapun, proses ini perlahan, sebab itu Matahari telah bersinar selama berbilion tahun dan akan terus bersinar selama berbilion tahun lagi."
+  },
+  {
+    "objectID": "blog/2024/repulsif/index.html#mengapa-nukleus-tidak-runtuh",
+    "href": "blog/2024/repulsif/index.html#mengapa-nukleus-tidak-runtuh",
+    "title": "Apabila Daya Nuklear Kuat Bertukar Menjadi Repulsif",
+    "section": "Mengapa Nukleus Tidak Runtuh?",
+    "text": "Mengapa Nukleus Tidak Runtuh?\nAspek repulsif daya nuklear kuat adalah penting untuk kestabilan nukleus atom. Tanpa tolakan ini, apabila proton dan neutron dibawa bersama oleh daya kuat, tiada apa yang akan menghalang mereka daripada terus mendekati, yang akhirnya membawa kepada runtuhan malapetaka (catastrophic collapse) nukleus. Sebaliknya, tolakan pada jarak yang sangat dekat bertindak sebagai keseimbangan, mengekalkan struktur stabil di mana nukleon tidak terlalu dekat atau terlalu jauh antara satu sama lain."
+  },
+  {
+    "objectID": "blog/2024/repulsif/index.html#tarik-tolak-kuantum",
+    "href": "blog/2024/repulsif/index.html#tarik-tolak-kuantum",
+    "title": "Apabila Daya Nuklear Kuat Bertukar Menjadi Repulsif",
+    "section": "Tarik-tolak Kuantum",
+    "text": "Tarik-tolak Kuantum\nKelakuan daya nuklear kuat adalah contoh utama sifat kontraintuitif (conterintuitive) mekanik kuantum. Walaupun kita sering menganggap daya sebagai sama ada menarik atau menolak, daya kuat adalah gabungan kedua-duanya yang bergantung pada keadaan. Secara simpulnya, di setiap lubuk atom, daya ini memainkan dua peranan penting, iaitu\n\nMenarik nukleon bersama untuk membentuk nukleus yang stabil\nMenolak zarah-zarah ini pada jarak yang sangat dekat untuk menghalang daripada keruntuhan.\n\n\\[\\cdot~\\cdot~\\cdot\\]"
   },
   {
     "objectID": "blog/2023/Siri Diri Merdeka II - Merdekakan perasaan, memurnikan hati/index.html#perasaan-emosi-yang-merdeka",
@@ -147,6 +154,48 @@
     "text": "Memurnikan perasaan cinta\nCinta yang murni itu adalah cinta yang bebas daripada segala hawa nafsu dan hasutnya syaitan. Sebaliknya, cinta yang murni itu adanya perasaan tanggungjawab dan amanah terhadap apa yang ia cinta. Seorang laki-laki yang benar mencintai seorang perempuan itu tidak sekalipun meletakkan seorang perempuan itu pada tahap yang hina dina; rendah nilai dirinya. Ketahuilah bahawa cinta itu murni suci. Kerana perasaan cinta itu bukanlah dibuat-buat sebaliknya telah ditanam oleh Allah SWT. Abu Nasir as-Sarraj berkata,\n\n“Sesungguhnya orang yang bercinta, akan taat kepada orang yang dicintainya.”\n\nKecintaan di sini termasuklah cinta seorang makhluk kepada Tuhannya. Dia akan mentaati sepenuhnya perintah Allah tanpa mempersoalkannya. Begitu jugalah dengan pasangan suami isteri yang saling mencintai. Hayatilah cinta Rasulullah SAW dan Sayidatina Khadijah R.A. Tidak kira siapa yang berada di hadapannya, Rasulullah SAW tetap akan mengenangkan Khadijah dan menceritakan kisahnya kepada mereka. Sabda Nabi SAW,\n\n“Sesungguhnya Allah SWT telah menanamkan rasa mahabbah di dalam kalbuku terhadap Khadijah.”\n\nTerhadap kecintaan sahabatnya juga sebagaimana diperkatankan oleh Abu Hatim,\n“Orang yang bijaksana, tidaklah mencari sahabat melainkan orang-orang yang panjang fikirannya, kuat agamanya, luas ilmunya, tinggi akhlaknya, lanjut akalnya, dan pada waktu mudanya hidup bergaul dengan orang-orang yang salih. Barangsiapa yang melalaikan percintaan sahabatnya, tidaklah dia akan merasai buah persaudaraan orang itu. Barangsiapa memutuskan persaudaraan lantaran ‘takut kena’, hiduplah dia tidak bersaudara. Tidaklah ada kesenangan hati yang menyamai kesenangan bersahabat, dan tidaklah ada kedukaan yang melebihi putus persahabatan.”"
   },
   {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "🧑🏽‍💼 Tentang Saya",
+    "section": "",
+    "text": "Nama pena diberikan hh. Seorang penghairah dalam bidang Pengkomputeran Fizik juga Falsafah. Beliau kini sedang melanjutkan pengajian dalam bidang Fizik Tulen di salah sebuah universiti tempatan di Malaysia. Catatan blog ini merupakan medium bebas penulis untuk berkongsi dan melontarkan perspektif. Sebarang kenyataan dalam blog ini tidaklah terlibat atau mewakili mana-mana badan organisasi.\nSemoga catatan pena ini memberi manfaat kepada para pembaca.\n– hh"
+  },
+  {
+    "objectID": "about.html#m-hariz-hazril",
+    "href": "about.html#m-hariz-hazril",
+    "title": "🧑🏽‍💼 Tentang Saya",
+    "section": "",
+    "text": "Nama pena diberikan hh. Seorang penghairah dalam bidang Pengkomputeran Fizik juga Falsafah. Beliau kini sedang melanjutkan pengajian dalam bidang Fizik Tulen di salah sebuah universiti tempatan di Malaysia. Catatan blog ini merupakan medium bebas penulis untuk berkongsi dan melontarkan perspektif. Sebarang kenyataan dalam blog ini tidaklah terlibat atau mewakili mana-mana badan organisasi.\nSemoga catatan pena ini memberi manfaat kepada para pembaca.\n– hh"
+  },
+  {
+    "objectID": "about.html#pendidikan",
+    "href": "about.html#pendidikan",
+    "title": "🧑🏽‍💼 Tentang Saya",
+    "section": "Pendidikan",
+    "text": "Pendidikan\n\n2021 - Sekarang\n↳ Universiti Sains Malaysia (Bachelor of Science (Hons.) (Pure Physics), Minor Computer Science)\n2020 - 2021\n↳ Pre-University (Kolej Matrikulasi Kedah)\n2018 - 2019\n↳ Malaysia Certificate of Education\n2015 - 2017\n↳ Lower Secondary Assessment\n2008 - 2014\n↳ Primary School Evaluation Test"
+  },
+  {
+    "objectID": "about.html#kepujian-anugerah",
+    "href": "about.html#kepujian-anugerah",
+    "title": "🧑🏽‍💼 Tentang Saya",
+    "section": "Kepujian & Anugerah",
+    "text": "Kepujian & Anugerah\n\nBest Freelancer Award (Male) | MDEC-USM 2024\n↳ Issued by MOHE-MDEC Global Outsourcing Talent (GOT) Bootcamp · Aug 2024\nComputational Thinking Award (Negeri Selangor) 2019\n↳ I am honoured to receive the Computational Thinking Award at APS Negeri Selangor 2019."
+  },
+  {
+    "objectID": "blog/2024/cis/index.html#arghh-cis-kamu",
+    "href": "blog/2024/cis/index.html#arghh-cis-kamu",
+    "title": "Cis!",
+    "section": "Arghh, ‘cis’ kamu!",
+    "text": "Arghh, ‘cis’ kamu!\nBayangkan seorang remaja sekolah mendatangi engkau dengan soalan yang melibatkan eksponen rational yang berbentuk,\n\\[(-16)^{\\frac{1}{4}}\\]\ndan meminta tolong engkau menyelesaikannya.\nKita perlu bertanya: adakah wujud sebarang nombor nyata yang apabila dikuasakan dengan empat menghasilkan nilai negatif \\(-16~?\\) \\[\ny^4=-16\n\\]Secara logik, sebarang nombor nyata \\(y\\), apabila dikuasakan dengan nombor genap, hasilnya sentiasa positif.\nIni bermakna, tidak mungkin ada nombor nyata \\(y\\) yang dapat memuaskan persamaan \\(y^4 = -16\\).\nNamun, jika kita pergi lebih mendalam, hal ini dapat diselesaikan dengan konsep nombor khayalan.\n\\[\\cdot~\\cdot~\\cdot\\] “Cis!!”, saya berkata.\nDengan wajah kebingungan, remaja itu memandang aku dan berkata dengan gugup, “Maafkan saya, bang.”\nAku tersenyum dan menjelaskan, “Bukan ‘cis’ yang itu, tetapi ‘cis(x)’ dalam matematik.”\n“cis(x) = cos(x) + i sin(x)”, sambung aku."
+  },
+  {
+    "objectID": "blog/2024/cis/index.html#merungkap-jawapan-disebalik-khayalan",
+    "href": "blog/2024/cis/index.html#merungkap-jawapan-disebalik-khayalan",
+    "title": "Cis!",
+    "section": "Merungkap jawapan disebalik khayalan",
+    "text": "Merungkap jawapan disebalik khayalan\nAku menerangkan bahawa dalam konteks nombor kompleks, kita boleh menggunakan kaedah ‘cis’ untuk menyelesaikan masalah ini. Jika dalam bentuk polar,\n\\[\n-16=16~\\text{cis}(\\pi)\n\\]\nDi mana, \\(cis(\\theta)\\) adalah \\(cos(\\theta)+i~sin(\\theta)\\).\nDengan mengambil punca kuasa empat,\n\\((-16)^{\\frac14}=(16~\\text{cis}\\left(\\pi\\right))^{\\frac14}\\)\n\\((16~\\text{cis}\\left(\\pi\\right))^{\\frac14}=2~\\text{cis}\\left(\\frac{\\pi+2k\\pi}4\\right)\\)\n\\(\\text{for}~k=0,1,2,3\\)\nPenyelesaian ini memberikan nilai-nilai berikut:\n\\(2~\\text{cis}\\left(\\frac{\\pi}{4}\\right),\\quad2~\\text{cis}\\left(\\frac{3\\pi}{4}\\right),\\)\n\\(\\quad2~\\text{cis}\\left(\\frac{5\\pi}{4}\\right),\\quad2~\\text{cis}\\left(\\frac{7\\pi}{4}\\right)\\)\nJika dalam bentuk eksponen adalah: \\(2e^{i\\pi/4},~2e^{3i\\pi/4},~2e^{5i\\pi/4}\\), dan \\(2e^{7i\\pi/4}\\)\nTidak semuanya yang berbunyi negatif itu membawa keburukan, maka Cis!\n\\[\\cdot~\\cdot~\\cdot\\]"
+  },
+  {
     "objectID": "blog/2024/scenius/index.html#sekumpulan-pensyarah-matematik",
     "href": "blog/2024/scenius/index.html#sekumpulan-pensyarah-matematik",
     "title": "Scenius: Sekumpulan yang membentuk kebijaksanaan",
@@ -165,7 +214,7 @@
     "href": "blog/2024/scenius/index.html#jadi-aku-rumuskan-begini",
     "title": "Scenius: Sekumpulan yang membentuk kebijaksanaan",
     "section": "Jadi, aku rumuskan begini",
-    "text": "Jadi, aku rumuskan begini\nKonsep scenius mengajar kita bahawa kehebatan bukanlah hasil usaha individu semata-mata, tetapi juga merupakan produk daripada kerjasama dan interaksi dalam kumpulan. Dalam konteks pensyarah matematik yang aku ceritakan, walaupun perbincangan mereka mungkin kelihatan tidak formal, ia adalah contoh bagaimana scenius berfungsi dalam menghasilkan idea-idea yang berharga dan memperkaya pengetahuan kita. Dengan memahami dan mengamalkan konsep scenius, kita boleh lebih menghargai kepentingan kerjasama dan persekitaran yang menyokong dalam mencapai kejayaan dan inovasi."
+    "text": "Jadi, aku rumuskan begini\nKonsep scenius mengajar kita bahawa kehebatan bukanlah hasil usaha individu semata-mata, tetapi juga merupakan produk daripada kerjasama dan interaksi dalam kumpulan. Dalam konteks pensyarah matematik yang aku ceritakan, walaupun perbincangan mereka mungkin kelihatan tidak formal, ia adalah contoh bagaimana scenius berfungsi dalam menghasilkan idea-idea yang berharga dan memperkaya pengetahuan kita. Dengan memahami dan mengamalkan konsep scenius, kita boleh lebih menghargai kepentingan kerjasama dan persekitaran yang menyokong dalam mencapai kejayaan dan inovasi.\n\\[\\cdot~\\cdot~\\cdot\\]"
   },
   {
     "objectID": "blog/2024/scenius/index.html#footnotes",
@@ -186,7 +235,7 @@
     "href": "index.html#blog",
     "title": "Laman Utama",
     "section": "Blog",
-    "text": "Blog\n\n\n\n\n\n\n\n\n\n\nCis!\n\n\nMengungkap rahsia Nombor Kompleks.\n\n\n1 min\n\n\n\n🔢 Matematika\n\n\n\n\nAug 22, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nScenius: Sekumpulan yang membentuk kebijaksanaan\n\n\nBagaimana berkumpulan dapat membentuk idea yang kreatif & kritis.\n\n\n4 min\n\n\n\n🔢 Matematika\n\n\n\n\nAug 22, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSiri Diri Merdeka II: Merdekakan perasaan, memurnikan hati\n\n\nMenggali pemahaman tentang kebebasan emosi dalam psikologi Islam\n\n\n13 min\n\n\n\n📓 Jurnal Kembara Hidup\n\n\n\n\nSep 4, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Blog\n\n\n\n\n\n\n\n\n\n\nApabila Daya Nuklear Kuat Bertukar Menjadi Repulsif\n\n\n\n\n\n4 min\n\n\n\n⚛️ Tenaga Tinggi, Nuklear, Fizik Zarah\n\n\n\n\nAug 24, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCis!\n\n\nMengungkap rahsia Nombor Kompleks.\n\n\n1 min\n\n\n\n🔢 Matematika\n\n\n\n\nAug 23, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nScenius: Sekumpulan yang membentuk kebijaksanaan\n\n\nBagaimana berkumpulan dapat membentuk idea yang kreatif & kritis.\n\n\n4 min\n\n\n\n🔢 Matematika\n\n\n\n\nAug 22, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSiri Diri Merdeka II: Merdekakan perasaan, memurnikan hati\n\n\nMenggali pemahaman tentang kebebasan emosi dalam psikologi Islam\n\n\n13 min\n\n\n\n📓 Jurnal Kembara Hidup\n\n\n\n\nSep 4, 2023\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "report/report_template.html",

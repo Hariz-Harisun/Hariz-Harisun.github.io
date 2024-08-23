@@ -1,0 +1,51 @@
+---
+draft: false
+title: "Apabila Daya Nuklear Kuat Bertukar Menjadi Repulsif"
+subtitle: "   "
+date: "2024-08-24"
+time: "10:30 PM"
+categories: ["⚛️ Tenaga Tinggi, Nuklear, Fizik Zarah"]
+image: "22082024.png"
+authors: ["M. Hariz Hazril"]
+---
+
+## Daya Nuklear Kuat
+
+Daya nuklear kuat (strong nuclear force) adalah salah satu daripada empat daya asas alam semesta (yang sekurang-kurangnya dikenalpasti), memainkan peranan penting dalam mengikat proton dan neutron bersama-sama dalam atom nukleus. Daya ini mempunyai keupayaan yang luar biasa dalam menahan blok binaan jirim bersama-sama walaupun terdapat tolakan elektrostatik yang kuat antara proton yang bercas positif. Walau bagaimanapun, memahami kelakuan daya nuklear kuat ini tidaklah semudah yang disangka. Di bawah keadaan tertentu, daya ini boleh berubah daripada daya tarikan kepada daya tolakan, di mana menjadi asas kepada kestabilan nukleus atom.
+
+## Sifat Daya Nuklear Kuat
+
+Daya nuklear kuat beroperasi dalam jarak yang sangat pendek, biasanya dalam jarak beberapa femtometer ($1~\text{femtometer}~=~10^{-15}~\text{meter}$). Ia bertanggungjawab mengatasi tolakan elektrostatik antara proton dalam nukleus, mengikat zarah ini bersama-sama dengan neutron untuk membentuk struktur atom yang stabil. Namun, daya ini bukan sekadar "gam" yang menyatukan nukleon; ia juga bergantung pada faktor seperti jenis zarah yang terlibat (proton atau neutron), putaran (spin) mereka, dan jarak antara mereka.
+
+## Bilakah Daya Nuklear Kuat Menjadi Repulsif?
+
+Secara umumnya kita ketahui daya nuklear kuat adalah daya menarik, menarik nukleon (proton dan neutron) bersama-sama. Namun, apabila dua proton atau neutron ini terlalu mendekati satu sama lain—biasanya lebih dekat daripada sekitar 0.7 femtometer—daya ini akan bertukar watak (baca: kelakuan) berlawanan, menghasilkan daya tolakan (repulsive). Tolakan ini penting dalam menghalang nukleus daripada runtuh menjadi ketunggalan (singuarity), di mana semua nukleon akan dihimpit menjadi satu titik yang sangat kecil.
+
+Kelakuan repulsif ini berlaku kerana sifat kompleks interaksi antara kuark (zarah asas yang membentuk proton dan neutron) dan gluon (zarah yang mengantarai daya kuat). Pada jarak yang sangat dekat, pertindihan fungsi gelombang zarah-zarah ini membawa kepada interaksi repulsif, memastikan nukleon mengekalkan jarak stabil dalam nukleus.
+
+## Rantaian Proton-Proton dan Peranan Daya Lemah
+
+![](images/clipboard-1836662564.png){fig-align="center" width="520"}
+
+Rantaian proton-proton (p-p) adalah proses yang memberi tenaga kepada bintang seperti Matahari kita. Dalam tindak balas ini, dua proton bergabung untuk akhirnya membentuk helium, melepaskan jumlah tenaga yang luar biasa dalam proses tersebut. Mungkin timbul persoalan bagaimana dua proton yang bercas positif (yang secara semula jadi menolak satu sama lain kerana daya elektrostatik) boleh mendekati satu sama lain sehingga bergabung?
+
+Jawapannya terletak pada mekanik kuantum, khususnya fenomena yang dipanggil penerowongan kuantum (quantum tunneling). Penerowongan kuantum membolehkan zarah melepasi halangan tenaga yang biasanya tidak dapat dilalui. Meskipun proton menolak satu sama lain, keadaan dalam teras bintang begitu ekstrem sehingga proton mempunyai tenaga kinetik yang mencukupi untuk mendekati satu sama lain. Apabila zarah proton mendekati antaranya, penerowongan kuantum membolehkan mereka mengatasi halangan elektrostatik dan mendekati jarak di mana daya nuklear kuat boleh mengikat nukleus atom bersama-sama.
+
+Namun, ada satu syarat:
+
+> Walaupun proton cukup dekat untuk daya nuklear kuat bertindak, keadaannya adalah rumit. Daya nuklear yang kuat boleh berkelakuan repulsif jika proton terlalu dekat, yang akan menyebabkan ia menolaknya kembali. Oleh sebab itu, terdapat daya lain yang akan terlibat dalam situasi ini, iaitu daya nuklear yang lemah.
+
+Daya nuklear lemah bertanggungjawab untuk menukar identiti zarah dalam tindak balas nuklear tertentu. Langkah pertama dalam rantaian p-p melibatkan interaksi lemah, di mana salah satu proton ditukar menjadi neutron melalui pereputan beta, membentuk nukleus deuterium (pasangan proton-neutron). Perubahan ini membolehkan kedua-dua zarah membentuk pasangan yang stabil, dan bukannya ditolak. Walau bagaimanapun, proses ini perlahan, sebab itu Matahari telah bersinar selama berbilion tahun dan akan terus bersinar selama berbilion tahun lagi.
+
+## Mengapa Nukleus Tidak Runtuh?
+
+Aspek repulsif daya nuklear kuat adalah penting untuk kestabilan nukleus atom. Tanpa tolakan ini, apabila proton dan neutron dibawa bersama oleh daya kuat, tiada apa yang akan menghalang mereka daripada terus mendekati, yang akhirnya membawa kepada runtuhan malapetaka (catastrophic collapse) nukleus. Sebaliknya, tolakan pada jarak yang sangat dekat bertindak sebagai keseimbangan, mengekalkan struktur stabil di mana nukleon tidak terlalu dekat atau terlalu jauh antara satu sama lain.
+
+## Tarik-tolak Kuantum
+
+Kelakuan daya nuklear kuat adalah contoh utama sifat kontraintuitif (*conterintuitive*) mekanik kuantum. Walaupun kita sering menganggap daya sebagai sama ada menarik atau menolak, daya kuat adalah gabungan kedua-duanya yang bergantung pada keadaan. Secara simpulnya, di setiap lubuk atom, daya ini memainkan dua peranan penting, iaitu
+
+1.  Menarik nukleon bersama untuk membentuk nukleus yang stabil
+2.  Menolak zarah-zarah ini pada jarak yang sangat dekat untuk menghalang daripada keruntuhan.
+
+$$\cdot~\cdot~\cdot$$

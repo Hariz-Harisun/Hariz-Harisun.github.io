@@ -2,7 +2,8 @@
 draft: false
 title: "Cis!"
 subtitle: "Mengungkap rahsia Nombor Kompleks."
-date: "2024-08-22"
+date: "2024-08-23"
+time: "12:57 AM"
 categories: ["🔢 Matematika"]
 image: "22082024.png"
 authors: ["M. Hariz Hazril"]
