@@ -5,9 +5,11 @@ subtitle: "   "
 date: "2024-08-24"
 time: "10:30 PM"
 categories: ["⚛️ Tenaga Tinggi, Nuklear, Fizik Zarah"]
-image: "22082024.png"
+image: "images/23082024-3.png"
 authors: ["M. Hariz Hazril"]
 ---
+
+![](images/23082024-3.png)
 
 ## Daya Nuklear Kuat
 
