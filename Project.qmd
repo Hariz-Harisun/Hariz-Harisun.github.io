@@ -1,43 +1,23 @@
 ---
-title: "🎯  Project"
+title: "🎯  Projects"
+listing:
+  - id: blog
+    contents: projects  # Directory containing the blog posts
+    sort: "date desc"  # Sort posts by date in descending order
+    type: grid  # Display posts in a grid layout
+    categories: unnumbered  # Do not number categories
+    sort-ui: false  # Disable sort user interface
+    filter-ui: false  # Disable filter user interface
+    feed: true  # Enable RSS feed for the blog
+    fields:  # Fields to display in the blog listing
+      - title
+      - subtitle
+      - categories
+      - date
+      - reading-time
+      - image
+page-layout: full  # Use full page layout for the blog
 title-block-banner: true  # Enable title block banner
-editor: visual
-date: 2024-08-17
-author: M. Hariz Hazril
-description: "A brief description of your project"
 include-after-body: "footer.html"
+description: "A brief description of your project"
 ---
-
-# Project Title
-
-## Introduction
-
-This project focuses on \[briefly describe the main focus or goal of your project\].
-
-## Objectives
-
-1.  Objective 1
-2.  Objective 2
-3.  Objective 3
-
-## Methodology
-
-Describe the methods and approaches you will use in your project.
-
-## Results
-
-Present your findings or results here. Use visualizations or charts if necessary.
-
-## Conclusion
-
-Summarize the main points of your project and any conclusions you have drawn.
-
-## Future Work
-
-Discuss any potential future work or follow-up projects.
-
-## References
-
--   Reference 1
--   Reference 2
--   Reference 3

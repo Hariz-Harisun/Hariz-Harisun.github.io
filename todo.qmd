@@ -50,15 +50,15 @@ description: "Ini adalah senarai tugasan seharian saya."
 
 \
 
-<li><input type="checkbox" class="task" id="task2"> <label for="task2" class="task-label">\[2\] Cover balik subjek Algebra[^2]</label></li>
+<li><input type="checkbox" class="task" id="task2"> <label for="task2" class="task-label">\[2\] Cover balik subjek Algebra[^2]. Sekurangnya 2 chapter.</label></li>
 
 \
 
-<li><input type="checkbox" class="task" id="task3"> <label for="task3" class="task-label">\[3\] Belajar Fundamental Software Engineering (untuk semester hadapan)[^3]</label></li>
+<li><input type="checkbox" class="task" id="task3"> <label for="task3" class="task-label">\[3\] Belajar Fundamental Software Engineering (untuk semester hadapan)[^3]. Sekurangnya 2 chapter.</label></li>
 
 \
 
-<li><input type="checkbox" class="task" id="task4"> <label for="task4" class="task-label">\[4\] Belajar Asas membina bahasa inggeris</label></li>
+<li><input type="checkbox" class="task" id="task4"> <label for="task4" class="task-label">\[4\] Belajar Asas membina bahasa inggeris. Sekurangnya 2 chapter.</label></li>
 
 \
 
@@ -211,6 +211,7 @@ function generatePDF() {
 ### Hantar Laporan Harian
 
 ::: container
-<iframe src="https://hariz-harisun.shinyapps.io/report/" width="100%" height="370px" style="border: none;"></iframe>
+<iframe src="https://hariz-harisun.shinyapps.io/report/" width="100%" height="370px" style="border: none;">
 
+</iframe>
 :::

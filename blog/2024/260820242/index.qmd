@@ -1,0 +1,98 @@
+---
+draft: false
+title: "Berkelana aku dalam Kejuruteraan Perisian #1"
+subtitle: "Pengenalan terhadap kejuruteraan perisian."
+date: "2024-08-26"
+time: current
+categories: ["💻 Sains Komputer"]
+image: "images/23082024-3.png"
+authors: ["M. Hariz Hazril"]
+---
+
+Kali pertama aku berhadapan dengan perkataan "Kejuruteraan Perisian" ini adalah sewaktu aku sekolah menengah. Tanggapan pertama aku terhadap pekerjaan ini adalah mereka yang membangunkan perisian menggunakan bahasa pengaturcaraan yang tersendiri. Pegangan ini berterusan sehingga aku membuat rujuk silang bagi maksud sebenar prinsip kejuruteraan perisian ini.
+
+Kejuruteraan Perisian (*Software Engineering*) terbahagi kepada dua elemen iaitu perisian dan kejuruteraan. Secara terperinci,
+
+## Maksud Perisian (*software*)
+
+Perisian bukan sekadar kod program yang boleh dilaksanakan, tetapi merangkumi gabungan kod pengaturcaraan.
+
+Apabila perisian dibangunkan untuk memenuhi keperluan tertentu (berdasarkan pernyataan masalah), ia dikenali sebagai produk perisian (*software product*).
+
+## Maksud Kejuruteraan (*engineering*)
+
+Kejuruteraan pula berkaitan dengan pembangunan produk menggunakan prinsip-prinsip saintifik dan kaedah yang terperinci.
+
+Maka, kejuruteraan perisian boleh didefinisikan sebagai
+
+> *Cabang kejuruteraan yang melibatkan pembangunan produk perisian menggunakan prinsip-prinsip, kaedah, dan prosedur saintifik yang ditentukan dengan jelas.*
+
+## Maksud Kejuruteraan Perisian
+
+Hasil daripada kejuruteraan perisian ialah produk perisian yang cekap dan boleh digunapakai.
+
+Menurut IEEE (Institute of Electrical and Electronics Engineers), kejuruteraan perisian adalah
+
+> *Aplikasi pendekatan yang sistematik, berdisiplin, dan boleh diukur kepada pembangunan, operasi, dan penyelenggaraan perisian.*
+
+Menurut laman sesawang geeksforgeeks.org, Kejuruteraan Perisian ialah
+
+> *Proses mereka bentuk, membangun, menguji, dan menyelenggara perisian.*
+
+## Bila prinsip kejuruteraan perisian ini digunapakai?
+
+Jika kau seorang pelajar sains komputer, membangunkan program yang kecil mungkin tidak memerlukan prinsip ini, sebaliknya apabila kau ingin membangunkan sebuah produk perisian yang besar (melibatkan pengurusan data, fungsi dan sebagainya), prinsip kejuruteraan perisian ini akan menjadi amat penting dalam memastikan hasil produk perisian kau itu dibangun dengan baik.
+
+## Kejuruteraan perisian dalam industri
+
+Walaupun aku belum bagi berdepan dengan alam industri, berdasarkan pembacaan aku bahawa tanpa menggunakan prinsip kejuruteraan perisian ini, pembangunan program yang besar akan menjadi sukar. Dalam industri, bagi menampung pelbagai fungsi ia memerlukan pembangunan program yang besar. Oleh sebab demikian, adalah menjadi matlamat utama bahawa suatu syarikat itu berusaha untuk mengurangkan kerumitan dan kesukaran daripada pembangunan program besar tersebut yang meningkat secara eksponen (mengikut saiznya).
+
+Penyelesaiannya terdapat pada kejuruteraan perisian di mana ia membantu mengurangkan kerumitan dalam pengaturcaraan dengan menggunakan dua teknik penting iaitu, peniskalaan (abstraction), dan penguraian (decomposition).
+
+## Teknik Peniskalaan
+
+Peniskalaan adalah **teknik di mana suatu permasalahan itu dipermudahkan dengan mengabaikan butiran yang tidak relevan**. Dalam erti kata lain, kita memberi dfokus kepada aspek masalah yang relevan (atau penting) dan menyingkirkan aspek yang tidak penting.
+
+Sebagai contoh, untuk menghasilkan sebuah basikal, kita memerlukan
+
+-   Roda 2x
+
+-   Hendal 1x
+
+-   Pedal 1x
+
+Ciri-ciri spesifik seperti saiz roda, berbakul atau berloceng dan warna rangka diabaikan.
+
+![Diambil dari buku teks komputer sains tingkatan 4.](images/clipboard-317924962.png)
+
+Berdasarkan buku teks sains komputer tingkatan 4, peniskalaan adalah penting agar dapat menjana penyelesaian yang tepat kepada masalah yang dihadapi.
+
+## Teknik Penguraian
+
+Penguraian pula adalah **teknik yang membahagikan masalah yang kompleks kepada beberapa masalah yang lebih kecil**, yang kemudiannya diselesaikan satu demi satu. Hal ini supaya setiap komponen masalah yang telah dipecahkan boleh diselesaikan secara bebas dan penyelesaian bagi setiap komponen boleh digabungkan untuk mendapatkan penyelesaian penuh.
+
+Sebaliknya, jika subkomponen yang berlainan saling berkaitan, maka komponen-komponen tersebut tidak boleh diselesaikan secara berasingan, dan pengurangan kerumitan yang diharapkan tidak akan tercapai.
+
+Penguraian yang baik adalah penguraian yang meminimumkan interaksi antara pelbagai komponen.
+
+Contohnya, jika kita hendak memahami cara sebuah basikal berfungsi, ia akan menjadi lebih mudah jika seluruh basikal itu dipecahkan kepada bahagian yang kecil.
+
+Misalnya, dalam satu model basikal kita pecahkan kepada tiga bahagian iaitu
+
+-   Roda
+
+-   Hendal
+
+-   Pedal
+
+dalam setiap bahagian itu pula kita perincikan lagi.
+
+## Matlamat akhir yang hendak dicapai
+
+Jadi, dapatlah kita simpulkan bahawa matlamat akhir bagi Kejuruteraan Perisian ini adalah untuk membangunkan aplikasi perisian yang berkualiti tinggi, dengan kos yang terkawal, dan dalam tempoh masa yang ditetapkan.
+
+Dengan prinsip kejuruteraan perisian, kita dapat memastikan bahawa perisian yang dibangunkan adalah konsisten, betul, mematuhi bajet, siap mengikut jadual, dan memenuhi semua keperluan yang ditetapkan. Memenuhi aspek ini, sudah tentu akan menjaminkan gaji yang lumayan buat seorang kejuruteraan perisian.
+
+InsyaAllah, penghuraian lanjut dalam artikel seterusnya.
+
+$$\cdot~\cdot~\cdot$$

@@ -1,0 +1,12 @@
+---
+draft: false
+title: "MYR100,000 menjelang 25"
+subtitle: "Ini adalah projek dalam mencapai RM100K Pertama sebelum menjelang umur 25."
+date: "2024-08-27"
+time: "10:30 PM"
+categories: ["⚛️ Kewangan"]
+image: ""
+authors: ["M. Hariz Hazril"]
+---
+
+Ini adalah perjalanan saya.

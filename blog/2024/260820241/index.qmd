@@ -1,0 +1,10 @@
+---
+draft: false
+title: "Alam berskala subzarah"
+subtitle: "Kehalusan dan kedalaman kajian tentang dunia zarah yang amat kecil, serta memberikan nuansa ilmiah yang menyeluruh."
+date: "2024-08-24"
+time: "10:30 PM"
+categories: ["⚛️ Alam Mikro"]
+image: "images/23082024-3.png"
+authors: ["M. Hariz Hazril"]
+---

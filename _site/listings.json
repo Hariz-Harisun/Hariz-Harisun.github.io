@@ -1,7 +1,9 @@
 [
   {
-    "listing": "/blog.html",
+    "listing": "/index.html",
     "items": [
+      "/blog/2024/260820242/index.html",
+      "/blog/2024/260820241/index.html",
       "/blog/2024/repulsif/index.html",
       "/blog/2024/cis/index.html",
       "/blog/2024/scenius/index.html",
@@ -9,12 +11,20 @@
     ]
   },
   {
-    "listing": "/index.html",
+    "listing": "/blog.html",
     "items": [
+      "/blog/2024/260820242/index.html",
+      "/blog/2024/260820241/index.html",
       "/blog/2024/repulsif/index.html",
       "/blog/2024/cis/index.html",
       "/blog/2024/scenius/index.html",
       "/blog/2023/Siri Diri Merdeka II - Merdekakan perasaan, memurnikan hati/index.html"
+    ]
+  },
+  {
+    "listing": "/Project.html",
+    "items": [
+      "/projects/2024/project1/index.html"
     ]
   }
 ]
