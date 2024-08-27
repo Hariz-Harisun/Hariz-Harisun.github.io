@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Hariz Harisun</title>
+<link>https://Hariz-Harisun.github.io/Project.html</link>
+<atom:link href="https://Hariz-Harisun.github.io/Project.xml" rel="self" type="application/rss+xml"/>
+<description>A brief description of your project</description>
+<generator>quarto-1.5.56</generator>
+<lastBuildDate>Tue, 27 Aug 2024 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>MYR100,000 menjelang 25</title>
+  <link>https://Hariz-Harisun.github.io/projects/2024/project1/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Ini adalah perjalanan saya.</p>
+
+
+
+ ]]></description>
+  <category>⚛️ Kewangan</category>
+  <guid>https://Hariz-Harisun.github.io/projects/2024/project1/</guid>
+  <pubDate>Tue, 27 Aug 2024 00:00:00 GMT</pubDate>
+  <media:content url="https://Hariz-Harisun.github.io/projects/2024/project1" medium="image"/>
+</item>
+</channel>
+</rss>
