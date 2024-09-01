@@ -5,7 +5,7 @@ subtitle: "Seberapa jauh semikonduktor mampu pergi."
 date: "2024-08-27"
 time: current
 categories: ["Semikonduktor"]
-image: "images/clipboard-250192044.png"
+image: "images/240820242B.png"
 authors: ["M. Hariz Hazril"]
 ---
 
@@ -16,3 +16,7 @@ Cip terkini telah mencapai saiz sekecil 5 nm, menandakan kemajuan teknologi yang
 ![James R. Powell. Beliau menyertai Brookhaven National Laboratory (BNL) pada tahun 1956 di mana beliau adalah seorang Jurutera Nuklear Kanan dan anggota kakitangan saintifik BNL sehingga bersara pada akhir tahun 1996.](images/clipboard-3146542367.png){width="202"}
 
 James R. Powell menjangkakan bahawa Hukum Moore, yang selama ini menjadi panduan dalam perkembangan teknologi cip, mungkin akan usang menjelang tahun 2036, dan digantikan oleh teknologi baru yang lebih menjanjikan seperti Titik Kuantum (QD), Semikonduktor Organik, Sebatian Semikonduktor, Perovskit, dan Spintronik.
+
+<br>
+
+$$\cdot~\cdot~\cdot$$

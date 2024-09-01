@@ -5,7 +5,7 @@ subtitle: "Pengenalan terhadap kejuruteraan perisian."
 date: "2024-08-26"
 time: current
 categories: ["💻 Sains Komputer"]
-image: "images/23082024-3.png"
+image: "images/26082024-2.png"
 authors: ["M. Hariz Hazril"]
 ---
 
@@ -94,5 +94,7 @@ Jadi, dapatlah kita simpulkan bahawa matlamat akhir bagi Kejuruteraan Perisian i
 Dengan prinsip kejuruteraan perisian, kita dapat memastikan bahawa perisian yang dibangunkan adalah konsisten, betul, mematuhi bajet, siap mengikut jadual, dan memenuhi semua keperluan yang ditetapkan. Memenuhi aspek ini, sudah tentu akan menjaminkan gaji yang lumayan buat seorang kejuruteraan perisian.
 
 InsyaAllah, penghuraian lanjut dalam artikel seterusnya.
+
+<br>
 
 $$\cdot~\cdot~\cdot$$

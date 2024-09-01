@@ -5,6 +5,6 @@ subtitle: "Kehalusan dan kedalaman kajian tentang dunia zarah yang amat kecil, s
 date: "2024-08-24"
 time: "10:30 PM"
 categories: ["⚛️ Alam Mikro"]
-image: "images/23082024-3.png"
+image: "240820242B.png"
 authors: ["M. Hariz Hazril"]
 ---
