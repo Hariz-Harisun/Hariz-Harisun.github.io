@@ -1,0 +1,28 @@
+---
+draft: false
+title: "Berkelana aku dalam Kejuruteraan Perisian #2"
+subtitle: "Keperluan Model kitaran hayat perisian (SDLC)"
+date: "2024-08-26"
+time: current
+categories: ["💻 Sains Komputer"]
+image: "images/26082024-2.png"
+authors: ["M. Hariz Hazril"]
+---
+
+Kembali semula bersama aku, dalam segmen "berkelana aku dalam kejuruteraan perisian!". Kali ini aku ingin berkongsi berkenaan model kitaran hayat perisian atau dalam bahasa inggeris, software life cycle model.
+
+Setiap kumpulan pembina perisian perlu mencari sebuah model kitaran hidup yang bersesuaian bagi suatu projek yang diterima.
+
+Tanpa menggunakan model kitaran hidup yang sesuai, sebuah produk tidak akan terhasil secara disiplin dan sistematik.
+
+Setiap masalah yang dihadapi dalam pembangunan perisian perlu dibahagi kepada beberapa bahagian dan setiap bahagian perlu diberi oleh setiap ahli kumpulan. Nak kata tu, apabila kau membuat projek yang melibatkan kumpulan, pandai-pandailah bahagikan tugas. Untuk suatu permasalah dalam projek itu boleh dibahagi, perisian yang dibangunkan mestilah boleh dipecahkan tanpa memberi kesan terhadap fungsi lain.
+
+Tanpa sebuah model kitaran hayat perisian, kita tidak akan dapat mengenalpasti kriteria pintu masuk dan keluar suatu fasa.
+
+Terdapat pelbagai jenis model kitaran hayat perisian. Antara yang sering digunakan oleh para pembangun perisian,
+
+- Classical Waterfall Model
+- Iterative Waterfall Model
+- Prototyping Model
+- Evolutionary Model
+- Spiral Model

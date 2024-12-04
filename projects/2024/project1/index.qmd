@@ -1,29 +1,59 @@
 ---
 draft: false
-title: "Enam Angka menjelang 25"
-subtitle: "Ini adalah projek kembara dalam mencapai RM100K Pertama menjelang umur 25."
+title: "Random Walk Radioactive Nuclides Transport in Underground Water"
+subtitle: "This project underscores the advantages of RWPT's stochastic approach in groundwater contamination modelling."
 date: "2024-08-27"
 time: "10:30 PM"
-categories: ["⚛️ Kewangan"]
+categories: ["Pure Physics Project"]
 image: ""
 authors: ["M. Hariz Hazril"]
 ---
 
-### 7 Jun 2024: Sebuah buku senarai putih
-Sudah lama aku memendam rasa ingin memiliki buku "Enam Angka Menjelang Dua Puluh Lima" karya Azraei Muhamad. Mana tidaknya, buku ini diterbitkan pada tahun 2018, sudah tahun 2024 baru aku memilikinya.
+### **Introduction**
 
-Hanya sebuah keinginan yang besar dengan usaha yang kecil mengambil beberapa tahun untuk berganjak. Hampir diherdik oleh ego sendiri. Apa mungkin untuk memiliki enam angka secepat itu?
+Groundwater is one of the most important resources on Earth. It supplies fresh water for drinking, agriculture, and industry. However, when this vital resource becomes contaminated, it poses serious risks to human health and the environment. One of the most dangerous types of contamination is radioactive waste, which can result from leaks at nuclear power plants, improper disposal of radioactive materials, or even natural processes. Radioactive contamination can cause long-lasting health problems, including cancer, and it can spread through groundwater, affecting large areas.
 
-7 Jun 2024 menandakan aku memulakan pembacaan. Dengan penyampaian yang agak santai dan landai, memang benar mengajak diri ini untuk mengkritik kandungan penulisannya itu.
+**Radioactive Waste: Can We Predict Where It Goes?**
 
-Ada seberapa tidak harmoni dengan buku ini, kerana untuk mencapai sebuah matlamat enam angka tidak hadir dengan kemampuan diri sendiri secara pukalnya. Misalnya, ibu bapa penulis sendiri sudah memperancangkan sejak awal lagi berkenaan pendidikan penulis (Baca: Pengurusan PTPTN).
+Predicting how radioactive contaminants travel in groundwater is crucial for assessing risk and developing strategies to clean up contaminated sites. The movement of radioactive nuclides (atoms that emit radiation) in groundwater is a complex process, influenced by factors such as soil type, groundwater flow rates, and the chemical characteristics of the contaminants. That's where my research comes in: I’ve developed a method to predict the movement of radioactive nuclides using a technique called Random Walk Particle Tracking (RWPT).
 
-Maka, bukanlah ceritanya penulis yang perlu dicari oleh seorang pembaca, tapi bagaimana matlamat, visi, misi, tindakan dan cara fikir yang dibawa oleh penulis sendiri dalam mencapai enam angka. Pembaca sendirilah yang perlu mencorak jalannya sendiri dalam mencapai matlamat itu juga.
+### **The Random Walk Particle Tracking Method**
 
-Ia antara usaha dan strategi yang diguna sama ataupun lebih baik dari itu.
+The Random Walk Particle Tracking (RWPT) method is a computer simulation technique that allows us to predict how radioactive nuclides move through groundwater. To help visualize this, imagine you drop a small amount of dye into a glass of water. The dye molecules spread out as the water moves. In the same way, radioactive contaminants move through groundwater, but their movement is affected by factors such as the flow of the water and how the contaminants interact with their environment.
 
-Tambah pula, bahawa penulisannya itu berlatarkan tahun-tahun dahulu sehingga tahun 2018. Jika dibandingkan udara dan tanah kini, jauh lebih mencabar hendak mencapai angka itu. Namun, tidak mustahil.
+Here’s how RWPT works:
 
-Selain daripada usaha, aku rasa perlu ada juga tuah dalam hidup ini. Tuah yang hadir daripada orang-orang terdekat atau tadahan doa engkau sendiri. Segalanya sudah bertetapan akan rezeki kita, hanya kita sahajalah yang usaha dengan daya yang ada.
+*   **RWPT is a simulation:** It tracks many virtual particles (representing the contaminants) as they move through groundwater.
+*   **The particles move randomly:** Their movement is influenced by groundwater flow and the tendency of contaminants to disperse.
+*   **Tracking these particles allows us to predict the contaminant's spread:** By following the particles over time, we can estimate where the contamination will go, how fast it will spread, and how large the affected area might become.
 
-Apa yang paling penting bagi aku adalah sebuah matlamat dan semangat yang konsisten. Walau hari-harinya diuji sekalipun, dengan semangat yang waja tidak berbolak-balik matlamatnya itu.
+This method provides an excellent tool for assessing the risks of contamination and planning strategies for mitigation and cleanup.
+
+### **So, What This Research About?**
+
+In my research, I applied the RWPT method to simulate the movement of radioactive nuclides in groundwater. By using Dr. Rabie program called PyRWPT to simulate it. The program was tested under two different scenarios:
+
+Point Injection: A single source of contamination.
+
+Line Injection: A contamination source along a line (e.g., a leaking pipeline).
+
+To ensure the reliability of the model, I compared its results with those of MODFLOW, a widely-used groundwater modeling software that uses the Finite Difference Method. This allowed me to validate the RWPT model and confirm its accuracy.
+
+### **Results**
+
+The results from my simulations showed that the RWPT model was highly successful in simulating the movement of radioactive nuclides in both the point injection and line injection scenarios. I was able to track the particles as they moved through the simulated groundwater, predicting how they spread and how far they would travel. The RWPT model was also highly accurate, with less than a 1% discrepancy when compared to the results from the MODFLOW simulations.
+
+This indicates that RWPT is a reliable tool for predicting the transport of radioactive contaminants in groundwater, which can help in making decisions regarding groundwater safety and cleanup efforts.
+
+### **Conclusion**
+
+The findings of this research suggest that the Random Walk Particle Tracking (RWPT) method is a promising tool for predicting the movement of radioactive contaminants in groundwater. It can be used to assess the risk of contamination and to develop more effective strategies for cleaning up polluted sites. While the results are promising, more research is needed to refine and further validate RWPT models, ensuring their accuracy and reliability in real-world applications.
+
+### **Call to Action**
+
+As we continue to rely on groundwater for essential needs, it’s crucial that we find effective ways to protect this resource from contamination. Understanding how radioactive contaminants move in groundwater is key to preventing environmental disasters and ensuring the safety of drinking water. I encourage readers to learn more about groundwater contamination and support efforts to develop better models and strategies for its protection.
+
+### **Thesis PDF**
+(As this project is still under Grant. The thesis only be used for Curriculum vitae only.)
+
+<iframe src="Thesis Project Physics - M. Hariz Hazril (158960).pdf" width="100%" height="800px"></iframe>

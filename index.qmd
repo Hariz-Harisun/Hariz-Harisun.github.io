@@ -1,5 +1,5 @@
 ---
-title: "Laman Utama"
+title: "Welcome!"
 listing:
   - id: blog 
     contents: 
@@ -22,7 +22,7 @@ include-after-body: "footer.html"
 page-layout: full
 ---
 
-Assalamualaikum wbt, selamat datang ke laman sesawang Hariz Harisun. Nama pena saya adalah hh, anak tempatan Malaysia berusia ```20-an```.Minat utama saya adalah ```fizik moden```, diikuti ```sains komputer``` sebagai teras minat saya, menggabungkan pendekatan komputasional dalam sains fizik.
+Nama saya M. Hariz Hazril, memiliki nama pena HH. Seorang anak tempatan Malaysia berusia ```20-an```.Minat saya adalah ```pengkomputeran fizik```, diikuti dengan ```sains komputer``` sebagai teras minat saya. Dengan kehadiran keduanya ini, saya membangunkan portfolio diri sebagai penggemar bidang pengkomputeran yang menjurus kepada fizik. Ini adalah laman sesawang saya, medium saya berkongsi informasi dan pendapat berkaitannya.
 
 ## Blog
 
