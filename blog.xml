@@ -9,7 +9,7 @@
 <link>https://Hariz-Harisun.github.io/blog.html</link>
 <atom:link href="https://Hariz-Harisun.github.io/blog.xml" rel="self" type="application/rss+xml"/>
 <description>Catatan pena ku berkaitan isu semasa dan info menarik.</description>
-<generator>quarto-1.5.57</generator>
+<generator>quarto-1.6.39</generator>
 <lastBuildDate>Wed, 28 Aug 2024 00:00:00 GMT</lastBuildDate>
 <item>
   <title>Pustaka Masa: Warisan Ilmu dan Jalan Kefahaman</title>
@@ -159,23 +159,6 @@
   <media:content url="https://Hariz-Harisun.github.io/blog/2024/260820242/images/26082024-2.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 <item>
-  <title>Alam berskala subzarah</title>
-  <link>https://Hariz-Harisun.github.io/blog/2024/260820241/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-
-
- ]]></description>
-  <category>⚛️ Alam Mikro</category>
-  <guid>https://Hariz-Harisun.github.io/blog/2024/260820241/</guid>
-  <pubDate>Sat, 24 Aug 2024 00:00:00 GMT</pubDate>
-  <media:content url="https://Hariz-Harisun.github.io/blog/2024/260820241/240820242B.png" medium="image" type="image/png" height="81" width="144"/>
-</item>
-<item>
   <title>Kerepulsifan Daya Nuklear Kuat</title>
   <link>https://Hariz-Harisun.github.io/blog/2024/repulsif/</link>
   <description><![CDATA[ 
@@ -244,6 +227,23 @@
   <guid>https://Hariz-Harisun.github.io/blog/2024/repulsif/</guid>
   <pubDate>Sat, 24 Aug 2024 00:00:00 GMT</pubDate>
   <media:content url="https://Hariz-Harisun.github.io/blog/2024/repulsif/images/23082024-3.png" medium="image" type="image/png" height="81" width="144"/>
+</item>
+<item>
+  <title>Alam berskala subzarah</title>
+  <link>https://Hariz-Harisun.github.io/blog/2024/260820241/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+
+ ]]></description>
+  <category>⚛️ Alam Mikro</category>
+  <guid>https://Hariz-Harisun.github.io/blog/2024/260820241/</guid>
+  <pubDate>Sat, 24 Aug 2024 00:00:00 GMT</pubDate>
+  <media:content url="https://Hariz-Harisun.github.io/blog/2024/260820241/240820242B.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 <item>
   <title>Cis!</title>
