@@ -13,11 +13,9 @@ authors: ["M. Hariz Hazril"]
 
 Brownian motion, also known as a random walk, describes the erratic and random movement of particles in a fluid due to collisions with molecules. This project simulates the 2D Brownian motion of a particle using a random walk model based on a normal distribution. The simulation leverages numerical methods and visualizes the path dynamically, offering insights into the physics of stochastic processes.
 
-```{python}
-pip install pillow
-```
+### **Code**
 
-```{python}
+``` python
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation, PillowWriter
@@ -67,3 +65,7 @@ ani.save(gif_path, writer=PillowWriter(fps=10))
 # Display the GIF inline
 display(HTML(f'<img src="{gif_path}" alt="Brownian Motion Simulation">'))
 ```
+
+### Output
+
+![Animated simulation of a two-dimensional Brownian motion, showcasing the random path of a particle generated using a normal distribution for step displacements.](brownian_motion.gif){fig-align="center" width="386"}
