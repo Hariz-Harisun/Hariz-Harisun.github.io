@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2024-08-28">
 
-<title>Welcome! – Hariz Harisun</title>
+<title>Simulating Brownian Motion with Dynamic Visualization – Hariz Harisun</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,26 +21,58 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-05cde56ca85515189788d68728fb61bd.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-05cde56ca85515189788d68728fb61bd.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -67,69 +100,10 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-blog .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-title','listing-subtitle','listing-categories','listing-date','listing-reading-time','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      page: 3,
-    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-blog'] = new List('listing-blog', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
-<link rel="alternate" type="application/rss+xml" title="Hariz Harisun" href="index.xml" data-external="1"></head>
+<link rel="stylesheet" href="../../../styles.css">
+</head>
 
 <body class="nav-fixed">
 
@@ -138,7 +112,7 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">Hariz Harisun</span>
     </a>
   </div>
@@ -149,19 +123,19 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="../../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog.html"> 
+    <a class="nav-link" href="../../../blog.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./Project.html"> 
+    <a class="nav-link" href="../../../Project.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
 </ul>
@@ -182,7 +156,7 @@ window.Quarto = {
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="./index.xml"> <i class="bi bi-rss" role="img">
+    <a class="nav-link" href="../../../index.xml"> <i class="bi bi-rss" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -194,7 +168,7 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
@@ -202,23 +176,41 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#blog" id="toc-blog" class="nav-link active" data-scroll-target="#blog">Blog</a></li>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction"><strong>Introduction</strong></a></li>
+  <li><a href="#code" id="toc-code" class="nav-link" data-scroll-target="#code"><strong>Code</strong></a></li>
+  <li><a href="#output" id="toc-output" class="nav-link" data-scroll-target="#output">Output</a></li>
   </ul>
 </nav>
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-unnumbered"><div class="category" data-category="U2VtaWtvbmR1a3Rvcg==">Semikonduktor</div><div class="category" data-category="JUUyJTlBJTlCJUVGJUI4JThGJTIwQWxhbSUyME1pa3Jv">⚛️ Alam Mikro</div><div class="category" data-category="JUYwJTlGJTkyJUJCJTIwU2FpbnMlMjBLb21wdXRlcg==">💻 Sains Komputer</div><div class="category" data-category="JUYwJTlGJTkzJTkzJTIwSnVybmFsJTIwS2VtYmFyYSUyMEhpZHVw">📓 Jurnal Kembara Hidup</div><div class="category" data-category="JUYwJTlGJTk0JUEyJTIwTWF0ZW1hdGlrYQ==">🔢 Matematika</div></div></div>
+    </div>
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Welcome!</h1>
-</div>
+<h1 class="title">Simulating Brownian Motion with Dynamic Visualization</h1>
+<p class="subtitle lead">The project simulated random walk physics based on normal distribution, leveraging numerical methods and real-time plotting.</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">Computational Physics Project</div>
+  </div>
+  </div>
 
 
 
-<div class="quarto-title-meta column-page-left">
+<div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>M. Hariz Hazril </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">August 28, 2024</p>
+    </div>
+  </div>
   
     
   </div>
@@ -228,301 +220,74 @@ window.Quarto = {
 </header>
 
 
-<p>Nama saya M. Hariz Hazril, memiliki nama pena HH. Seorang anak tempatan Malaysia berusia <code>20-an</code>.Minat saya adalah <code>pengkomputeran fizik</code>, diikuti dengan <code>sains komputer</code> sebagai teras minat saya. Dengan kehadiran keduanya ini, saya membangunkan portfolio diri sebagai penggemar bidang pengkomputeran yang menjurus kepada fizik. Ini adalah laman sesawang saya, medium saya berkongsi informasi dan pendapat berkaitannya.</p>
-<section id="blog" class="level2">
-<h2 class="anchored" data-anchor-id="blog">Blog</h2>
-<div id="listing-blog" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="JUYwJTlGJTkzJTkzJTIwSnVybmFsJTIwS2VtYmFyYSUyMEhpZHVw" data-listing-date-sort="1724803200000" data-listing-file-modified-sort="1733392962723" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="226">
-<a href="./blog/2024/280820241B/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./blog/2024/280820241B/280820241B.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Pustaka Masa: Warisan Ilmu dan Jalan Kefahaman
-</h5>
-<div class="card-subtitle listing-subtitle">
-Keperluan membaca dalam mencapai kejayaan dalam hidup.
+<section id="introduction" class="level3">
+<h3 class="anchored" data-anchor-id="introduction"><strong>Introduction</strong></h3>
+<p>Brownian motion, also known as a random walk, describes the erratic and random movement of particles in a fluid due to collisions with molecules. This project simulates the 2D Brownian motion of a particle using a random walk model based on a normal distribution. The simulation leverages numerical methods and visualizes the path dynamically, offering insights into the physics of stochastic processes.</p>
+</section>
+<section id="code" class="level3">
+<h3 class="anchored" data-anchor-id="code"><strong>Code</strong></h3>
+<div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> matplotlib.animation <span class="im">import</span> FuncAnimation, PillowWriter</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> IPython.display <span class="im">import</span> display, HTML</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Parameters</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>N <span class="op">=</span> <span class="dv">100</span>  <span class="co"># Number of steps</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>delta <span class="op">=</span> <span class="fl">0.4</span>  <span class="co"># Random distribution tuner; sigma = (delta**2)*dt</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>dt <span class="op">=</span> <span class="fl">0.2</span>  <span class="co"># Time step</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>x, y <span class="op">=</span> [<span class="dv">0</span>], [<span class="dv">0</span>]  <span class="co"># Initial positions</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Create figure and axes</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots(figsize<span class="op">=</span>(<span class="dv">5</span>, <span class="dv">5</span>), dpi<span class="op">=</span><span class="dv">100</span>)</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>path_line, <span class="op">=</span> ax.plot([], [], <span class="st">"k-"</span>, lw<span class="op">=</span><span class="dv">2</span>, label<span class="op">=</span><span class="st">"Path"</span>)</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>particle, <span class="op">=</span> ax.plot([], [], <span class="st">"ro"</span>, label<span class="op">=</span><span class="st">"Particle"</span>)</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>ax.scatter(<span class="dv">0</span>, <span class="dv">0</span>, c<span class="op">=</span><span class="st">"blue"</span>, marker<span class="op">=</span><span class="st">"x"</span>, label<span class="op">=</span><span class="st">"Origin"</span>)  <span class="co"># Origin</span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>ax.set_xlim(<span class="op">-</span><span class="dv">1</span>, <span class="dv">1</span>)</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>ax.set_ylim(<span class="op">-</span><span class="dv">1</span>, <span class="dv">1</span>)</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>ax.set_xlabel(<span class="vs">r"$x$"</span>)</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>ax.set_ylabel(<span class="vs">r"$y$"</span>)</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>ax.set_title(<span class="st">"Brownian Motion Simulation"</span>)</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>ax.legend()</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="co"># Update function for animation</span></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> update(frame):</span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>    <span class="kw">global</span> x, y</span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>    x_new <span class="op">=</span> x[<span class="op">-</span><span class="dv">1</span>] <span class="op">+</span> np.random.normal(loc<span class="op">=</span><span class="dv">0</span>, scale<span class="op">=</span>(delta<span class="op">**</span><span class="dv">2</span>) <span class="op">*</span> dt)</span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>    y_new <span class="op">=</span> y[<span class="op">-</span><span class="dv">1</span>] <span class="op">+</span> np.random.normal(loc<span class="op">=</span><span class="dv">0</span>, scale<span class="op">=</span>(delta<span class="op">**</span><span class="dv">2</span>) <span class="op">*</span> dt)</span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>    x.append(x_new)</span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>    y.append(y_new)</span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>    path_line.set_data(x, y)</span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>    particle.set_data(x[<span class="op">-</span><span class="dv">1</span>], y[<span class="op">-</span><span class="dv">1</span>])</span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Adjust axis limits dynamically</span></span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>    ax.set_xlim(<span class="bu">min</span>(x) <span class="op">-</span> <span class="fl">0.1</span>, <span class="bu">max</span>(x) <span class="op">+</span> <span class="fl">0.1</span>)</span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a>    ax.set_ylim(<span class="bu">min</span>(y) <span class="op">-</span> <span class="fl">0.1</span>, <span class="bu">max</span>(y) <span class="op">+</span> <span class="fl">0.1</span>)</span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> path_line, particle</span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a><span class="co"># Create the animation</span></span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a>ani <span class="op">=</span> FuncAnimation(fig, update, frames<span class="op">=</span>N, interval<span class="op">=</span><span class="dv">100</span>, blit<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a><span class="co"># Save the animation as a GIF</span></span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a>gif_path <span class="op">=</span> <span class="st">"brownian_motion.gif"</span></span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a>ani.save(gif_path, writer<span class="op">=</span>PillowWriter(fps<span class="op">=</span><span class="dv">10</span>))</span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a><span class="co"># Display the GIF inline</span></span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a>display(HTML(<span class="ss">f'&lt;img src="</span><span class="sc">{</span>gif_path<span class="sc">}</span><span class="ss">" alt="Brownian Motion Simulation"&gt;'</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="output" class="level3">
+<h3 class="anchored" data-anchor-id="output">Output</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="brownian_motion.gif" class="img-fluid figure-img" width="386"></p>
+<figcaption>Animated simulation of a two-dimensional Brownian motion, showcasing the random path of a particle generated using a normal distribution for step displacements.</figcaption>
+</figure>
 </div>
-<div class="listing-reading-time card-text text-muted">
-2 min
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('JUYwJTlGJTkzJTkzJTIwSnVybmFsJTIwS2VtYmFyYSUyMEhpZHVw'); return false;">
-📓 Jurnal Kembara Hidup
-</div>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Aug 28, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="U2VtaWtvbmR1a3Rvcg==" data-listing-date-sort="1724716800000" data-listing-file-modified-sort="1733392962719" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="122">
-<a href="./blog/2024/270820242B/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./blog/2024/270820242B/images/240820242B.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Hukum Moore akan mati?
-</h5>
-<div class="card-subtitle listing-subtitle">
-Seberapa jauh semikonduktor mampu pergi.
-</div>
-<div class="listing-reading-time card-text text-muted">
-1 min
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('U2VtaWtvbmR1a3Rvcg=='); return false;">
-Semikonduktor
-</div>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Aug 27, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="JUYwJTlGJTkyJUJCJTIwU2FpbnMlMjBLb21wdXRlcg==" data-listing-date-sort="1724630400000" data-listing-file-modified-sort="1733392962715" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="614">
-<a href="./blog/2024/260820242/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./blog/2024/260820242/images/26082024-2.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Berkelana aku dalam Kejuruteraan Perisian #1
-</h5>
-<div class="card-subtitle listing-subtitle">
-Pengenalan terhadap kejuruteraan perisian.
-</div>
-<div class="listing-reading-time card-text text-muted">
-4 min
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('JUYwJTlGJTkyJUJCJTIwU2FpbnMlMjBLb21wdXRlcg=='); return false;">
-💻 Sains Komputer
-</div>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Aug 26, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="JUYwJTlGJTkyJUJCJTIwU2FpbnMlMjBLb21wdXRlcg==" data-listing-date-sort="1724630400000" data-listing-file-modified-sort="1733392962731" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="156">
-<a href="./blog/2024/softeng02/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" data-src="./blog/2024/softeng02/images/26082024-2.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Berkelana aku dalam Kejuruteraan Perisian #2
-</h5>
-<div class="card-subtitle listing-subtitle">
-Keperluan Model kitaran hayat perisian (SDLC)
-</div>
-<div class="listing-reading-time card-text text-muted">
-1 min
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('JUYwJTlGJTkyJUJCJTIwU2FpbnMlMjBLb21wdXRlcg=='); return false;">
-💻 Sains Komputer
-</div>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Aug 26, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="JUUyJTlBJTlCJUVGJUI4JThGJTIwQWxhbSUyME1pa3Jv" data-listing-date-sort="1724457600000" data-listing-file-modified-sort="1733392962727" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="817">
-<a href="./blog/2024/repulsif/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" data-src="./blog/2024/repulsif/images/23082024-3.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Kerepulsifan Daya Nuklear Kuat
-</h5>
-<div class="card-subtitle listing-subtitle">
-Keupayaan gabungan dua daya dalam kelakuan daya nuklear kuat.
-</div>
-<div class="listing-reading-time card-text text-muted">
-5 min
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('JUUyJTlBJTlCJUVGJUI4JThGJTIwQWxhbSUyME1pa3Jv'); return false;">
-⚛️ Alam Mikro
-</div>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Aug 24, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="5" data-categories="JUUyJTlBJTlCJUVGJUI4JThGJTIwQWxhbSUyME1pa3Jv" data-listing-date-sort="1724457600000" data-listing-file-modified-sort="1733392962711" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<a href="./blog/2024/260820241/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" data-src="./blog/2024/260820241/240820242B.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Alam berskala subzarah
-</h5>
-<div class="card-subtitle listing-subtitle">
-Kehalusan dan kedalaman kajian tentang dunia zarah yang amat kecil, serta memberikan nuansa ilmiah yang menyeluruh.
-</div>
-<div class="listing-reading-time card-text text-muted">
-1 min
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('JUUyJTlBJTlCJUVGJUI4JThGJTIwQWxhbSUyME1pa3Jv'); return false;">
-⚛️ Alam Mikro
-</div>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Aug 24, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="6" data-categories="JUYwJTlGJTk0JUEyJTIwTWF0ZW1hdGlrYQ==" data-listing-date-sort="1724371200000" data-listing-file-modified-sort="1733392962723" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="160">
-<a href="./blog/2024/cis/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" data-src="./blog/2024/cis/23082024.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Cis!
-</h5>
-<div class="card-subtitle listing-subtitle">
-Mengungkap rahsia Nombor Kompleks.
-</div>
-<div class="listing-reading-time card-text text-muted">
-1 min
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('JUYwJTlGJTk0JUEyJTIwTWF0ZW1hdGlrYQ=='); return false;">
-🔢 Matematika
-</div>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Aug 23, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="7" data-categories="JUYwJTlGJTk0JUEyJTIwTWF0ZW1hdGlrYQ==" data-listing-date-sort="1724284800000" data-listing-file-modified-sort="1733392962731" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="616">
-<a href="./blog/2024/scenius/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" data-src="./blog/2024/scenius/images/23082024-2.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Scenius: Sekumpulan yang membentuk kebijaksanaan
-</h5>
-<div class="card-subtitle listing-subtitle">
-Bagaimana berkumpulan dapat membentuk idea yang kreatif &amp; kritis.
-</div>
-<div class="listing-reading-time card-text text-muted">
-4 min
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('JUYwJTlGJTk0JUEyJTIwTWF0ZW1hdGlrYQ=='); return false;">
-🔢 Matematika
-</div>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Aug 22, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="8" data-categories="JUYwJTlGJTkzJTkzJTIwSnVybmFsJTIwS2VtYmFyYSUyMEhpZHVw" data-listing-date-sort="1693785600000" data-listing-file-modified-sort="1733392962707" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="13" data-listing-word-count-sort="2519">
-<a href="./blog/2023/Siri Diri Merdeka II - Merdekakan perasaan, memurnikan hati/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" data-src="./blog/2023/Siri Diri Merdeka II - Merdekakan perasaan, memurnikan hati/04092023.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Siri Diri Merdeka II: Merdekakan perasaan, memurnikan hati
-</h5>
-<div class="card-subtitle listing-subtitle">
-Menggali pemahaman tentang kebebasan emosi dalam psikologi Islam
-</div>
-<div class="listing-reading-time card-text text-muted">
-13 min
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('JUYwJTlGJTkzJTkzJTIwSnVybmFsJTIwS2VtYmFyYSUyMEhpZHVw'); return false;">
-📓 Jurnal Kembara Hidup
-</div>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Sep 4, 2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-<nav id="blog-pagination" class="listing-pagination" aria-label="Page Navigation">
-  <ul class="pagination"></ul>
-</nav>
-</div>
-
 
 
 </section>
 
 </main> <!-- /main -->
-&nbsp;
-<hr>
-<p style="text-align: center;">Dibuat oleh <a href="https://github.com/Hariz-Harisun/">M. Hariz Hazril</a> dengan kasih sayang.</p>
-<p style="text-align: center;"><span style="color: #808080;"><em>harizhazril@gmail.com</em></span></p>
-
-&nbsp;
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
