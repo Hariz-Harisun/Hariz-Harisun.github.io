@@ -54,6 +54,6 @@ The findings of this research suggest that the Random Walk Particle Tracking (RW
 As we continue to rely on groundwater for essential needs, it’s crucial that we find effective ways to protect this resource from contamination. Understanding how radioactive contaminants move in groundwater is key to preventing environmental disasters and ensuring the safety of drinking water. I encourage readers to learn more about groundwater contamination and support efforts to develop better models and strategies for its protection.
 
 ### **Thesis PDF**
-(As this project is still under Grant. The thesis only be used for Curriculum vitae only.)
+(As this project is still under grant, the thesis can only be accessed for curriculum vitae purposes.)
 
 <iframe src="Thesis Project Physics - M. Hariz Hazril (158960).pdf" width="100%" height="800px"></iframe>
