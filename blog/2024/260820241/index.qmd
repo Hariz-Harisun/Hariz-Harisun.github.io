@@ -1,10 +1,22 @@
 ---
 draft: false
-title: "Alam berskala subzarah"
-subtitle: "Kehalusan dan kedalaman kajian tentang dunia zarah yang amat kecil, serta memberikan nuansa ilmiah yang menyeluruh."
-date: "2024-08-24"
-time: "10:30 PM"
-categories: ["⚛️ Alam Mikro"]
-image: "240820242B.png"
+title: "The man of practices"
+subtitle: "Is the man of failure in meritocracy."
+date: "2025-02-23"
+time: "6:12 PM"
+categories: ["Education"]
+image: ""
 authors: ["M. Hariz Hazril"]
 ---
+
+I can confidently say that even four years of studying physics at degree level is not enough to keep up with the ever-evolving nature of the field. The syllabus provides the fundamentals and touches on the grey areas of physics, but truly engaging with complex problem statements requires a deeper focus on a specific question. However, such questions can only be discovered in the right environment and within the right communities.
+
+The willingness to explore beyond the curriculum is no longer a priority for students today. Many are more concerned with maintaining their grades than engaging with the pressing issues within their subjects. This focus is often driven by the desire to secure jobs that prioritise meritocratic achievements. Perhaps this is the reason why some countries' workforces lack the skills and innovative thinking needed to break away from a stagnant education system. In the end, we are merely creating a society that manages existing knowledge rather than one that drives innovation.
+
+In my country, the meritocracy system is so deeply ingrained that a student's capability is often measured solely by their grades. As a result, only those who can navigate and adapt to the system—sometimes even outsmart it—are the ones who truly succeed, gaining recognition and opportunities from others. This reflects a narrow conception of meritocratic education, which fails to account for the broader aims of education and the diverse talents of students.
+
+Indeed, today's outcomes are largely shaped by this system. Those who work hard are expected to get what they deserve. However, there are also students who work tirelessly, face repeated failures, and learn extensively, yet their capabilities lie beyond the system’s predefined scope. Unfortunately, this often leads them to be unfairly perceived as lacking intelligence. This highlights the failure of the system to recognize moral desert—what students intrinsically deserve based on their efforts and talents—instead prioritizing institutional desert tied to grades and exams.
+
+Some of these students do catch my eye—the ones who fail repeatedly but persist, the ones whose talents lie outside the system’s narrow metrics. They remind me that a truly meritocratic system should incorporate fair equality of opportunity (FEO) and a broader conception of meritocratic education. Such a system would recognize diverse talents, reward effort and innovation, and align education with societal needs, fostering a culture of innovation rather than stagnation.
+
+$$\cdot~\cdot~\cdot$$
