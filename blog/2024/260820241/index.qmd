@@ -1,7 +1,7 @@
 ---
 draft: false
-title: "The man of practices"
-subtitle: "Is the man of failure in meritocracy."
+title: "Why Meritocracy Misses the Mark on True Talent"
+subtitle: ""
 date: "2025-02-23"
 time: "6:12 PM"
 categories: ["Education"]
@@ -9,14 +9,14 @@ image: ""
 authors: ["M. Hariz Hazril"]
 ---
 
-I can confidently say that even four years of studying physics at degree level is not enough to keep up with the ever-evolving nature of the field. The syllabus provides the fundamentals and touches on the grey areas of physics, but truly engaging with complex problem statements requires a deeper focus on a specific question. However, such questions can only be discovered in the right environment and within the right communities.
+Four years of physics at degree level won’t keep you ahead of the field. The syllabus hands you the basics and a peek at the unknown, but tackling the real messy stuff—those complex, bleeding-edge problems—takes obsession and the right crew. You won’t find that in a lecture hall. It’s out there, in the wild, where people wrestle with questions the textbook can’t answer.
 
-The willingness to explore beyond the curriculum is no longer a priority for students today. Many are more focused on maintaining their grades than engaging with the pressing issues within their fields. This emphasis is often driven by the pursuit of jobs that prioritise meritocratic achievements. Perhaps this explains why some countries' workforces lack essential skills and innovative thinking, hindered by a stagnant education system. Ultimately, we are merely cultivating a society that manages existing knowledge rather than one that fosters innovation.
+Today, though, many students prioritize grades over that deeper pursuit. It’s hard to blame them when jobs and opportunities hinge on academic scores rather than creative thinking. This focus shapes a workforce skilled at maintaining the status quo but less equipped to push boundaries. Over time, it risks leaving us with societies that excel at managing knowledge rather than creating it.
 
-In my country, the meritocracy system is so deeply ingrained that a student's capability is often measured solely by their grades. As a result, only those who can navigate and adapt to the system—sometimes even outsmart it—are the ones who truly succeed, gaining recognition and opportunities from others. This reflects a narrow conception of meritocratic education, which fails to account for the broader aims of education and the diverse talents of students.
+In my country, this is especially clear. Success is tied almost entirely to grades, a single metric that can’t capture a student’s full potential. Those who thrive often do so by mastering the system, not by stretching their abilities. Meanwhile, I’ve seen students who work tirelessly, stumble through setbacks, and grow from every challenge, only to be overlooked because their strengths don’t align with what’s measured. I’ve seen kids grind through failure after failure, learning more than the A-students ever will, only to get branded as failures because their strengths don’t fit the box. Their effort and resilience deserve recognition, but the system rarely sees beyond exam results.
 
 Indeed, today's outcomes are largely shaped by this system. Those who work hard are expected to get what they deserve. However, there are also students who work tirelessly, face repeated failures, and learn extensively, yet their capabilities lie beyond the system’s predefined scope. Unfortunately, this often leads them to be unfairly perceived as lacking intelligence. This highlights the failure of the system to recognize moral desert—what students intrinsically deserve based on their efforts and talents—instead prioritizing institutional desert tied to grades and exams.
 
-Some of these students do catch my eye—the ones who fail repeatedly but persist, the ones whose talents lie outside the system’s narrow metrics. They remind me that a truly meritocratic system should incorporate fair equality of opportunity (FEO) and a broader conception of meritocratic education. Such a system would recognize diverse talents, reward effort and innovation, and align education with societal needs, fostering a culture of innovation rather than stagnation.
+Look at the ones who keep going anyway. The ones who fail, dust off, and charge back in. They’ve got guts and gifts the system’s too blind to spot. A real meritocracy wouldn’t just tally points but it’d hunt for that fire, reward the hustle, and match talent to what the world actually needs. Instead, we’ve got a machine that crowns the clever conformists and leaves the innovators in the dirt. That’s not merit. That’s a rigged game. We should aim for a system that celebrates both achievement and the drive to innovate, not just the ability to ace a test.
 
 $$\cdot~\cdot~\cdot$$
