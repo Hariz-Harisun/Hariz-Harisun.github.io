@@ -1,6 +1,13 @@
 [
   {
-    "listing": "/blog.html",
+    "listing": "/Project.html",
+    "items": [
+      "/projects/2024/BROWN/index.html",
+      "/projects/2024/RWPT/index.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
     "items": [
       "/blog/2024/260820241/index.html",
       "/blog/2024/280820241B/index.html",
@@ -14,14 +21,7 @@
     ]
   },
   {
-    "listing": "/Project.html",
-    "items": [
-      "/projects/2024/BROWN/index.html",
-      "/projects/2024/RWPT/index.html"
-    ]
-  },
-  {
-    "listing": "/index.html",
+    "listing": "/blog.html",
     "items": [
       "/blog/2024/260820241/index.html",
       "/blog/2024/280820241B/index.html",
