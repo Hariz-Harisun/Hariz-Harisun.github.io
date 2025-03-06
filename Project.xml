@@ -8,7 +8,7 @@
 <title>Hariz Harisun</title>
 <link>https://Hariz-Harisun.github.io/Project.html</link>
 <atom:link href="https://Hariz-Harisun.github.io/Project.xml" rel="self" type="application/rss+xml"/>
-<description>A brief description of your project</description>
+<description>Senarai projek saya</description>
 <generator>quarto-1.6.42</generator>
 <lastBuildDate>Wed, 28 Aug 2024 00:00:00 GMT</lastBuildDate>
 <item>
@@ -323,6 +323,7 @@ font-style: inherit;">" alt="Brownian Motion Simulation"&gt;'</span>))</span></c
 
  ]]></description>
   <category>Computational Physics Project</category>
+  <category>Q.E.D.</category>
   <guid>https://Hariz-Harisun.github.io/projects/2024/BROWN/</guid>
   <pubDate>Wed, 28 Aug 2024 00:00:00 GMT</pubDate>
   <media:content url="https://Hariz-Harisun.github.io/projects/2024/BROWN" medium="image"/>
