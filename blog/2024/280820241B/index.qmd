@@ -1,10 +1,10 @@
 ---
 draft: false
-title: "Information Systems is more than meets the eye"
-subtitle: "The Golden Keys to Business Strategy"
+title: "My thought on Information Systems"
+subtitle: "The Golden Keys for Business Strategy"
 date: "2024-08-28"
 categories: ["⚒️ Business"]
-image: "http://127.0.0.1:14911/file_show?path=~%2Fwebsite%2FHariz-Harisun.github.io%2Fblog%2F2024%2F280820241B%2Fimages%2Fclipboard-3064723657.png&id=8?1740608134405"
+image: "http://127.0.0.1:14911/file_show?path=~%2Fwebsite%2FHariz-Harisun.github.io%2Fblog%2F2024%2F280820241B%2Fimages%2Fclipboard-3064723657.png"
 authors: ["M. Hariz Hazril"]
 ---
 
