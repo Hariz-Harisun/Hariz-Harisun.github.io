@@ -13,19 +13,16 @@ header-includes:
       #projects .quarto-listing-table th:nth-child(1),  /* Tajuk */
       #projects .quarto-listing-table td:nth-child(1) {
         width: 5%;
-        min-width: 5px;
       }
 
       #projects .quarto-listing-table th:nth-child(2),  /* Penerangan */
       #projects .quarto-listing-table td:nth-child(2) {
         width: 40%;
-        max-width: 600px;
       }
 
       #projects .quarto-listing-table th:nth-child(3),  /* Tarikh */
       #projects .quarto-listing-table td:nth-child(3) {
         width: 42%;
-        text-align: left;
       }
       .quarto-listing-category .category[data-category="Computational Physics Project"],
       .quarto-listing-category .category[data-category="Education"],
@@ -39,6 +36,16 @@ header-includes:
       }
       .metadata {
       position: absolute;
+      }
+      
+      /* Disable styles for mobile screens (width < 768px) */
+      @media (max-width: 768px) {
+        #blog .listing-description {
+          width: auto; /* Reset to default width */
+        }
+        .metadata {
+          position: static; /* Reset to default positioning */
+        }
       }
       </style>
       
