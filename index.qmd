@@ -5,7 +5,7 @@ listing:
     contents: 
       - blog
     sort: "date desc"
-    type: grid
+    type: default
     categories: unnumbered
     sort-ui: false
     filter-ui: false
@@ -16,7 +16,6 @@ listing:
       - categories
       - date
       - reading-time
-      - image
     page-size: 3
 include-after-body: "footer.html"
 page-layout: full
