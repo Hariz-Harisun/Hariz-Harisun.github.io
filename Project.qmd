@@ -4,7 +4,7 @@ listing:
   - id: blog
     contents: projects  # Directory containing the blog posts
     sort: "date desc"  # Sort posts by date in descending order
-    type: grid  # Display posts in a grid layout
+    type: table  # Display posts in a grid layout
     categories: unnumbered  # Do not number categories
     sort-ui: false  # Disable sort user interface
     filter-ui: false  # Disable filter user interface
@@ -15,7 +15,6 @@ listing:
       - categories
       - date
       - reading-time
-      - image
 page-layout: full  # Use full page layout for the blog
 title-block-banner: true  # Enable title block banner
 include-after-body: "footer.html"

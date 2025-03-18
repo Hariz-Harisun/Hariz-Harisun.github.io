@@ -1,5 +1,47 @@
 ---
-title: "Laman Utama"
+title: "Home Page"
+header-includes:
+    - |
+      <style>
+      #projects .quarto-listing-table tbody tr {
+      counter-increment: row-counter;
+      }
+      #projects .quarto-listing-table tbody tr td:first-child::before {
+      content: "[" counter(row-counter) "] ";
+      }
+      /* Column Widths */
+      #projects .quarto-listing-table th:nth-child(1),  /* Tajuk */
+      #projects .quarto-listing-table td:nth-child(1) {
+        width: 5%;
+        min-width: 5px;
+      }
+
+      #projects .quarto-listing-table th:nth-child(2),  /* Penerangan */
+      #projects .quarto-listing-table td:nth-child(2) {
+        width: 40%;
+        max-width: 600px;
+      }
+
+      #projects .quarto-listing-table th:nth-child(3),  /* Tarikh */
+      #projects .quarto-listing-table td:nth-child(3) {
+        width: 42%;
+        text-align: left;
+      }
+      .quarto-listing-category .category[data-category="Computational Physics Project"],
+      .quarto-listing-category .category[data-category="Education"],
+      .quarto-listing-category .category[data-category="Pure Physics Project"],
+      .quarto-listing-category .category[data-category="Q.E.D."]{
+        display: none !important;
+      }
+      
+      #blog .listing-description {
+      width: 70%;
+      }
+      .metadata {
+      position: absolute;
+      }
+      </style>
+      
 listing:
   - id: blog 
     contents: 
@@ -10,22 +52,36 @@ listing:
     sort-ui: false
     filter-ui: false
     feed: true
-    fields:
-      - title
-      - subtitle
-      - categories
-      - date
-      - reading-time
+    fields: [title, description, date, reading-time]
     page-size: 3
+    
+  - id: project
+    contents:
+      - projects
+    type: table
+    fields: [Num,title, description, date]
+    field-display-names:
+      Num: "No"
+      title: "Title"
+      description: "Description"
+      date: "Publish Date"
+    max-description-length: 100
+    sort-ui: false
+    filter-ui: false
+    
 include-after-body: "footer.html"
 page-layout: full
 ---
 
 Terokai idea, analisis, dan kajian saya di sini.
 
-## Blog
+## </ Blog >
 
-:::{#blog}
+::: {#blog}
 :::
 
+## </ Projects >
+
+::: {#project}
+:::
 

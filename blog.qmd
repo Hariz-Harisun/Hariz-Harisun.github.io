@@ -16,7 +16,6 @@ listing:
       - categories
       - date
       - reading-time
-      - image
 page-layout: full  # Use full page layout for the blog
 title-block-banner: true  # Enable title block banner
 include-after-body: "footer.html"

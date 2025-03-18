@@ -1,10 +1,10 @@
 ---
-title: "🧑🏽‍💼 Tentang Saya"
+title: "About Me"
 image: profile.png
 toc-title: Kandungan
 title-block-banner: true  # Enable title block banner
 include-after-body: abbrv-toc.html
-description: "Ini adalah laman portfolio, selamat berkenalan!"
+description: "This is brief of my portfolio."
 about:
   template: jolla
   links:

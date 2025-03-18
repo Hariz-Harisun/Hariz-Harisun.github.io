@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="A brief description of your project">
+<meta name="description" content="Senarai projek saya">
 
-<title>Hariz Harisun - 🎯&nbsp; Projects</title>
+<title><!-- Hariz-Harisun --> - 🎯&nbsp; Projects</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -78,9 +78,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-subtitle','listing-categories','listing-date','listing-reading-time','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-subtitle','listing-categories','listing-date','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-date","listing-title","listing-author"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -139,7 +139,7 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Hariz Harisun</span>
+    <span class="navbar-title">&lt;/ Hariz-Harisun &gt;</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -200,7 +200,7 @@ window.Quarto = {
       <h1 class="title">🎯&nbsp; Projects</h1>
                   <div>
         <div class="description">
-          A brief description of your project
+          Senarai projek saya
         </div>
       </div>
                 </div>
@@ -220,7 +220,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-unnumbered"><div class="category" data-category="Computational Physics Project">Computational Physics Project</div><div class="category" data-category="Pure Physics Project">Pure Physics Project</div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-unnumbered"><div class="category" data-category="Computational Physics Project">Computational Physics Project</div><div class="category" data-category="Pure Physics Project">Pure Physics Project</div><div class="category" data-category="Q.E.D.">Q.E.D.</div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
@@ -232,69 +232,64 @@ window.Quarto = {
 
 
 
-<div class="quarto-listing quarto-listing-container-grid" id="listing-blog">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="Computational Physics Project" data-listing-date-sort="1724774400000" data-listing-file-modified-sort="1733392648462" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="281">
-<a href="./projects/2024/BROWN/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./projects/2024/BROWN" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Simulating Brownian Motion with Dynamic Visualization
-</h5>
-<div class="card-subtitle listing-subtitle">
-The project simulated random walk physics based on normal distribution, leveraging numerical methods and real-time plotting.
-</div>
-<div class="listing-reading-time card-text text-muted">
-2 min
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Computational Physics Project'); return false;">
-Computational Physics Project
-</div>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Aug 28, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="Pure Physics Project" data-listing-date-sort="1724688000000" data-listing-file-modified-sort="1733387693377" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="713">
-<a href="./projects/2024/RWPT/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./projects/2024/RWPT" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Random Walk Radioactive Nuclides Transport in Underground Water
-</h5>
-<div class="card-subtitle listing-subtitle">
-This project underscores the advantages of RWPT’s stochastic approach in groundwater contamination modelling.
-</div>
-<div class="listing-reading-time card-text text-muted">
-4 min
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Pure Physics Project'); return false;">
-Pure Physics Project
-</div>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Aug 27, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
+<div class="quarto-listing quarto-listing-container-table" id="listing-blog">
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+<th>
+Title
+</th>
+<th>
+Subtitle
+</th>
+<th>
+Categories
+</th>
+<th>
+Date
+</th>
+<th>
+Reading Time
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-categories="Computational Physics Project,Q.E.D." data-listing-date-sort="1724774400000" data-listing-file-modified-sort="1741250260424" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="281" data-listing-title-sort="Simulating Brownian Motion with Dynamic Visualization" data-listing-filename-sort="index.qmd">
+<td>
+<a href="./projects/2024/BROWN/index.html" class="title listing-title">Simulating Brownian Motion with Dynamic Visualization</a>
+</td>
+<td>
+<span class="listing-subtitle">The project simulated random walk physics based on normal distribution, leveraging numerical methods and real-time plotting.</span>
+</td>
+<td>
+<span class="listing-categories">Computational Physics Project, Q.E.D.</span>
+</td>
+<td>
+<span class="listing-date">Aug 28, 2024</span>
+</td>
+<td>
+<span class="listing-reading-time">2 min</span>
+</td>
+</tr>
+<tr data-index="1" data-categories="Pure Physics Project" data-listing-date-sort="1724688000000" data-listing-file-modified-sort="1733387693377" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="713" data-listing-title-sort="Random Walk Radioactive Nuclides Transport in Underground Water" data-listing-filename-sort="index.qmd">
+<td>
+<a href="./projects/2024/RWPT/index.html" class="title listing-title">Random Walk Radioactive Nuclides Transport in Underground Water</a>
+</td>
+<td>
+<span class="listing-subtitle">This project underscores the advantages of RWPT’s stochastic approach in groundwater contamination modelling.</span>
+</td>
+<td>
+<span class="listing-categories">Pure Physics Project</span>
+</td>
+<td>
+<span class="listing-date">Aug 27, 2024</span>
+</td>
+<td>
+<span class="listing-reading-time">4 min</span>
+</td>
+</tr>
+</tbody>
+</table>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
@@ -302,7 +297,9 @@ No matching items
 &nbsp;
 <hr>
 
-<p style="text-align: center;">Dibuat oleh <a href="https://github.com/Hariz-Harisun/">M. Hariz Hazril</a> dengan kasih sayang.</p>
+<p style="text-align: center;">Dibuat oleh <a href="https://github.com/Hariz-Harisun/">M. Hariz Hazril</a> menggunakan Quarto.</p>
+
+<p style="text-align: center;">2024 - 2025</p>
 
 <p style="text-align: center;"><span style="color: #808080;"><em>harizhazril@gmail.com</em></span></p>
 
