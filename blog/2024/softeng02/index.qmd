@@ -1,6 +1,6 @@
 ---
 draft: false
-title: "Berkelana aku dalam Kejuruteraan Perisian #2"
+title: "My ponder over Software Engineer #2"
 subtitle: "Keperluan Model kitaran hayat perisian (SDLC)"
 date: "2024-08-26"
 time: current

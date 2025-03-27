@@ -1,6 +1,6 @@
 ---
 draft: false
-title: "Berkelana aku dalam Kejuruteraan Perisian #1"
+title: "My ponder over Software Engineer #1"
 subtitle: "Pengenalan terhadap kejuruteraan perisian."
 date: "2024-08-26"
 time: current

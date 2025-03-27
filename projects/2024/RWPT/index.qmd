@@ -4,6 +4,7 @@ title: "Random Walk Radioactive Nuclides Transport in Underground Water"
 subtitle: "This project underscores the advantages of RWPT's stochastic approach in groundwater contamination modelling."
 date: "2024-08-27"
 time: "10:30 PM"
+status: "Completed"
 categories: ["Pure Physics Project"]
 image: ""
 authors: ["M. Hariz Hazril"]

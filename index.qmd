@@ -1,5 +1,7 @@
 ---
-title: "Home Page"
+title: "Selamat Datang,"
+title-block-banner: true  # Enable title block banner
+description: "Terokai idea, analisis, dan kajian saya di sini."
 header-includes:
     - |
       <style>
@@ -60,13 +62,13 @@ listing:
     filter-ui: false
     feed: true
     fields: [title, description, date, reading-time]
-    page-size: 3
+    page-size: 5
     
   - id: project
     contents:
       - projects
     type: table
-    fields: [Num,title, description, date]
+    fields: [Num,title, description, date, status]
     field-display-names:
       Num: "No"
       title: "Title"
@@ -79,8 +81,6 @@ listing:
 include-after-body: "footer.html"
 page-layout: full
 ---
-
-Terokai idea, analisis, dan kajian saya di sini.
 
 ## </ Blog >
 
