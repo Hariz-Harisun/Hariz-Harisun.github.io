@@ -4,7 +4,7 @@ title: "Simulating Brownian Motion with Dynamic Visualization"
 subtitle: "The project simulated random walk physics based on normal distribution, leveraging numerical methods and real-time plotting."
 date: "2024-08-28"
 time: "10:30 PM"
-status: "Completed"
+Status: "Completed"
 categories: ["Computational Physics Project","Q.E.D."]
 image: ""
 authors: ["M. Hariz Hazril"]
