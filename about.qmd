@@ -1,10 +1,10 @@
 ---
 title: "About Me"
 image: assets/profile.jpg
-toc-title: Kandungan
+toc-title: Contents
 title-block-banner: true  # Enable title block banner
 include-after-body: includes/abbrv-toc.html
-description: "This is brief of my portfolio."
+description: "A brief introduction to my portfolio."
 about:
   template: jolla
   links:
@@ -18,29 +18,29 @@ about:
       text: Github
       href: https://github.com/hariz-harisun
     # - icon: letter
-    #   text: Emel
+    #   text: Email
     #   href: mailto:harizhazril@gmail.com
 ---
 
-## M․ Hariz Hazril {data-toc-text="Nama"}
-Nama saya M. Hariz Hazril, atau lebih dikenali dengan nama pena HH. Seorang penggiat ilmu dalam bidang ```Pengkomputeran Fizik```, kini sedang melanjutkan pengajian dalam bidang Fizik Tulen di sebuah universiti tempatan di Malaysia.
+## M․ Hariz Hazril {data-toc-text="Name"}
+My name is M. Hariz Hazril, though I am better known by my pen name HH. A keen pursuer of knowledge in Computational Physics, I am currently reading for a degree in Pure Physics at a local university in Malaysia.
 
-Blog ini merupakan wadah bebas untuk saya berkongsi pemikiran, pandangan, serta perspektif. Segala kandungan yang diterbitkan di sini adalah bersifat peribadi dan tidak mewakili mana-mana organisasi atau institusi.
+This blog is an open platform for me to share my thoughts, views, and perspectives. All content published here is personal in nature and does not represent any organisation or institution.
 
-Semoga setiap catatan yang dikongsi dapat memberi manfaat dan membuka ruang diskusi yang bermanfaat kepada para pembaca.
+May every entry shared here prove useful and open the door to meaningful discussion with readers.
 
 – HH
 
-## Pendidikan
+## Education
 ::: {style="text-align: left;"}
-**2021 - Sekarang**\
+**2021 - Present**\
 ↳ Universiti Sains Malaysia, USM (Bachelor of Science (Hons.) (Pure Physics), Minor Computer Science)
 
 **2020 - 2021**\
 ↳ Pre-University (Kolej Matrikulasi Kedah, KMK)
 
 **2018 - 2019**\
-↳ Malaysia Certificate of Education
+↳ Malaysian Certificate of Education
 
 **2015 - 2017**\
 ↳ Lower Secondary Assessment
@@ -49,15 +49,14 @@ Semoga setiap catatan yang dikongsi dapat memberi manfaat dan membuka ruang disk
 ↳ Primary School Evaluation Test
 :::
 
-## Kepujian & Anugerah
+## Honours & Awards
 ::: {style="text-align: left;"}
 **Best Freelancer Award (Male) \| MDEC-USM 2024**\
 ↳ Issued by MOHE-MDEC Global Outsourcing Talent (GOT) Bootcamp · Aug 2024
 
-**Computational Thinking Award (Negeri Selangor) 2019**\
-↳ I am honoured to receive the Computational Thinking Award at APS Negeri Selangor 2019.
+**Computational Thinking Award (Selangor) 2019**\
+↳ I am honoured to have received the Computational Thinking Award at APS Negeri Selangor 2019.
 :::
-
 
 
 \
