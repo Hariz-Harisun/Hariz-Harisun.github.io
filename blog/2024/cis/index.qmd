@@ -5,11 +5,11 @@ subtitle: "Mengungkap rahsia Nombor Kompleks."
 date: "2024-08-23"
 time: "12:57 AM"
 categories: ["🔢 Matematika"]
-image: "23082024.png"
+image: "images/23082024.png"
 authors: ["M. Hariz Hazril"]
 ---
 
-![](23082024.png){fig-align="center"}
+![](images/23082024.png){fig-align="center"}
 
 ## Arghh, 'cis' kamu!
 
