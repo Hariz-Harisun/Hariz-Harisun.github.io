@@ -7,20 +7,6 @@
     ]
   },
   {
-    "listing": "/blog.html",
-    "items": [
-      "/blog/2025/index.html",
-      "/blog/2024/260820241/index.html",
-      "/blog/2024/280820241B/index.html",
-      "/blog/2024/softeng02/index.html",
-      "/blog/2024/260820242/index.html",
-      "/blog/2024/repulsif/index.html",
-      "/blog/2024/cis/index.html",
-      "/blog/2024/scenius/index.html",
-      "/blog/2023/Siri Diri Merdeka II - Merdekakan perasaan, memurnikan hati/index.html"
-    ]
-  },
-  {
     "listing": "/index.html",
     "items": [
       "/blog/2025/index.html",
@@ -34,6 +20,20 @@
       "/blog/2023/Siri Diri Merdeka II - Merdekakan perasaan, memurnikan hati/index.html",
       "/projects/2024/RWPT/index.html",
       "/projects/2024/BROWN/index.html"
+    ]
+  },
+  {
+    "listing": "/blog.html",
+    "items": [
+      "/blog/2025/index.html",
+      "/blog/2024/260820241/index.html",
+      "/blog/2024/280820241B/index.html",
+      "/blog/2024/softeng02/index.html",
+      "/blog/2024/260820242/index.html",
+      "/blog/2024/repulsif/index.html",
+      "/blog/2024/cis/index.html",
+      "/blog/2024/scenius/index.html",
+      "/blog/2023/Siri Diri Merdeka II - Merdekakan perasaan, memurnikan hati/index.html"
     ]
   }
 ]
