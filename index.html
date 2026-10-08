@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Terokai idea, analisis, dan kajian saya di sini.">
+<meta name="description" content="A brief introduction to my portfolio.">
 
-<title>Selamat Datang, – &lt;/ Hariz-Harisun &gt;</title>
+<title>About Me – &lt;/ Hariz-Harisun &gt;</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -36,13 +36,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -75,143 +72,10 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-blog .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-description','listing-date','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      page: 5,
-    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
-      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-blog'] = new List('listing-blog', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-project .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-Num','listing-title','listing-description','listing-date','listing-status',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-project'] = new List('listing-project', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-<style>
-#projects .quarto-listing-table tbody tr {
-counter-increment: row-counter;
-}
-#projects .quarto-listing-table tbody tr td:first-child::before {
-content: "[" counter(row-counter) "] ";
-}
-/* Column Widths */
-#projects .quarto-listing-table th:nth-child(1),  /* Tajuk */
-#projects .quarto-listing-table td:nth-child(1) {
-  width: 5%;
-}
-
-#projects .quarto-listing-table th:nth-child(2),  /* Penerangan */
-#projects .quarto-listing-table td:nth-child(2) {
-  width: 40%;
-}
-
-#projects .quarto-listing-table th:nth-child(3),  /* Tarikh */
-#projects .quarto-listing-table td:nth-child(3) {
-  width: 42%;
-}
-.quarto-listing-category .category[data-category="Computational Physics Project"],
-.quarto-listing-category .category[data-category="Education"],
-.quarto-listing-category .category[data-category="Pure Physics Project"],
-.quarto-listing-category .category[data-category="Q.E.D."]{
-  display: none !important;
-}
-
-#blog .listing-description {
-width: 70%;
-}
-.metadata {
-position: absolute;
-}
-
-/* Disable styles for mobile screens (width < 768px) */
-@media (max-width: 768px) {
-  #blog .listing-description {
-    width: auto; /* Reset to default width */
-  }
-  .metadata {
-    position: static; /* Reset to default positioning */
-  }
-}
-</style>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="assets/styles.css">
-<link rel="alternate" type="application/rss+xml" title="</ Hariz-Harisun >" href="index.xml" data-external="1"></head>
+</head>
 
 <body class="nav-fixed quarto-light">
 
@@ -233,10 +97,6 @@ window.Quarto = {
   <li class="nav-item">
     <a class="nav-link active" href="./index.html" aria-current="page"> 
 <span class="menu-text">Home</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
-<span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./blog.html"> 
@@ -278,277 +138,114 @@ window.Quarto = {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">Selamat Datang,</h1>
+    <div class="quarto-title column-body">
+      <h1 class="title">About Me</h1>
                   <div>
         <div class="description">
-          Terokai idea, analisis, dan kajian saya di sini.
+          A brief introduction to my portfolio.
         </div>
       </div>
                 </div>
   </div>
-    
-  
-  <div class="quarto-title-meta column-page-left">
-
-      
-    
-      
+  <div class="quarto-title-meta">
     </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
+    <h2 id="toc-title">Contents</h2>
   <ul>
-  <li><a href="#blog" id="toc-blog" class="nav-link active" data-scroll-target="#blog">&lt;/ Blog &gt;</a></li>
-  <li><a href="#projects" id="toc-projects" class="nav-link" data-scroll-target="#projects">&lt;/ Projects &gt;</a></li>
+  <li><a href="#m-hariz-hazril" id="toc-m-hariz-hazril" class="nav-link active" data-scroll-target="#m-hariz-hazril">M․ Hariz Hazril</a></li>
+  <li><a href="#education" id="toc-education" class="nav-link" data-scroll-target="#education">Education</a></li>
+  <li><a href="#honours-awards" id="toc-honours-awards" class="nav-link" data-scroll-target="#honours-awards">Honours &amp; Awards</a></li>
   </ul>
 </nav>
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-unnumbered"><div class="category" data-category="JUUyJTlBJTkyJUVGJUI4JThGJTIwQnVzaW5lc3M=">⚒️ Business</div><div class="category" data-category="JUUyJTlBJTlCJUVGJUI4JThGJTIwQWxhbSUyME1pa3Jv">⚛️ Alam Mikro</div><div class="category" data-category="JUYwJTlGJTkyJUJCJTIwU2FpbnMlMjBLb21wdXRlcg==">💻 Sains Komputer</div><div class="category" data-category="JUYwJTlGJTkzJTkzJTIwSnVybmFsJTIwS2VtYmFyYSUyMEhpZHVw">📓 Jurnal Kembara Hidup</div><div class="category" data-category="JUYwJTlGJTk0JUEyJTIwTWF0ZW1hdGlrYQ==">🔢 Matematika</div><div class="category" data-category="Q29tcHV0YXRpb25hbCUyMFBoeXNpY3MlMjBQcm9qZWN0">Computational Physics Project</div><div class="category" data-category="UHVyZSUyMFBoeXNpY3MlMjBQcm9qZWN0">Pure Physics Project</div><div class="category" data-category="US5FLkQu">Q.E.D.</div></div></div>
+    </div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<div class="quarto-about-jolla">
+  <img src="assets/profile.jpg" class="about-image
+  round " style="height: 15em; width: 15em;">
+ <main class="content quarto-banner-title-block" id="quarto-document-content">
 
-
-
-
-
-<section id="blog" class="level2">
-<h2 class="anchored" data-anchor-id="blog">&lt;/ Blog &gt;</h2>
-<div id="listing-blog" class="quarto-listing quarto-listing-container-default">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="JUUyJTlBJTkyJUVGJUI4JThGJTIwQnVzaW5lc3M=" data-listing-date-sort="1724803200000" data-listing-file-modified-sort="1791425845665" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="746">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./blog/2024/information-systems/index.html" class="no-external">My thought on Information Systems</a>
-</h3>
-<div class="delink listing-description"><a href="./blog/2024/information-systems/index.html" class="no-external">
-I recently took a course on Information System Theory and Management with no real expectations going in. It was led by two lecturers, Puan Roshanizah binti Harun and Ts.…
-</a></div>
-</div>
-<div class="metadata">
-<a href="./blog/2024/information-systems/index.html" class="no-external">
-<div class="listing-date">
-Aug 28, 2024
-</div>
-<div class="listing-reading-time">4 min</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="JUYwJTlGJTkyJUJCJTIwU2FpbnMlMjBLb21wdXRlcg==" data-listing-date-sort="1724630400000" data-listing-file-modified-sort="1791425845688" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="156">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./blog/2024/softeng02/index.html" class="no-external">My ponder over Software Engineer #2</a>
-</h3>
-<div class="delink listing-description"><a href="./blog/2024/softeng02/index.html" class="no-external">
-Kembali semula bersama aku, dalam segmen “berkelana aku dalam kejuruteraan perisian!”. Kali ini aku ingin berkongsi berkenaan model kitaran hayat perisian atau dalam bahasa…
-</a></div>
-</div>
-<div class="metadata">
-<a href="./blog/2024/softeng02/index.html" class="no-external">
-<div class="listing-date">
-Aug 26, 2024
-</div>
-<div class="listing-reading-time">1 min</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="JUYwJTlGJTkyJUJCJTIwU2FpbnMlMjBLb21wdXRlcg==" data-listing-date-sort="1724630400000" data-listing-file-modified-sort="1791425845692" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="614">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./blog/2024/software-engineer-1/index.html" class="no-external">My ponder over Software Engineer #1</a>
-</h3>
-<div class="delink listing-description"><a href="./blog/2024/software-engineer-1/index.html" class="no-external">
-Kali pertama aku berhadapan dengan perkataan “Kejuruteraan Perisian” ini adalah sewaktu aku sekolah menengah. Tanggapan pertama aku terhadap pekerjaan ini adalah mereka yang…
-</a></div>
-</div>
-<div class="metadata">
-<a href="./blog/2024/software-engineer-1/index.html" class="no-external">
-<div class="listing-date">
-Aug 26, 2024
-</div>
-<div class="listing-reading-time">4 min</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="JUUyJTlBJTlCJUVGJUI4JThGJTIwQWxhbSUyME1pa3Jv" data-listing-date-sort="1724457600000" data-listing-file-modified-sort="1791425845676" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="817">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./blog/2024/repulsif/index.html" class="no-external">Kerepulsifan Daya Nuklear Kuat</a>
-</h3>
-<div class="delink listing-description"><a href="./blog/2024/repulsif/index.html" class="no-external">
-Daya nuklear kuat (strong nuclear force) adalah salah satu daripada empat daya asas alam semesta (yang sekurang-kurangnya dikenalpasti), memainkan peranan penting dalam…
-</a></div>
-</div>
-<div class="metadata">
-<a href="./blog/2024/repulsif/index.html" class="no-external">
-<div class="listing-date">
-Aug 24, 2024
-</div>
-<div class="listing-reading-time">5 min</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="JUYwJTlGJTk0JUEyJTIwTWF0ZW1hdGlrYQ==" data-listing-date-sort="1724371200000" data-listing-file-modified-sort="1791425845664" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="160">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./blog/2024/cis/index.html" class="no-external">Cis!</a>
-</h3>
-<div class="delink listing-description"><a href="./blog/2024/cis/index.html" class="no-external">
-Bayangkan seorang remaja sekolah mendatangi engkau dengan soalan yang melibatkan eksponen rational yang berbentuk,
-</a></div>
-</div>
-<div class="metadata">
-<a href="./blog/2024/cis/index.html" class="no-external">
-<div class="listing-date">
-Aug 23, 2024
-</div>
-<div class="listing-reading-time">1 min</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-categories="JUYwJTlGJTk0JUEyJTIwTWF0ZW1hdGlrYQ==" data-listing-date-sort="1724284800000" data-listing-file-modified-sort="1791425845683" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="616">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./blog/2024/scenius/index.html" class="no-external">Scenius: Sekumpulan yang membentuk kebijaksanaan</a>
-</h3>
-<div class="delink listing-description"><a href="./blog/2024/scenius/index.html" class="no-external">
-Aku masih ingat lagi, semasa aku masih belajar di matrikulasi, aku melihat beberapa orang pensyarah matematik berbincang dalam kumpulan. Tiada buku, tiada pena, tiada meja.…
-</a></div>
-</div>
-<div class="metadata">
-<a href="./blog/2024/scenius/index.html" class="no-external">
-<div class="listing-date">
-Aug 22, 2024
-</div>
-<div class="listing-reading-time">4 min</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="6" data-categories="JUYwJTlGJTkzJTkzJTIwSnVybmFsJTIwS2VtYmFyYSUyMEhpZHVw" data-listing-date-sort="1693785600000" data-listing-file-modified-sort="1791425845663" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="13" data-listing-word-count-sort="2519">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./blog/2023/siri-diri-merdeka-ii/index.html" class="no-external">Siri Diri Merdeka II: Merdekakan perasaan, memurnikan hati</a>
-</h3>
-<div class="delink listing-description"><a href="./blog/2023/siri-diri-merdeka-ii/index.html" class="no-external">
-Apabila saya menulis siri kedua ini, berfikir panjang saya. Bimbang benar sekiranya masih ada tersisa emosi perasaan saya sendiri yang masih dijajah. Emosi yang dijajah…
-</a></div>
-</div>
-<div class="metadata">
-<a href="./blog/2023/siri-diri-merdeka-ii/index.html" class="no-external">
-<div class="listing-date">
-Sep 4, 2023
-</div>
-<div class="listing-reading-time">13 min</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-<nav id="blog-pagination" class="listing-pagination" aria-label="Page Navigation">
-  <ul class="pagination"></ul>
-</nav>
+<section id="m-hariz-hazril" class="level2" data-toc-text="Name">
+<h2 data-toc-text="Name" data-anchor-id="m-hariz-hazril">M․ Hariz Hazril</h2>
+<p>My name is M. Hariz Hazril, though I am better known by my pen name HH. A keen pursuer of knowledge in Computational Physics, I am currently reading for a degree in Pure Physics at a local university in Malaysia.</p>
+<p>This blog is an open platform for me to share my thoughts, views, and perspectives. All content published here is personal in nature and does not represent any organisation or institution.</p>
+<p>May every entry shared here prove useful and open the door to meaningful discussion with readers.</p>
+<p>– HH</p>
+</section>
+<section id="education" class="level2">
+<h2 data-anchor-id="education">Education</h2>
+<div style="text-align: left;">
+<p><strong>2021 - Present</strong><br>
+↳ Universiti Sains Malaysia, USM (Bachelor of Science (Hons.) (Pure Physics), Minor Computer Science)</p>
+<p><strong>2020 - 2021</strong><br>
+↳ Pre-University (Kolej Matrikulasi Kedah, KMK)</p>
+<p><strong>2018 - 2019</strong><br>
+↳ Malaysian Certificate of Education</p>
+<p><strong>2015 - 2017</strong><br>
+↳ Lower Secondary Assessment</p>
+<p><strong>2008 - 2014</strong><br>
+↳ Primary School Evaluation Test</p>
 </div>
 </section>
-<section id="projects" class="level2">
-<h2 class="anchored" data-anchor-id="projects">&lt;/ Projects &gt;</h2>
-<div id="listing-project" class="quarto-listing quarto-listing-container-table">
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-
-<th>
-No
-</th>
-
-<th>
-Title
-</th>
-
-<th>
-Description
-</th>
-
-<th>
-Publish Date
-</th>
-
-<th>
-status
-</th>
-
-</tr>
-</thead>
-<tbody class="list">
-
-<tr data-index="0" data-categories="UHVyZSUyMFBoeXNpY3MlMjBQcm9qZWN0" data-listing-date-sort="1724716800000" data-listing-file-modified-sort="1791425845701" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="713" data-listing-title-sort="Random Walk Radioactive Nuclides Transport in Underground Water" data-listing-filename-sort="index.qmd">
-<td>
-<span class="listing-Num">&nbsp;</span>
-</td>
-<td>
-<a href="./projects/2024/RWPT/index.html" class="title listing-title">Random Walk Radioactive Nuclides Transport in Underground Water</a>
-</td>
-<td>
-<span class="listing-description">Groundwater is one of the most important resources on Earth. It supplies fresh water for drinking…</span>
-</td>
-<td>
-<span class="listing-date">Aug 27, 2024</span>
-</td>
-<td>
-<span class="listing-status">&nbsp;</span>
-</td>
-
-</tr>
-
-<tr data-index="1" data-categories="Q29tcHV0YXRpb25hbCUyMFBoeXNpY3MlMjBQcm9qZWN0JTJDUS5FLkQu" data-listing-date-sort="1724803200000" data-listing-file-modified-sort="1791425845693" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="281" data-listing-title-sort="Simulating Brownian Motion with Dynamic Visualization" data-listing-filename-sort="index.qmd">
-<td>
-<span class="listing-Num">&nbsp;</span>
-</td>
-<td>
-<a href="./projects/2024/BROWN/index.html" class="title listing-title">Simulating Brownian Motion with Dynamic Visualization</a>
-</td>
-<td>
-<span class="listing-description">Brownian motion, also known as a random walk, describes the erratic and random movement of…</span>
-</td>
-<td>
-<span class="listing-date">Aug 28, 2024</span>
-</td>
-<td>
-<span class="listing-status">&nbsp;</span>
-</td>
-
-</tr>
-
-</tbody>
-</table>
-<div class="listing-no-matching d-none">No matching items</div>
+<section id="honours-awards" class="level2">
+<h2 data-anchor-id="honours-awards">Honours &amp; Awards</h2>
+<div style="text-align: left;">
+<p><strong>Best Freelancer Award (Male) | MDEC-USM 2024</strong><br>
+↳ Issued by MOHE-MDEC Global Outsourcing Talent (GOT) Bootcamp · Aug 2024</p>
+<p><strong>Computational Thinking Award (Selangor) 2019</strong><br>
+↳ I am honoured to have received the Computational Thinking Award at APS Negeri Selangor 2019.</p>
 </div>
-
+<p><br>
+</p>
 
 
 </section>
+</main> 
+  <hr class="about-sep">
+   <div class="about-links">
+  <a href="https://www.facebook.com/hariz.harisun" class="about-link" rel="" target="">
+    <i class="bi bi-facebook"></i>
+     <span class="about-link-text">Facebook</span>
+  </a>
+  <a href="https://www.linkedin.com/in/harizhazril" class="about-link" rel="" target="">
+    <i class="bi bi-linkedin"></i>
+     <span class="about-link-text">LinkedIn</span>
+  </a>
+  <a href="https://github.com/hariz-harisun" class="about-link" rel="" target="">
+    <i class="bi bi-github"></i>
+     <span class="about-link-text">Github</span>
+  </a>
+</div>
+</div>
+ <!-- /main -->
+<script>
+  function abbrv_toc() {
+    let toc = document.querySelectorAll('nav#TOC li>a');
+    toc.forEach(e => {
+      let target = e.getAttribute('data-scroll-target');
+      if (target) {
+        let sec = document.querySelector(target);
+        if (sec) {
+          let toc_text = sec.getAttribute('data-toc-text');
+          if (toc_text != null) {
+            let new_toc_text = toc_text;
+            e.innerHTML = new_toc_text;
+          }
+        }
+      }
+    });
+  }
 
-</main> <!-- /main -->
-&nbsp;
-<hr>
-<p style="text-align: center;">Dibuat oleh <a href="https://github.com/Hariz-Harisun/">M. Hariz Hazril</a> menggunakan Quarto.</p>
-<p style="text-align: center;">2024 - 2025</p>
-<p style="text-align: center;"><span style="color: #808080;"><em>harizhazril@gmail.com</em></span></p>
-
-&nbsp;
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    abbrv_toc();
+  });
+</script>
+© Copyright 2026 M. Hariz Hazril | harizhazril@gmail.com
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
-    const icon = "";
-    const anchorJS = new window.AnchorJS();
-    anchorJS.options = {
-      placement: 'right',
-      icon: icon
-    };
-    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
