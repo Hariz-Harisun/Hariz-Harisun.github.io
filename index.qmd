@@ -1,94 +1,64 @@
 ---
-title: "Selamat Datang,"
+title: "About Me"
+image: assets/profile.jpg
+toc-title: Contents
 title-block-banner: true  # Enable title block banner
-description: "Terokai idea, analisis, dan kajian saya di sini."
-header-includes:
-    - |
-      <style>
-      #projects .quarto-listing-table tbody tr {
-      counter-increment: row-counter;
-      }
-      #projects .quarto-listing-table tbody tr td:first-child::before {
-      content: "[" counter(row-counter) "] ";
-      }
-      /* Column Widths */
-      #projects .quarto-listing-table th:nth-child(1),  /* Tajuk */
-      #projects .quarto-listing-table td:nth-child(1) {
-        width: 5%;
-      }
-
-      #projects .quarto-listing-table th:nth-child(2),  /* Penerangan */
-      #projects .quarto-listing-table td:nth-child(2) {
-        width: 40%;
-      }
-
-      #projects .quarto-listing-table th:nth-child(3),  /* Tarikh */
-      #projects .quarto-listing-table td:nth-child(3) {
-        width: 42%;
-      }
-      .quarto-listing-category .category[data-category="Computational Physics Project"],
-      .quarto-listing-category .category[data-category="Education"],
-      .quarto-listing-category .category[data-category="Pure Physics Project"],
-      .quarto-listing-category .category[data-category="Q.E.D."]{
-        display: none !important;
-      }
-      
-      #blog .listing-description {
-      width: 70%;
-      }
-      .metadata {
-      position: absolute;
-      }
-      
-      /* Disable styles for mobile screens (width < 768px) */
-      @media (max-width: 768px) {
-        #blog .listing-description {
-          width: auto; /* Reset to default width */
-        }
-        .metadata {
-          position: static; /* Reset to default positioning */
-        }
-      }
-      </style>
-      
-listing:
-  - id: blog 
-    contents: 
-      - blog
-    sort: "date desc"
-    type: default
-    categories: unnumbered
-    sort-ui: false
-    filter-ui: false
-    feed: true
-    fields: [title, description, date, reading-time]
-    page-size: 5
-    
-  - id: project
-    contents:
-      - projects
-    type: table
-    fields: [Num,title, description, date, status]
-    field-display-names:
-      Num: "No"
-      title: "Title"
-      description: "Description"
-      date: "Publish Date"
-    max-description-length: 100
-    sort-ui: false
-    filter-ui: false
-    
-include-after-body: "includes/footer.html"
-page-layout: full
+include-after-body:\r
+  - includes/abbrv-toc.html\r
+  - includes/footer.html
+description: "A brief introduction to my portfolio."
+about:
+  template: jolla
+  links:
+    - icon: facebook
+      text: Facebook
+      href: https://www.facebook.com/hariz.harisun
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/harizhazril
+    - icon: github
+      text: Github
+      href: https://github.com/hariz-harisun
+    # - icon: letter
+    #   text: Email
+    #   href: mailto:harizhazril@gmail.com
 ---
 
-## </ Blog >
+## M․ Hariz Hazril {data-toc-text="Name"}
+My name is M. Hariz Hazril, though I am better known by my pen name HH. A keen pursuer of knowledge in Computational Physics, I am currently reading for a degree in Pure Physics at a local university in Malaysia.
 
-::: {#blog}
+This blog is an open platform for me to share my thoughts, views, and perspectives. All content published here is personal in nature and does not represent any organisation or institution.
+
+May every entry shared here prove useful and open the door to meaningful discussion with readers.
+
+– HH
+
+## Education
+::: {style="text-align: left;"}
+**2021 - Present**\
+↳ Universiti Sains Malaysia, USM (Bachelor of Science (Hons.) (Pure Physics), Minor Computer Science)
+
+**2020 - 2021**\
+↳ Pre-University (Kolej Matrikulasi Kedah, KMK)
+
+**2018 - 2019**\
+↳ Malaysian Certificate of Education
+
+**2015 - 2017**\
+↳ Lower Secondary Assessment
+
+**2008 - 2014**\
+↳ Primary School Evaluation Test
 :::
 
-## </ Projects >
+## Honours & Awards
+::: {style="text-align: left;"}
+**Best Freelancer Award (Male) \| MDEC-USM 2024**\
+↳ Issued by MOHE-MDEC Global Outsourcing Talent (GOT) Bootcamp · Aug 2024
 
-::: {#project}
+**Computational Thinking Award (Selangor) 2019**\
+↳ I am honoured to have received the Computational Thinking Award at APS Negeri Selangor 2019.
 :::
 
+
+\

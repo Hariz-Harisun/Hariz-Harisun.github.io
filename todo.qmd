@@ -1,11 +1,11 @@
 ---
-title: "Pengembaraan Tugas Diri"
+title: "My Personal Quest Log"
 format: html
 title-block-banner: true  # Enable title block banner
-description: "Ini adalah senarai tugasan seharian saya."
+description: "A list of my daily tasks."
 ---
 
-### 🗡️ Misi Harian 🗡️
+### 🗡️ Daily Quests 🗡️
 
 ```{=html}
 <style>
@@ -50,15 +50,15 @@ description: "Ini adalah senarai tugasan seharian saya."
 
 \
 
-<li><input type="checkbox" class="task" id="task2"> <label for="task2" class="task-label">\[2\] Cover balik subjek Algebra[^2]. Sekurangnya 2 chapter.</label></li>
+<li><input type="checkbox" class="task" id="task2"> <label for="task2" class="task-label">\[2\] Catch up on Algebra[^2]. At least 2 chapters.</label></li>
 
 \
 
-<li><input type="checkbox" class="task" id="task3"> <label for="task3" class="task-label">\[3\] Belajar Fundamental Software Engineering (untuk semester hadapan)[^3]. Sekurangnya 2 chapter.</label></li>
+<li><input type="checkbox" class="task" id="task3"> <label for="task3" class="task-label">\[3\] Study Fundamental Software Engineering (for next semester)[^3]. At least 2 chapters.</label></li>
 
 \
 
-<li><input type="checkbox" class="task" id="task4"> <label for="task4" class="task-label">\[4\] Belajar Asas membina bahasa inggeris. Sekurangnya 2 chapter.</label></li>
+<li><input type="checkbox" class="task" id="task4"> <label for="task4" class="task-label">\[4\] Learn the fundamentals of building English skills. At least 2 chapters.</label></li>
 
 \
 
@@ -148,28 +148,28 @@ function generatePDF() {
 
 </script>
 ```
-### 🛡️ Tugas Sampingan 🛡️
+### 🛡️ Side Quests 🛡️
 
 ::: container
 <ul id="todo-list">
 
-<li><input type="checkbox" class="task" id="task6"> <label for="task6" class="task-label">\[1\] Baca 3 bab buku Enam Angka Menjelang Dua Puluh Lima</label></li>
+<li><input type="checkbox" class="task" id="task6"> <label for="task6" class="task-label">\[1\] Read 3 chapters of *The Richest Man in Babylon*</label></li>
 
 \
 
-<li><input type="checkbox" class="task" id="task7"> <label for="task7" class="task-label">\[2\] Buat pembetulan exam paper lepas</label></li>
+<li><input type="checkbox" class="task" id="task7"> <label for="task7" class="task-label">\[2\] Revise past exam papers</label></li>
 
 \
 
-<li><input type="checkbox" class="task" id="task8"> <label for="task8" class="task-label">\[3\] Tambahbaik blog github[^5]</label></li>
+<li><input type="checkbox" class="task" id="task8"> <label for="task8" class="task-label">\[3\] Improve the GitHub blog[^5]</label></li>
 
 \
 
-<li><input type="checkbox" class="task" id="task9"> <label for="task9" class="task-label">\[4\] Baca 3 entri physics forum[^6]</label></li>
+<li><input type="checkbox" class="task" id="task9"> <label for="task9" class="task-label">\[4\] Read 3 entries on Physics Forums[^6]</label></li>
 
 \
 
-<li><input type="checkbox" class="task" id="task10"> <label for="task10" class="task-label">\[5\] Belajar ilmu Saham Bursa[^7]</label></li>
+<li><input type="checkbox" class="task" id="task10"> <label for="task10" class="task-label">\[5\] Learn about Bursa Malaysia stock investing[^7]</label></li>
 
 </ul>
 :::
@@ -180,7 +180,7 @@ function generatePDF() {
 
 [^7]: [3 tips sekiranya tengah RUGI dalam SAHAM ! - YouTube](https://www.youtube.com/watch?v=hxROGx-nOeA)
 
-### 🏆 Misi Pencapaian 🏆
+### 🏆 Achievement Quests 🏆
 
 ::: container
 <ul id="todo-list">
@@ -208,7 +208,7 @@ function generatePDF() {
 
 [^8]: [100 derivatives (everything you have to know for your calculus class) - YouTube](https://www.youtube.com/watch?v=AegzQ_dip8k)
 
-### Hantar Laporan Harian
+### Submit Daily Report
 
 ::: container
 <iframe src="https://hariz-harisun.shinyapps.io/report/" width="100%" height="370px" style="border: none;">

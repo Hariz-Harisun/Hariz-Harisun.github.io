@@ -19,5 +19,5 @@ listing:
 page-layout: full  # Use full page layout for the blog
 title-block-banner: true  # Enable title block banner
 include-after-body: "includes/footer.html"
-description: "Catatan pena ku berkaitan isu semasa dan info menarik."
+description: "My writings on current affairs and other topics of interest."
 ---

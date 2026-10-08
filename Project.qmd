@@ -18,5 +18,5 @@ listing:
 page-layout: full  # Use full page layout for the blog
 title-block-banner: true  # Enable title block banner
 include-after-body: "includes/footer.html"
-description: "Senarai projek saya"
+description: "A list of my projects."
 ---
