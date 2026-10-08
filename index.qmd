@@ -78,7 +78,7 @@ listing:
     sort-ui: false
     filter-ui: false
     
-include-after-body: "footer.html"
+include-after-body: "includes/footer.html"
 page-layout: full
 ---
 

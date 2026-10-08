@@ -18,6 +18,6 @@ listing:
       - reading-time
 page-layout: full  # Use full page layout for the blog
 title-block-banner: true  # Enable title block banner
-include-after-body: "footer.html"
+include-after-body: "includes/footer.html"
 description: "Catatan pena ku berkaitan isu semasa dan info menarik."
 ---

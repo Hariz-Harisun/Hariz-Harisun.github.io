@@ -1,9 +1,9 @@
 ---
 title: "About Me"
-image: profile.png
+image: assets/profile.jpg
 toc-title: Kandungan
 title-block-banner: true  # Enable title block banner
-include-after-body: abbrv-toc.html
+include-after-body: includes/abbrv-toc.html
 description: "This is brief of my portfolio."
 about:
   template: jolla

@@ -4,3 +4,7 @@
 .Ruserdata
 
 /.quarto/
+_site/
+
+**/*.quarto_ipynb
+.playwright-mcp/
