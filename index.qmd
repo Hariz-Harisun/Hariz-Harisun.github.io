@@ -3,8 +3,8 @@ title: "About Me"
 image: assets/profile.jpg
 toc-title: Contents
 title-block-banner: true  # Enable title block banner
-include-after-body:\r
-  - includes/abbrv-toc.html\r
+include-after-body:
+  - includes/abbrv-toc.html
   - includes/footer.html
 description: "A brief introduction to my portfolio."
 about:
