@@ -5,7 +5,6 @@ toc-title: Contents
 title-block-banner: true  # Enable title block banner
 include-after-body:
   - includes/abbrv-toc.html
-  - includes/footer.html
 description: "A brief introduction to my portfolio."
 about:
   template: jolla
@@ -24,41 +23,76 @@ about:
     #   href: mailto:harizhazril@gmail.com
 ---
 
-## M․ Hariz Hazril {data-toc-text="Name"}
+## M․ Hariz Hazril {data-toc-text="Name" data-i18n-toc="home.name-toc"}
+::: {data-i18n="home.intro1"}
 My name is M. Hariz Hazril, though I am better known by my pen name HH. A keen pursuer of knowledge in Computational Physics, I am currently reading for a degree in Pure Physics at a local university in Malaysia.
+:::
 
+::: {data-i18n="home.intro2"}
 This blog is an open platform for me to share my thoughts, views, and perspectives. All content published here is personal in nature and does not represent any organisation or institution.
+:::
 
+::: {data-i18n="home.intro3"}
 May every entry shared here prove useful and open the door to meaningful discussion with readers.
+:::
 
+::: {data-i18n="home.intro4"}
 – HH
+:::
 
-## Education
+## Education {data-i18n="home.edu"}
 ::: {style="text-align: left;"}
+::: {data-i18n="home.edu1"}
 **2021 - Present**\
+:::
+::: {data-i18n="home.edu1b"}
 ↳ Universiti Sains Malaysia, USM (Bachelor of Science (Hons.) (Pure Physics), Minor Computer Science)
+:::
 
+::: {data-i18n="home.edu2"}
 **2020 - 2021**\
+:::
+::: {data-i18n="home.edu2b"}
 ↳ Pre-University (Kolej Matrikulasi Kedah, KMK)
+:::
 
+::: {data-i18n="home.edu3"}
 **2018 - 2019**\
+:::
+::: {data-i18n="home.edu3b"}
 ↳ Malaysian Certificate of Education
+:::
 
+::: {data-i18n="home.edu4"}
 **2015 - 2017**\
+:::
+::: {data-i18n="home.edu4b"}
 ↳ Lower Secondary Assessment
+:::
 
+::: {data-i18n="home.edu5"}
 **2008 - 2014**\
+:::
+::: {data-i18n="home.edu5b"}
 ↳ Primary School Evaluation Test
 :::
-
-## Honours & Awards
-::: {style="text-align: left;"}
-**Best Freelancer Award (Male) \| MDEC-USM 2024**\
-↳ Issued by MOHE-MDEC Global Outsourcing Talent (GOT) Bootcamp · Aug 2024
-
-**Computational Thinking Award (Selangor) 2019**\
-↳ I am honoured to have received the Computational Thinking Award at APS Negeri Selangor 2019.
 :::
 
+## Honours & Awards {data-i18n="home.awards"}
+::: {style="text-align: left;"}
+::: {data-i18n="home.award1"}
+**Best Freelancer Award (Male) \| MDEC-USM 2024**\
+:::
+::: {data-i18n="home.award1b"}
+↳ Issued by MOHE-MDEC Global Outsourcing Talent (GOT) Bootcamp · Aug 2024
+:::
+
+::: {data-i18n="home.award2"}
+**Computational Thinking Award (Selangor) 2019**\
+:::
+::: {data-i18n="home.award2b"}
+I am honoured to have received the Computational Thinking Award at APS Negeri Selangor 2019.
+:::
+:::
 
 \

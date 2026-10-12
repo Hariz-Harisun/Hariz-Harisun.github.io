@@ -2,6 +2,8 @@ project:
   type: website
   resources:
     - assets/profile.jpg
+    - assets/i18n.js
+    - assets/i18n/
 
 website:
   title: "</ Hariz-Harisun >"
@@ -34,3 +36,6 @@ format:
     linkcolor: "#d97757"
     css: assets/styles.css
     toc: true
+    include-after-body:
+      - includes/footer.html
+      - includes/i18n-script.html
