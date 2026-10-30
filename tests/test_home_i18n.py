@@ -21,10 +21,15 @@ class StaticHomePagesTests(unittest.TestCase):
     def test_site_config_uses_static_language_links_without_i18n_assets(self):
         config = (ROOT / "_quarto.yml").read_text(encoding="utf-8")
 
-        self.assertIn('text: "EN |"', config)
+        self.assertIn("text: EN", config)
         self.assertIn("href: index.qmd", config)
-        self.assertIn("text: BM", config)
+        self.assertIn("text: MY", config)
         self.assertIn("href: index-bm.qmd", config)
+
+        styles = (ROOT / "assets" / "styles.css").read_text(encoding="utf-8")
+        self.assertIn('html[lang="ms"]', styles)
+        self.assertIn('content: "Utama"', styles)
+        self.assertIn('content: "Projek"', styles)
         self.assertNotIn("i18n.js", config)
         self.assertNotIn("marked.min.js", config)
         self.assertNotIn("i18n/", config)

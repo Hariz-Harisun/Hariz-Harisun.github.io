@@ -176,36 +176,62 @@ main.content {
   color: #d97757;
 }
 
-/* Language switch (BM/EN) — first item in ul.navbar-nav.ms-auto */
-.navbar-nav .nav-item:has(#lang-switch) {
-  display: flex;
+/* Static language switch */
+ul.navbar-nav.ms-auto {
   align-items: center;
 }
 
-#lang-switch {
-  margin: 0 0.75rem 0 0.25rem;
-  padding: 0.25rem 0.7rem;
-  font-size: 0.85rem;
+ul.navbar-nav.ms-auto .nav-link[href$="index.html"],
+ul.navbar-nav.ms-auto .nav-link[href$="index-bm.html"] {
+  padding: 0.2rem 0.35rem;
+  font-size: 0.78rem;
   font-weight: 700;
-  letter-spacing: 0.04em;
-  color: #d97757;
-  background: transparent;
-  border: 1.5px solid #d97757;
-  border-radius: 999px;
-  cursor: pointer;
-  transition: all 0.2s ease;
+  letter-spacing: 0.08em;
+  color: #6b6257;
+  border-radius: 0.35rem;
 }
 
-#lang-switch:hover,
-#lang-switch:focus {
-  color: #fff;
+ul.navbar-nav.ms-auto .nav-link[href$="index.html"]:hover,
+ul.navbar-nav.ms-auto .nav-link[href$="index.html"]:focus,
+ul.navbar-nav.ms-auto .nav-link[href$="index-bm.html"]:hover,
+ul.navbar-nav.ms-auto .nav-link[href$="index-bm.html"]:focus {
+  color: #d97757 !important;
+  background: rgba(217, 119, 87, 0.1);
+}
+
+ul.navbar-nav.ms-auto .nav-link[href$="index.html"].active,
+ul.navbar-nav.ms-auto .nav-link[href$="index-bm.html"].active {
+  color: #fff !important;
   background: #d97757;
-  transform: translateY(-1px);
-  box-shadow: 0 2px 8px rgba(217, 119, 87, 0.35);
 }
 
-#lang-switch:active {
-  transform: translateY(0);
+ul.navbar-nav.ms-auto .nav-item:has(.nav-link[href$="index.html"])::after {
+  content: "/";
+  margin-left: 0.1rem;
+  color: #a89f94;
+}
+
+ul.navbar-nav.ms-auto .nav-item:has(.nav-link[href$="index-bm.html"]) {
+  margin-right: 0.55rem;
+}
+
+/* Malay header labels; source remains static and indexable. */
+html[lang="ms"] .navbar-nav.me-auto .nav-item:first-child .menu-text,
+html[lang="ms"] .navbar-nav.me-auto .nav-item:nth-child(3) .menu-text {
+  font-size: 0;
+}
+
+html[lang="ms"] .navbar-nav.me-auto .nav-item:first-child .menu-text::after,
+html[lang="ms"] .navbar-nav.me-auto .nav-item:nth-child(3) .menu-text::after {
+  font-size: 1rem;
+}
+
+html[lang="ms"] .navbar-nav.me-auto .nav-item:first-child .menu-text::after {
+  content: "Utama";
+}
+
+html[lang="ms"] .navbar-nav.me-auto .nav-item:nth-child(3) .menu-text::after {
+  content: "Projek";
 }
 /* Text alignment and justification */
 .text-left-justify,

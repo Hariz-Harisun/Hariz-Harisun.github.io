@@ -17,9 +17,9 @@ website:
       - href: Project.qmd
         text: Projects
     right:
-      - text: "EN |"
+      - text: EN
         href: index.qmd
-      - text: BM
+      - text: MY
         href: index-bm.qmd
       - icon: github
         href: https://github.com/hariz-harisun
