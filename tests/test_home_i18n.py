@@ -12,7 +12,7 @@ class StaticHomePagesTests(unittest.TestCase):
 
         for source in (english, malay):
             self.assertNotIn("data-i18n", source)
-            self.assertIn("::: {.text-left-justify}", source)
+            self.assertEqual(source.count("::: {.text-left-justify}"), 4)
             self.assertIn("- **", source)
 
         self.assertIn("lang: en", english)

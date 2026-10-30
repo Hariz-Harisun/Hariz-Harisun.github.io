@@ -40,18 +40,27 @@ Pada masa ini, kerja saya berkisar pada pembinaan dan pemodenan penyelesaian per
 
 ## Fokus Teknikal & Eksplorasi
 
+::: {.text-left-justify}
+
 - **Teras:** Ekosistem .NET (C#, ASP.NET), rangka kerja JavaScript dan amalan kejuruteraan perisian moden.
 - **Teknologi baharu:** Kejuruteraan Agentik, automasi aliran kerja berasaskan AI, orkestrasi alat dan seni bina MCP.
+:::
 
 ## Pendidikan & Latar Belakang
 
+::: {.text-left-justify}
+
 - **Universiti Sains Malaysia (USM)** — B.Sc. (Kepujian) Fizik Tulen, Minor Sains Komputer (2021 – 2025)
 - **Kolej Matrikulasi Kedah (KMK)** — Matrikulasi / Pra-Universiti (2020 – 2021)
+:::
 
 ## Penghargaan & Anugerah
 
+::: {.text-left-justify}
+
 - **Anugerah Best Freelancer (Lelaki)** | MOHE-MDEC Global Outsourcing Talent (GOT) Bootcamp (Ogos 2024)
 - **Anugerah Pemikiran Komputasional** | Peringkat Negeri Selangor (2019)
+:::
 
 ## Mari Berhubung
 

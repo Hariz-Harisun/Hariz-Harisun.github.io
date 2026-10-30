@@ -40,18 +40,27 @@ Currently, my work revolves around building and modernising scalable enterprise 
 
 ## Technical Focus & Explorations
 
+::: {.text-left-justify}
+
 - **Core Stack:** .NET Ecosystem (C#, ASP.NET), JavaScript Frameworks, Modern Software Engineering Practices.
 - **Next-Gen Tech:** Agentic Engineering, AI-Driven Workflow Automation, Tool Orchestration, and Model Context Protocol (MCP) Architectures.
+:::
 
 ## Education & Background
 
+::: {.text-left-justify}
+
 - **Universiti Sains Malaysia (USM)** — B.Sc. (Hons.) Pure Physics, Minor in Computer Science (2021 – 2025)
 - **Kolej Matrikulasi Kedah (KMK)** — Matriculation / Pre-University (2020 – 2021)
+:::
 
 ## Honours & Awards
 
+::: {.text-left-justify}
+
 - **Best Freelancer Award (Male)** | MOHE-MDEC Global Outsourcing Talent (GOT) Bootcamp (Aug 2024)
 - **Computational Thinking Award** | APS Selangor State Level (2019)
+:::
 
 ## Let's Connect
 
