@@ -17,7 +17,7 @@
   "home.who": "I am a software engineer and technologist driven by a passion for solving complex, real-world operational challenges. Grounded in a strong scientific foundation from my studies in Pure Physics and Computer Science at USM, I approach system design with analytical rigour and structured problem-solving. My core focus lies in architecting robust digital infrastructure connecting edge devices, enterprise software, and modern AI automation.",
   "home.what-title": "What I Do",
   "home.what-intro": "Currently, my work revolves around building and modernising scalable enterprise solutions across:",
-  "home.what-list": "Industrial IoT & AI Integration; Enterprise Ecosystems; System Optimisation & Reliability — reduced client support tickets by 98%.",
+  "home.what-list": "- **Industrial IoT & AI Integration:** Modernising industrial workflows, combining IoT edge data with SaaS platforms, and deploying AI-integrated systems.\n- **Enterprise Ecosystems:** Developing and sustaining Manufacturing Execution Systems (MES), ERP solutions, and Management Information Systems (MIS).\n- **System Optimisation & Reliability:** Managing and refining legacy systems to achieve maximum stability. Through targeted engineering and modernisation, I reduced client support tickets by 98% (lowering maintenance overhead from high volume down to just 1–2 tickets per month).",
   "home.tech-title": "Technical Focus & Explorations",
   "home.tech": "Core Stack: .NET Ecosystem (C#, ASP.NET), JavaScript Frameworks, Modern Software Engineering Practices. Next-Gen Tech: Agentic Engineering, AI-Driven Workflow Automation, Tool Orchestration, and MCP Architectures.",
   "home.edu-title": "Education & Background",

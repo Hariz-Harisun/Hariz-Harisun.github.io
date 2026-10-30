@@ -208,7 +208,13 @@ main.content {
   transform: translateY(0);
 }
 /* Text alignment and justification */
-.text-left-justify {
-  text-align: left;
+.text-left-justify,
+.text-left-justify li {
+  text-align: justify;
   text-justify: inter-word;
+}
+
+.text-left-justify ul {
+  padding-left: 1.25rem;
+  margin-left: 0;
 }
