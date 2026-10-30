@@ -3,6 +3,7 @@ project:
   resources:
     - assets/profile.jpg
     - assets/i18n.js
+    - assets/marked.min.js
     - assets/i18n/
 
 website:

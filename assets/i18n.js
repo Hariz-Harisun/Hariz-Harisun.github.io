@@ -23,16 +23,19 @@
       .catch(function () { return {}; });
   }
 
-  function setText(el, str)
+  function renderMarkdown(str)
+  {
+    return marked.parse(str, { async: false });
+  }
+
+  function setText(el, str, markdown)
   {
     if (!el || str == null) return;
     if (el.tagName.toLowerCase() === "section") return;
 
-    // Check if element has child elements
-    var p = el.querySelector("p");
-    if (p && el.children.length === 1)
+    if (markdown)
     {
-      p.textContent = str;
+      el.innerHTML = renderMarkdown(str);
       return;
     }
 
@@ -75,7 +78,7 @@
       // content blocks marked in markdown
       document.querySelectorAll("[data-i18n]").forEach(function (el)
       {
-        setText(el, dict[el.getAttribute("data-i18n")]);
+        setText(el, dict[el.getAttribute("data-i18n")], true);
       });
 
       // TOC headings / abbreviations
