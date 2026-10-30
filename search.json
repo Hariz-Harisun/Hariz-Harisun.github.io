@@ -4,28 +4,56 @@
     "href": "index.html",
     "title": "About Me",
     "section": "",
-    "text": "My name is M. Hariz Hazril, though I am better known by my pen name HH. A keen pursuer of knowledge in Computational Physics, I am currently reading for a degree in Pure Physics at a local university in Malaysia.\n\n\nThis blog is an open platform for me to share my thoughts, views, and perspectives. All content published here is personal in nature and does not represent any organisation or institution.\n\n\nMay every entry shared here prove useful and open the door to meaningful discussion with readers.\n\n\n– HH"
+    "text": "B.Sc. (Hons.) Pure Physics (Minor in Computer Science) — Universiti Sains Malaysia (USM)"
   },
   {
-    "objectID": "index.html#m-hariz-hazril",
-    "href": "index.html#m-hariz-hazril",
+    "objectID": "index.html#m.-hariz-hazril",
+    "href": "index.html#m.-hariz-hazril",
     "title": "About Me",
     "section": "",
-    "text": "My name is M. Hariz Hazril, though I am better known by my pen name HH. A keen pursuer of knowledge in Computational Physics, I am currently reading for a degree in Pure Physics at a local university in Malaysia.\n\n\nThis blog is an open platform for me to share my thoughts, views, and perspectives. All content published here is personal in nature and does not represent any organisation or institution.\n\n\nMay every entry shared here prove useful and open the door to meaningful discussion with readers.\n\n\n– HH"
+    "text": "B.Sc. (Hons.) Pure Physics (Minor in Computer Science) — Universiti Sains Malaysia (USM)"
   },
   {
-    "objectID": "index.html#education",
-    "href": "index.html#education",
+    "objectID": "index.html#who-i-am",
+    "href": "index.html#who-i-am",
     "title": "About Me",
-    "section": "Education",
-    "text": "Education\n\n\n2021 - Present\n\n\n\n↳ Universiti Sains Malaysia, USM (Bachelor of Science (Hons.) (Pure Physics), Minor Computer Science)\n\n\n2020 - 2021\n\n\n\n↳ Pre-University (Kolej Matrikulasi Kedah, KMK)\n\n\n2018 - 2019\n\n\n\n↳ Malaysian Certificate of Education\n\n\n2015 - 2017\n\n\n\n↳ Lower Secondary Assessment\n\n\n2008 - 2014\n\n\n\n↳ Primary School Evaluation Test"
+    "section": "Who I Am",
+    "text": "Who I Am\n\nI am a software engineer and technologist driven by a passion for solving complex, real-world operational challenges. Grounded in a strong scientific foundation from my studies in Pure Physics and Computer Science at USM, I approach system design with analytical rigour and structured problem-solving. My core focus lies in architecting robust digital infrastructure connecting edge devices, enterprise software, and modern AI automation."
+  },
+  {
+    "objectID": "index.html#what-i-do",
+    "href": "index.html#what-i-do",
+    "title": "About Me",
+    "section": "What I Do",
+    "text": "What I Do\n\nCurrently, my work revolves around building and modernising scalable enterprise solutions across:\n\n\n\nIndustrial IoT & AI Integration: Modernising industrial workflows, combining IoT edge data with SaaS platforms, and deploying AI-integrated systems.\nEnterprise Ecosystems: Developing and sustaining Manufacturing Execution Systems (MES), ERP solutions, and Management Information Systems (MIS).\nSystem Optimisation & Reliability: Managing and refining legacy systems to achieve maximum stability. Through targeted engineering and modernisation, I reduced client support tickets by 98% (lowering maintenance overhead from high volume down to just 1–2 tickets per month)."
+  },
+  {
+    "objectID": "index.html#technical-focus-explorations",
+    "href": "index.html#technical-focus-explorations",
+    "title": "About Me",
+    "section": "Technical Focus & Explorations",
+    "text": "Technical Focus & Explorations\n\n\nCore Stack: .NET Ecosystem (C#, ASP.NET), JavaScript Frameworks, Modern Software Engineering Practices.\nNext-Gen Tech: Agentic Engineering, AI-Driven Workflow Automation, Tool Orchestration, and Model Context Protocol (MCP) Architectures."
+  },
+  {
+    "objectID": "index.html#education-background",
+    "href": "index.html#education-background",
+    "title": "About Me",
+    "section": "Education & Background",
+    "text": "Education & Background\n\n\nUniversiti Sains Malaysia (USM) — B.Sc. (Hons.) Pure Physics, Minor in Computer Science (2021 – 2025)\nKolej Matrikulasi Kedah (KMK) — Matriculation / Pre-University (2020 – 2021)"
   },
   {
     "objectID": "index.html#honours-awards",
     "href": "index.html#honours-awards",
     "title": "About Me",
     "section": "Honours & Awards",
-    "text": "Honours & Awards\n\n\nBest Freelancer Award (Male) | MDEC-USM 2024\n\n\n\n↳ Issued by MOHE-MDEC Global Outsourcing Talent (GOT) Bootcamp · Aug 2024\n\n\nComputational Thinking Award (Selangor) 2019\n\n\n\nI am honoured to have received the Computational Thinking Award at APS Negeri Selangor 2019."
+    "text": "Honours & Awards\n\n\nBest Freelancer Award (Male) | MOHE-MDEC Global Outsourcing Talent (GOT) Bootcamp (Aug 2024)\nComputational Thinking Award | APS Selangor State Level (2019)"
+  },
+  {
+    "objectID": "index.html#lets-connect",
+    "href": "index.html#lets-connect",
+    "title": "About Me",
+    "section": "Let’s Connect",
+    "text": "Let’s Connect\n\nWhether you have an inquiry regarding industrial automation, AI agent architecture, or potential collaboration opportunities, feel free to reach out.\n📩 Email: harizhazril@gmail.com"
   },
   {
     "objectID": "Project.html",
