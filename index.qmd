@@ -41,7 +41,7 @@ I am a software engineer and technologist driven by a passion for solving comple
 Currently, my work revolves around building and modernising scalable enterprise solutions across:
 :::
 
-::: {class="text-left-justify"} data-i18n="home.what-list"
+::: {class=".text-left-justify"} data-i18n="home.what-list"
 - **Industrial IoT & AI Integration:** Modernising industrial workflows, combining IoT edge data with SaaS platforms, and deploying AI-integrated systems.
 - **Enterprise Ecosystems:** Developing and sustaining Manufacturing Execution Systems (MES), ERP solutions, and Management Information Systems (MIS).
 - **System Optimisation & Reliability:** Managing and refining legacy systems to achieve maximum stability. Through targeted engineering and modernisation, I reduced client support tickets by 98% (lowering maintenance overhead from high volume down to just 1–2 tickets per month).
