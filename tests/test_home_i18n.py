@@ -5,20 +5,42 @@ import unittest
 ROOT = Path(__file__).resolve().parents[1]
 
 
-class HomeI18nTests(unittest.TestCase):
-    def test_translation_blocks_support_html_markup(self):
-        script = (ROOT / "assets" / "i18n.js").read_text(encoding="utf-8")
-        self.assertIn("marked.parse", script)
-        self.assertIn("innerHTML = renderMarkdown", script)
-        self.assertNotIn("p.textContent = str;", script)
+class StaticHomePagesTests(unittest.TestCase):
+    def test_english_and_malay_home_sources_are_static(self):
+        english = (ROOT / "index.qmd").read_text(encoding="utf-8")
+        malay = (ROOT / "index-bm.qmd").read_text(encoding="utf-8")
 
-    def test_what_i_do_is_a_valid_fenced_div_with_list(self):
-        source = (ROOT / "index.qmd").read_text(encoding="utf-8")
-        self.assertIn('::: {.text-left-justify data-i18n="home.what-list"}', source)
-        self.assertIn(
-            'data-i18n="home.what-list"}\n\n- **Industrial IoT & AI Integration:**',
-            source,
-        )
+        for source in (english, malay):
+            self.assertNotIn("data-i18n", source)
+            self.assertIn("::: {.text-left-justify}", source)
+            self.assertIn("- **", source)
+
+        self.assertIn("lang: en", english)
+        self.assertIn("lang: ms", malay)
+
+    def test_site_config_uses_static_language_links_without_i18n_assets(self):
+        config = (ROOT / "_quarto.yml").read_text(encoding="utf-8")
+
+        self.assertIn('text: "EN |"', config)
+        self.assertIn("href: index.qmd", config)
+        self.assertIn("text: BM", config)
+        self.assertIn("href: index-bm.qmd", config)
+        self.assertNotIn("i18n.js", config)
+        self.assertNotIn("marked.min.js", config)
+        self.assertNotIn("i18n/", config)
+
+    def test_rendered_home_pages_are_static_html(self):
+        for name, lang in (("index.html", "en"), ("index-bm.html", "ms")):
+            html = (ROOT / "_site" / name).read_text(encoding="utf-8")
+
+            self.assertIn(f'lang="{lang}"', html)
+            self.assertIn("<strong>", html)
+            self.assertIn("<ul>", html)
+            self.assertIn('href="./index.html"', html)
+            self.assertIn('href="./index-bm.html"', html)
+            self.assertNotIn("data-i18n", html)
+            self.assertNotIn("marked.min.js", html)
+            self.assertNotIn("i18n.js", html)
 
 
 if __name__ == "__main__":

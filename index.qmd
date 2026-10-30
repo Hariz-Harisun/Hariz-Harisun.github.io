@@ -1,10 +1,9 @@
 ---
 title: "About Me"
+lang: en
 image: assets/profile.jpg
 toc-title: Contents
-title-block-banner: true  # Enable title block banner
-include-after-body:
-  - includes/abbrv-toc.html
+title-block-banner: true
 description: "A brief introduction to my portfolio."
 about:
   template: jolla
@@ -16,63 +15,46 @@ about:
       text: LinkedIn
       href: https://www.linkedin.com/in/harizhazril
     - icon: github
-      text: Github
+      text: GitHub
       href: https://github.com/hariz-harisun
-    # - icon: letter
-    #   text: Email
-    #   href: mailto:harizhazril@gmail.com
 ---
 
-## M. Hariz Hazril {data-toc-text="Name" data-i18n-toc="home.name-toc"}
+## M. Hariz Hazril {data-toc-text="Name"}
 
-::: {data-i18n="home.qualification"}
 **B.Sc. (Hons.) Pure Physics (Minor in Computer Science)** — Universiti Sains Malaysia (USM)
-:::
 
-## Who I Am {data-i18n="home.who-title"}
+## Who I Am
 
-::: {data-i18n="home.who"}
 I am a software engineer and technologist driven by a passion for solving complex, real-world operational challenges. Grounded in a strong scientific foundation from my studies in Pure Physics and Computer Science at USM, I approach system design with analytical rigour and structured problem-solving. My core focus lies in architecting robust digital infrastructure connecting edge devices, enterprise software, and modern AI automation.
-:::
 
-## What I Do {data-i18n="home.what-title"}
+## What I Do
 
-::: {data-i18n="home.what-intro"}
 Currently, my work revolves around building and modernising scalable enterprise solutions across:
-:::
 
-::: {.text-left-justify data-i18n="home.what-list"}
+::: {.text-left-justify}
 
 - **Industrial IoT & AI Integration:** Modernising industrial workflows, combining IoT edge data with SaaS platforms, and deploying AI-integrated systems.
 - **Enterprise Ecosystems:** Developing and sustaining Manufacturing Execution Systems (MES), ERP solutions, and Management Information Systems (MIS).
 - **System Optimisation & Reliability:** Managing and refining legacy systems to achieve maximum stability. Through targeted engineering and modernisation, I reduced client support tickets by 98% (lowering maintenance overhead from high volume down to just 1–2 tickets per month).
 :::
 
-## Technical Focus & Explorations {data-i18n="home.tech-title"}
+## Technical Focus & Explorations
 
-::: {data-i18n="home.tech"}
 - **Core Stack:** .NET Ecosystem (C#, ASP.NET), JavaScript Frameworks, Modern Software Engineering Practices.
 - **Next-Gen Tech:** Agentic Engineering, AI-Driven Workflow Automation, Tool Orchestration, and Model Context Protocol (MCP) Architectures.
-:::
 
-## Education & Background {data-i18n="home.edu-title"}
+## Education & Background
 
-::: {data-i18n="home.edu"}
 - **Universiti Sains Malaysia (USM)** — B.Sc. (Hons.) Pure Physics, Minor in Computer Science (2021 – 2025)
 - **Kolej Matrikulasi Kedah (KMK)** — Matriculation / Pre-University (2020 – 2021)
-:::
 
-## Honours & Awards {data-i18n="home.awards"}
+## Honours & Awards
 
-::: {data-i18n="home.awards-list"}
 - **Best Freelancer Award (Male)** | MOHE-MDEC Global Outsourcing Talent (GOT) Bootcamp (Aug 2024)
 - **Computational Thinking Award** | APS Selangor State Level (2019)
-:::
 
-## Let's Connect {data-i18n="home.connect-title"}
+## Let's Connect
 
-::: {data-i18n="home.connect"}
 Whether you have an inquiry regarding industrial automation, AI agent architecture, or potential collaboration opportunities, feel free to reach out.
 
 📩 **Email:** [harizhazril@gmail.com](mailto:harizhazril@gmail.com)
-:::

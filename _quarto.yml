@@ -1,10 +1,5 @@
 project:
   type: website
-  resources:
-    - assets/profile.jpg
-    - assets/i18n.js
-    - assets/marked.min.js
-    - assets/i18n/
 
 website:
   title: "</ Hariz-Harisun >"
@@ -22,6 +17,10 @@ website:
       - href: Project.qmd
         text: Projects
     right:
+      - text: "EN |"
+        href: index.qmd
+      - text: BM
+        href: index-bm.qmd
       - icon: github
         href: https://github.com/hariz-harisun
       - icon: facebook
@@ -39,4 +38,3 @@ format:
     toc: true
     include-after-body:
       - includes/footer.html
-      - includes/i18n-script.html
