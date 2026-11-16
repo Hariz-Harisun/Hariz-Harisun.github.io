@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+@source "../app";
+@source "../components";
+@source "../data";
+@source "../lib";
+
 @theme {
   --color-bg: #141414;
   --color-card-from: #2a2a2a;
