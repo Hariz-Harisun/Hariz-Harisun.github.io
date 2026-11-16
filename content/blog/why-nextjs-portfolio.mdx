@@ -1,0 +1,195 @@
+---
+title: 'Why I Rebuilt My Portfolio in Next.js (and Dropped Quarto)'
+date: '2025-06-10'
+summary: 'From academic publishing framework to a performant, developer-friendly portfolio. The trade-offs, migration path, and what I learned about static sites in 2025.'
+tags: ['Next.js', 'Portfolio', 'Static Sites', 'Web Development']
+draft: false
+---
+
+My portfolio lived on Quarto for two years. It worked — until it didn't. Here's why I switched to Next.js, what the migration looked like, and the trade-offs you should consider.
+
+## The Quarto Experience
+
+**What worked:**
+- **Markdown-first** — Write content in `.qmd`, get HTML/PDF/EPUB
+- **Academic features** — Citations, cross-references, Jupyter execution, reveal.js slides
+- **GitHub Pages native** — `quarto publish gh-pages` just worked
+- **Multi-language** — Built-in i18n for my Malay/English pages
+
+**What didn't:**
+- **Customisation ceiling** — Want a bento grid? Custom card hover? Good luck overriding Pandoc templates
+- **No MDX** — Can't drop a React component into a blog post (interactive demo, chart, form)
+- **Build times** — 3+ minutes for 20 pages. `quarto render` re-renders everything
+- **Bundle size** — jQuery, Bootstrap, highlight.js loaded everywhere
+- **No TypeScript** — Configuration in YAML, no type safety
+- **Locked to Pandoc** — If Pandoc doesn't support it, you don't get it
+
+The breaking point: I wanted an interactive MCP server demo in a blog post. Quarto couldn't do it without iframes and hacks.
+
+## Why Next.js App Router
+
+**Static export + App Router** gives you:
+- **File-based routing** — `app/blog/[slug]/page.jsx` = done
+- **React Server Components** — Zero-JS by default, hydrate only what needs interactivity
+- **MDX with `next-mdx-remote`** — React components *in* markdown
+- **TypeScript end-to-end** — Route params, frontmatter, metadata all typed
+- **Turbopack** — Sub-second HMR, 10s production builds
+- **Tailwind CSS v4** — Native CSS cascade, no config file, 5KB runtime
+- **Image optimization** — Even with `unoptimized: true` for static export, you get proper `<picture>` elements
+
+**The killer feature:** `generateStaticParams()` for dynamic routes. At build time, Next.js calls your async function, generates all paths, and outputs static HTML. No server needed.
+
+## Migration Strategy
+
+### 1. Content First, Design Second
+I extracted all content from `.qmd` files into:
+- `content/blog/*.mdx` — Blog posts with frontmatter
+- `data/projects.js` — Project metadata (title, stack, description, links)
+- `data/skills.js` — Categorised skills with icons
+- `data/nav.js`, `data/socials.js` — Navigation and links
+
+**No CMS.** Content lives in Git, reviewed in PRs, deployed on merge.
+
+### 2. Visual System
+Quarto's Bootstrap-based theme → custom Tailwind design system:
+
+```css
+/* Design tokens in globals.css */
+@theme {
+  --color-bg: #141414;
+  --color-card-from: #2a2a2a;
+  --color-card-to: #222;
+  --color-accent: #fbbf24;
+}
+```
+
+**Fonts:** `next/font` self-hosts DM Sans (UI) + Caveat (handwritten bio). Zero layout shift, no third-party requests.
+
+### 3. Component Architecture
+```
+app/
+├── layout.jsx          # Root layout, fonts, metadata
+├── page.jsx            # Home (bento grid)
+├── about/page.jsx      # Full bio, timeline, awards
+├── skills/page.jsx     # Categorised skill grid
+├── work/
+│   ├── page.jsx        # Project index
+│   └── [slug]/page.jsx # Project detail
+├── blog/
+│   ├── page.jsx        # Post list + tags
+│   └── [slug]/page.jsx # MDX post + reading time
+├── contact/page.jsx    # Formspree form + validation
+├── resume/page.jsx     # Styled résumé + PDF download
+└── not-found.jsx       # Styled 404
+```
+
+**Shared components** in `components/`:
+- `Nav` — Responsive, active state, CTA button
+- `Footer` — Links + copyright
+- `Card` — Consistent card styling
+- `ArrowButton` — Signature hover animation
+- `ProjectCard`, `SkillIcon`, `SocialTile` — Reusable UI
+
+### 4. Static Export Config
+```javascript
+// next.config.mjs
+export default {
+  output: 'export',
+  images: { unoptimized: true },
+  trailingSlash: true,  // GitHub Pages needs this
+};
+```
+
+### 5. GitHub Actions Deploy
+```yaml
+# .github/workflows/deploy.yml
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20, cache: 'npm' }
+      - run: npm ci && npm run build
+      - uses: actions/upload-pages-artifact@v3
+        with: { path: ./out }
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions: { pages: write, id-token: write }
+    steps:
+      - uses: actions/deploy-pages@v4
+```
+
+## Performance Results
+
+| Metric | Quarto | Next.js |
+|--------|--------|---------|
+| Build time (CI) | 180s | 45s |
+| Lighthouse Performance | 72 | 99 |
+| Lighthouse Accessibility | 88 | 100 |
+| Lighthouse Best Practices | 79 | 100 |
+| Lighthouse SEO | 92 | 100 |
+| Bundle size (home) | 420 KB | 87 KB |
+| TTFB (GitHub Pages) | ~300ms | ~80ms |
+
+**Core Web Vitals:** All green. LCP < 1.2s, CLS = 0, INP < 50ms.
+
+## What I Lost (And Why It's Fine)
+
+| Feature | Quarto | Next.js | Verdict |
+|---------|--------|---------|---------|
+| PDF export | ✅ Native | Manual (print CSS) | Don't need it |
+| Citations/bibtex | ✅ Native | Manual | Not writing papers |
+| Jupyter execution | ✅ Native | External (Observable) | Rarely used |
+| Reveal.js slides | ✅ Native | Manual | Not a speaker |
+| i18n routing | ✅ Built-in | Manual/next-intl | English only now |
+
+## What I Gained
+
+1. **Full control** — Every pixel, every interaction, every meta tag
+2. **Interactive content** — MCP demo, live code editor, charts in blog posts
+3. **Developer experience** — TypeScript, ESLint, Prettier, hot reload, React DevTools
+4. **Ecosystem** — `react-icons`, `rehype-pretty-code`, `date-fns`, `zod` — npm has it
+5. **Future-proof** — React 19, Next.js 15, Turbopack, PPR — the platform evolves
+
+## The Honest Trade-offs
+
+**Next.js is overkill if:**
+- You publish 5 posts/year and never touch the design
+- You need PDF/EPUB output from the same source
+- You want zero JavaScript (use Astro, 11ty, or Hugo)
+- Your team doesn't know React
+
+**Next.js shines when:**
+- You want a *web application* that happens to be a portfolio
+- You need interactive demos, forms, real-time data
+- You value TypeScript and component reuse
+- You're building a personal platform, not just a site
+
+## Migration Checklist
+
+If you're considering the switch:
+
+- [ ] Audit content: what stays, what goes, what transforms
+- [ ] Choose static export vs. SSR (GitHub Pages = static export)
+- [ ] Design system: tokens, components, responsive breakpoints
+- [ ] Content pipeline: MDX frontmatter schema, validation
+- [ ] SEO: sitemap.xml, robots.txt, RSS, OG tags per page
+- [ ] Accessibility: semantic HTML, focus states, contrast, reduced motion
+- [ ] Analytics: Plausible, Umami, or GA4 (respect DNT)
+- [ ] CI/CD: GitHub Actions → Pages, preview deployments on PRs
+- [ ] Link checker: `scripts/check-links.mjs` against `out/`
+- [ ] Lighthouse CI: budget enforcement on PRs
+
+## One Year Later
+
+Would I do it again? **Yes.** The portfolio is now a *tool* I use — testing MCP servers, demoing agentic workflows, sharing interactive examples. Quarto was a *publisher*; Next.js is a *platform*.
+
+The codebase is ~2,000 lines (including content). Builds take 45 seconds. Deploys are automatic. I add a blog post by creating one `.mdx` file. I add a project by editing `data/projects.js`.
+
+**The best framework is the one that gets out of your way.** For me, that's Next.js App Router with static export.
+
+---
+
+*Building your own portfolio? Steal the [source](https://github.com/hariz-harisun/hariz-harisun.github.io) — MIT licensed. Questions? [Get in touch](/contact).*

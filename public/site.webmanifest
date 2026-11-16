@@ -1,0 +1,16 @@
+{
+  "name": "M. Hariz Hazril — Software Engineer",
+  "short_name": "Hariz Hazril",
+  "description": "Software engineer and technologist focused on Industrial IoT, AI integration, MES/ERP/MIS enterprise systems, and legacy modernisation.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#141414",
+  "theme_color": "#141414",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

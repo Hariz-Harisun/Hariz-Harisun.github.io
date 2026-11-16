@@ -1,0 +1,166 @@
+---
+title: 'Modernising a Legacy .NET System: Lessons from the Trenches'
+date: '2024-11-20'
+summary: 'How we took a brittle .NET Framework monolith to .NET 8 with zero downtime, cutting support tickets by 98%. Patterns, pitfalls, and practical advice.'
+tags: ['.NET', 'Legacy Modernisation', 'Architecture', 'MES']
+draft: false
+---
+
+Legacy modernisation is rarely about the framework version. It's about **risk reduction**, **observability**, and **enabling change**. Our MES platform — a 15-year-old .NET Framework 4.7 monolith — generated 40–50 support tickets monthly. After modernisation: 1–2.
+
+## The Starting Point
+
+**The system:**
+- ASP.NET Web Forms + WCF services
+- SQL Server with 2,000+ stored procedures
+- Zero automated tests
+- Manual deployments (RDP → copy files → recycle app pool)
+- Tight coupling: UI → business logic → stored procs → tables
+
+**The pain:**
+- Any schema change broke 5+ stored procedures
+- Deployments took 4 hours with 30% rollback rate
+- No staging environment — production *was* staging
+- Tribal knowledge concentrated in 2 people
+
+## Strategy: Strangler Fig, Not Big Bang
+
+We didn't rewrite. We **strangled** the monolith piece by piece:
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                    API Gateway (YARP)                       │
+├─────────────┬─────────────┬─────────────┬───────────────────┤
+│  Legacy     │  New .NET 8 │  New .NET 8 │  Legacy (frozen)  │
+│  Module A   │  Module B   │  Module C   │  Module D...      │
+└─────────────┴─────────────┴─────────────┴───────────────────┘
+```
+
+### Phase 1: Infrastructure First (Months 1–2)
+
+Before touching code, we built the platform:
+
+1. **Containerised the monolith** — Dockerfile for .NET Framework (Windows containers)
+2. **Kubernetes on AKS** — GitOps with Flux, blue-green deployments
+3. **Observability stack** — Grafana, Prometheus, Loki, Tempo
+4. **Database migration tooling** — DbUp for versioned SQL migrations
+5. **Feature flags** — LaunchDarkly (later replaced with custom)
+
+**Key decision:** Run old and new side-by-side behind YARP. Route traffic by header/cookie for canary releases.
+
+### Phase 2: Extract Vertical Slices (Months 3–8)
+
+We identified **bounded contexts** using domain-driven design:
+
+| Context | Complexity | Priority | Status |
+|---------|------------|----------|--------|
+| Work Orders | High | 1 | ✅ Done |
+| Inventory | Medium | 2 | ✅ Done |
+| Quality Management | High | 3 | 🚧 In Progress |
+| Reporting | Low | 4 | ⏳ Planned |
+
+For each context:
+1. **Domain model** — Clean architecture, no EF Core in domain layer
+2. **API contracts** — OpenAPI specs, versioned, backward compatible
+3. **Data ownership** — New schema, sync via CDC (Debezium → Kafka)
+4. **Tests first** — Contract tests (Pact), integration tests (Testcontainers), unit tests
+5. **Canary cutover** — 5% → 25% → 100% over 2 weeks
+
+### Phase 3: Data Migration (Ongoing)
+
+The hardest part. **Never migrate data and code simultaneously.**
+
+```
+┌─────────────┐     Dual Write      ┌─────────────┐
+│   Legacy    │ ─────────────────► │    New      │
+│   Tables    │ ◄───────────────── │   Tables    │
+└─────────────┘   Read from Both    └─────────────┘
+```
+
+1. **Dual-write** — New service writes to both old and new tables
+2. **Backfill** — Historical data copied in batches (nightly jobs)
+3. **Verify** — Checksum comparison, row counts, sampled diffs
+4. **Switch reads** — Feature flag routes reads to new tables
+5. **Drop old** — After 30 days clean, remove dual-write and old tables
+
+## Technical Patterns That Worked
+
+### 1. Anti-Corruption Layer
+```csharp
+// Legacy uses DataTables, new uses domain objects
+public class WorkOrderAntiCorruptionLayer
+{
+    private readonly ILegacyRepository _legacy;
+    
+    public async Task<WorkOrder> GetByIdAsync(int id)
+    {
+        var dt = await _legacy.GetWorkOrderDataTableAsync(id);
+        return WorkOrderMapper.FromDataTable(dt);
+    }
+}
+```
+
+### 2. Event-Driven Sync
+```csharp
+// Publish domain events, consumers update read models
+public class WorkOrderCreatedHandler : INotificationHandler<WorkOrderCreated>
+{
+    public async Task Handle(WorkOrderCreated notification, CancellationToken ct)
+    {
+        await _readModel.ProjectAsync(notification.WorkOrder, ct);
+        await _searchIndex.IndexAsync(notification.WorkOrder, ct);
+    }
+}
+```
+
+### 3. Feature Flags for Safe Rollout
+```csharp
+[HttpGet("workorders/{id}")]
+public async Task<IActionResult> Get(int id)
+{
+    if (_features.IsEnabled("workorders-new-api"))
+    {
+        return await _newService.GetAsync(id);
+    }
+    return await _legacyService.GetAsync(id);
+}
+```
+
+## What Didn't Work
+
+| Approach | Problem | Alternative |
+|----------|---------|-------------|
+| Shared database, new schema | Lock contention, migration hell | Separate DB per service, CDC sync |
+| Auto-generated APIs from EF | Leaky abstractions, chatty clients | Hand-crafted DTOs, GraphQL for flexible reads |
+| Microservices from day one | Distributed monolith, ops overhead | Modular monolith first, extract when painful |
+
+## Results After 12 Months
+
+| Metric | Before | After |
+|--------|--------|-------|
+| Support tickets/month | 45 | 1.5 |
+| Deployment time | 4 hours | 12 minutes |
+| Deployment frequency | Monthly | Daily |
+| Mean time to recovery | 2 hours | 8 minutes |
+| Test coverage | 0% | 78% (integration + unit) |
+| On-call pages | 3/week | 0.2/week |
+
+## Practical Advice
+
+1. **Measure first** — Instrument the legacy system before changing anything. You can't improve what you don't measure.
+2. **Invest in developer experience** — Fast feedback loops (local K8s with Tilt, 30s test runs) pay off 100x.
+3. **Document decisions** — ADRs for every architectural choice. Future you will thank present you.
+4. **Celebrate small cuts** — Each strangled module is a win. Ship the API gateway, then the first service, then the second.
+5. **Plan for rollback** — Every migration needs a tested rollback plan. Ours: feature flag off, traffic back to legacy.
+
+## The Human Side
+
+Modernisation is 70% people, 30% tech:
+- **Pair programming** — New team members paired with legacy experts
+- **Knowledge sharing** — Weekly "architecture hours" open to all
+- **Psychological safety** — Blameless postmortems, celebrate learning from failures
+- **Stakeholder communication** — Monthly demos to plant managers, not just IT
+
+---
+
+*Facing a similar modernisation challenge? I've been there — [let's talk](/contact).*

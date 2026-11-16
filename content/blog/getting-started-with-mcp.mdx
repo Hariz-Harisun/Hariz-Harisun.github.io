@@ -1,0 +1,199 @@
+---
+title: 'Getting Started with Model Context Protocol (MCP)'
+date: '2025-01-15'
+summary: 'A practical introduction to MCP — the open standard for connecting AI assistants to tools, data, and systems. Build your first server in TypeScript.'
+tags: ['MCP', 'AI', 'TypeScript', 'Agentic Engineering']
+draft: false
+---
+
+Model Context Protocol (MCP) is quickly becoming the standard way to connect LLMs to the tools and data they need to be genuinely useful. Instead of building custom integrations for every AI assistant, you expose your capabilities once via MCP, and any compatible client — Claude Desktop, Cursor, custom agents — can use them.
+
+## Why MCP Matters
+
+Before MCP, integrating an LLM with your database, API, or filesystem meant:
+- Writing custom function-calling schemas for each provider
+- Maintaining separate implementations for OpenAI, Anthropic, and others
+- No standard way to expose resources (files, docs, schemas) or prompts
+
+MCP solves this with a **single protocol** that defines:
+- **Tools** — functions the model can call (read file, query DB, call API)
+- **Resources** — data the model can read (file contents, schema docs, config)
+- **Prompts** — reusable prompt templates the model can invoke
+
+## Building Your First MCP Server
+
+Here's a minimal TypeScript MCP server that exposes a filesystem tool:
+
+```typescript
+import { Server } from '@modelcontextprotocol/sdk/server/index.js';
+import { StdioServerTransport } from '@modelcontextprotocol/sdk/server/stdio.js';
+import {
+  CallToolRequestSchema,
+  ListToolsRequestSchema,
+} from '@modelcontextprotocol/sdk/types.js';
+import { readFileSync, readdirSync } from 'fs';
+import { join } from 'path';
+
+const server = new Server(
+  { name: 'filesystem-server', version: '1.0.0' },
+  { capabilities: { tools: {} } }
+);
+
+server.setRequestHandler(ListToolsRequestSchema, async () => ({
+  tools: [
+    {
+      name: 'read_file',
+      description: 'Read a file from the workspace',
+      inputSchema: {
+        type: 'object',
+        properties: {
+          path: { type: 'string', description: 'Relative path to file' },
+        },
+        required: ['path'],
+      },
+    },
+    {
+      name: 'list_files',
+      description: 'List files in a directory',
+      inputSchema: {
+        type: 'object',
+        properties: {
+          path: { type: 'string', description: 'Relative path to directory' },
+        },
+        required: ['path'],
+      },
+    },
+  ],
+}));
+
+server.setRequestHandler(CallToolRequestSchema, async (request) => {
+  const { name, arguments: args } = request.params;
+  
+  switch (name) {
+    case 'read_file': {
+      const content = readFileSync(join(process.cwd(), args.path), 'utf8');
+      return { content: [{ type: 'text', text: content }] };
+    }
+    case 'list_files': {
+      const files = readdirSync(join(process.cwd(), args.path));
+      return { content: [{ type: 'text', text: files.join('\n') }] };
+    }
+    default:
+      throw new Error(`Unknown tool: ${name}`);
+  }
+});
+
+const transport = new StdioServerTransport();
+await server.connect(transport);
+```
+
+Run it with `npx tsx server.ts` and connect from Claude Desktop by adding to `claude_desktop_config.json`:
+
+```json
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": ["tsx", "/path/to/server.ts"]
+    }
+  }
+}
+```
+
+## Key Concepts
+
+### Tools = Actions
+Tools are **write operations** — things that change state or compute. The model decides *when* to call them based on the user's request.
+
+```typescript
+{
+  name: 'deploy_service',
+  description: 'Deploy a service to Kubernetes',
+  inputSchema: {
+    type: 'object',
+    properties: {
+      serviceName: { type: 'string' },
+      imageTag: { type: 'string' },
+      namespace: { type: 'string', default: 'default' },
+    },
+    required: ['serviceName', 'imageTag'],
+  },
+}
+```
+
+### Resources = Context
+Resources are **read-only** data the model can reference. They're identified by URIs like `file:///path/to/file` or `db://schema/users`.
+
+```typescript
+server.setRequestHandler(ListResourcesRequestSchema, async () => ({
+  resources: [
+    {
+      uri: 'file:///project/ARCHITECTURE.md',
+      name: 'Architecture Decision Log',
+      mimeType: 'text/markdown',
+    },
+  ],
+}));
+```
+
+### Prompts = Reusable Workflows
+Prompts package multi-step workflows the model can invoke by name.
+
+```typescript
+server.setRequestHandler(ListPromptsRequestSchema, async () => ({
+  prompts: [
+    {
+      name: 'code_review',
+      description: 'Comprehensive code review checklist',
+      arguments: [
+        { name: 'pr_url', description: 'Pull request URL', required: true },
+      ],
+    },
+  ],
+}));
+```
+
+## Transport Options
+
+MCP supports multiple transports:
+
+| Transport | Use Case |
+|-----------|----------|
+| **stdio** | Local development, CLI tools, desktop apps |
+| **SSE** | Web servers, remote MCP servers |
+| **WebSocket** | Real-time bidirectional, long-lived connections |
+
+For production, run MCP servers behind an API gateway with auth, rate limiting, and observability.
+
+## Testing Your Server
+
+The SDK includes a test client:
+
+```bash
+npx @modelcontextprotocol/inspector npx tsx server.ts
+```
+
+This opens a web UI where you can:
+- List available tools/resources/prompts
+- Call tools with custom arguments
+- Inspect requests/responses
+- Debug protocol messages
+
+## Next Steps
+
+1. **Add authentication** — OAuth 2.1, API keys, or mTLS for production
+2. **Implement resources** — expose documentation, schemas, config files
+3. **Add observability** — OpenTelemetry traces for every tool call
+4. **Compose servers** — run multiple MCP servers behind a single gateway
+5. **Build agents** — use MCP tools in LangGraph, AutoGen, or custom orchestration
+
+## Resources
+
+- [MCP Specification](https://modelcontextprotocol.io/specification)
+- [TypeScript SDK](https://github.com/modelcontextprotocol/typescript-sdk)
+- [Python SDK](https://github.com/modelcontextprotocol/python-sdk)
+- [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers)
+
+---
+
+*Building something with MCP? I'd love to hear about it — [get in touch](/contact).*

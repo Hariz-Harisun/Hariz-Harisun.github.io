@@ -1,0 +1,34 @@
+{
+  "name": "hariz-harisun.github.io",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && node scripts/generate-sitemap.mjs && node scripts/generate-rss.mjs",
+    "start": "next start",
+    "lint": "eslint . --ext .js,.jsx,.mjs",
+    "check-links": "node scripts/check-links.mjs",
+    "postbuild": "node scripts/generate-sitemap.mjs && node scripts/generate-rss.mjs"
+  },
+  "dependencies": {
+    "date-fns": "^4.4.0",
+    "gray-matter": "^4.0.3",
+    "next": "16.4.6",
+    "next-mdx-remote": "^6.0.0",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "react-icons": "^5.7.0",
+    "reading-time": "^1.5.0",
+    "rehype-autolink-headings": "^7.1.0",
+    "rehype-pretty-code": "^0.14.6",
+    "rehype-slug": "^6.0.0",
+    "remark-gfm": "^4.0.1",
+    "shiki": "^4.6.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/turbopack": "4.3.3",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.6",
+    "tailwindcss": "4.3.3"
+  }
+}

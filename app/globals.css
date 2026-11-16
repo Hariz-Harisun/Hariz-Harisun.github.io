@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #141414;
+  --color-card-from: #2a2a2a;
+  --color-card-to: #222;
+  --color-border: #ffffff;
+  --color-accent: #fbbf24;
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #a3a3a3;
+  --color-text-muted: #666666;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+  
+  body {
+    background-color: var(--color-bg);
+    color: var(--color-text-primary);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  :focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 2px;
+  }
+}
+
+.card {
+  border-radius: 1.5rem;
+  background: linear-gradient(to bottom, var(--color-card-from), var(--color-card-to));
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.text-gradient-accent {
+  background: linear-gradient(to right, var(--color-accent), #f97316);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
