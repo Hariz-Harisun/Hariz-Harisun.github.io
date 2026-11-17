@@ -110,7 +110,7 @@ export default function Home() {
             </div>
 
             {/* Tagline */}
-            <div className={`${card} flex items-start p-8`}>
+            <div className={`${card} flex items-start p-6`}>
               <h2 className="text-5xl font-bold leading-[1.1] tracking-tight text-amber-400 md:text-6xl">
                 Building Systems
                 <br />
