@@ -76,7 +76,7 @@ export default function Home() {
         <main className="grid gap-5">
           {/* Row 1 */}
           <section
-            className="grid gap-5 xl:h-[var(--h)] xl:grid-cols-[1.2fr_var(--h)_1fr] xl:[--h:23rem] lg:grid-cols-[1fr_0.8fr_1.2fr]"
+            className="grid gap-5 xl:h-[var(--h)] xl:grid-cols-[1fr_var(--h)_1.2fr] xl:[--h:23rem] lg:grid-cols-[1fr_0.8fr_1.2fr]"
             aria-labelledby="hero-heading"
           >
             {/* Intro */}
