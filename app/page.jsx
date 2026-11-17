@@ -94,7 +94,7 @@ export default function Home() {
             </div>
 
             {/* Social tiles */}
-            <div className="grid grid-cols-2 gap-5" role="list" aria-label="Social links">
+            <div className="grid h-full grid-cols-2 grid-rows-[1fr_1fr] gap-5" role="list" aria-label="Social links">
               {SOCIALS.map(({ label, href, Icon, external }) => (
                 <a
                   key={label}
@@ -110,7 +110,7 @@ export default function Home() {
             </div>
 
             {/* Tagline */}
-            <div className={`${card} flex items-start p-10`}>
+            <div className={`${card} flex items-start p-8`}>
               <h2 className="text-5xl font-bold leading-[1.1] tracking-tight text-amber-400 md:text-6xl">
                 Building Systems
                 <br />
