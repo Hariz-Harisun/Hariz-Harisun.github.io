@@ -26,6 +26,7 @@
     "shiki": "^4.6.0"
   },
   "devDependencies": {
+    "@playwright/test": "^1.65.1",
     "@tailwindcss/postcss": "^4.3.5",
     "@tailwindcss/turbopack": "4.3.3",
     "eslint": "^9",
