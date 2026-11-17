@@ -75,7 +75,7 @@ export default function Home() {
 
         <main className="grid gap-5">
           {/* Row 1 */}
-          <section className="grid gap-5 lg:grid-cols-[1fr_1fr_1.75fr]" aria-labelledby="hero-heading">
+          <section className="grid gap-5 lg:grid-cols-[1fr_1fr_auto]" aria-labelledby="hero-heading">
             {/* Intro */}
             <div className={`${card} relative flex flex-col p-7`}>
               <p className="text-white/70">Software Engineer</p>
