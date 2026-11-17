@@ -1,15 +1,11 @@
 // app/work/[slug]/page.jsx
-import { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { FaArrowUp, FaGithub, FaExternalLinkAlt, FaLock, FaCog } from 'react-icons/fa';
 import { NAV, NAV_CTA } from '@/data/nav';
 import { PROJECTS } from '@/data/projects';
-
-export const metadata = {
-  title: 'Project — M. Hariz Hazril',
-  description: 'Project details: overview, problem, role, tech stack, outcome, and links.',
-};
+import { MDXRemote } from 'next-mdx-remote/rsc';
+import remarkGfm from 'remark-gfm';
 
 const card = 'rounded-3xl bg-gradient-to-b from-[#2a2a2a] to-[#222] border border-white/5';
 
@@ -26,8 +22,9 @@ export async function generateStaticParams() {
   return PROJECTS.map((p) => ({ slug: p.slug }));
 }
 
-export default function ProjectDetail({ params }) {
-  const project = PROJECTS.find((p) => p.slug === params.slug);
+export default async function ProjectDetail({ params }) {
+  const { slug } = await params;
+  const project = PROJECTS.find((p) => p.slug === slug);
   
   if (!project) {
     notFound();
@@ -108,7 +105,9 @@ export default function ProjectDetail({ params }) {
           </section>
 
           {/* Content Sections */}
-          <article className="prose prose-invert max-w-none text-white/80 leading-7 space-y-10" dangerouslySetInnerHTML={{ __html: project.description }} />
+                    <article className="prose prose-invert max-w-none text-white/80 leading-7 space-y-10">
+                      <MDXRemote source={project.description} options={{ remarkPlugins: [remarkGfm] }} />
+                    </article>
 
           {/* Links */}
           <section className={`${card} p-6`} aria-labelledby="project-links">

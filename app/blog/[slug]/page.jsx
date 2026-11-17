@@ -1,11 +1,9 @@
 // app/blog/[slug]/page.jsx
-import { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { FaArrowUp, FaCalendar, FaTag, FaClock } from 'react-icons/fa';
 import { NAV, NAV_CTA } from '@/data/nav';
 import { getPostBySlug, getAllPosts, getAllTags } from '@/lib/mdx';
-import { MDXRemote } from 'next-mdx-remote/rsc';
 
 export async function generateStaticParams() {
   const posts = await getAllPosts();
@@ -13,7 +11,8 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }) {
-  const post = await getPostBySlug(params.slug);
+  const { slug } = await params;
+  const post = await getPostBySlug(slug);
   if (!post) {
     return { title: 'Post Not Found' };
   }
@@ -50,7 +49,8 @@ function ReadingTime({ content }) {
 }
 
 export default async function BlogPost({ params }) {
-  const post = await getPostBySlug(params.slug);
+  const { slug } = await params;
+  const post = await getPostBySlug(slug);
   
   if (!post) {
     notFound();
@@ -107,7 +107,7 @@ export default async function BlogPost({ params }) {
                   <FaCalendar size={14} aria-hidden="true" />
                   {new Date(post.frontmatter.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
                 </time>
-                <ReadingTime content={post.frontmatter.summary} />
+                <ReadingTime content={post.rawContent} />
                 {post.frontmatter.tags && post.frontmatter.tags.length > 0 && (
                   <div className="flex items-center gap-2">
                     <FaTag size={14} className="text-white/40" aria-hidden="true" />
@@ -128,9 +128,9 @@ export default async function BlogPost({ params }) {
             </header>
 
             {/* MDX Content */}
-            <div className="prose prose-invert max-w-none text-white/80 leading-8" style={{ '--tw-prose-links-color': '#fbbf24' }}>
-              <MDXRemote source={post.content} />
-            </div>
+                        <div className="prose prose-invert max-w-none text-white/80 leading-8" style={{ '--tw-prose-links-color': '#fbbf24' }}>
+                          {post.content}
+                        </div>
 
             {/* Tags */}
             {post.frontmatter.tags && post.frontmatter.tags.length > 0 && (
