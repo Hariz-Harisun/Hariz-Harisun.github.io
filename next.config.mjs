@@ -3,7 +3,7 @@ const nextConfig = {
   output: 'export',
   images: { unoptimized: true },
   trailingSlash: true,
-  assetPrefix: '',
+  assetPrefix: '/Hariz-Harisun.github.io',
   turbopack: {
     plugins: {
       '@tailwindcss/turbopack': {
