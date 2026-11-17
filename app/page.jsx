@@ -75,7 +75,7 @@ export default function Home() {
 
         <main className="grid gap-5">
           {/* Row 1 */}
-          <section className="grid gap-5 lg:grid-cols-[1fr_1fr_auto]" aria-labelledby="hero-heading">
+          <section className="grid gap-5 lg:grid-cols-[1fr_0.8fr_1.2fr]" aria-labelledby="hero-heading">
             {/* Intro */}
             <div className={`${card} relative flex flex-col p-7`}>
               <p className="text-white/70">Software Engineer</p>
@@ -94,7 +94,7 @@ export default function Home() {
             </div>
 
             {/* Social tiles */}
-            <div className="grid h-full grid-cols-2 grid-rows-[1fr_1fr] gap-5" role="list" aria-label="Social links">
+            <div className="grid h-full grid-cols-2 grid-rows-2 gap-5" role="list" aria-label="Social links">
               {SOCIALS.map(({ label, href, Icon, external }) => (
                 <a
                   key={label}
@@ -102,7 +102,7 @@ export default function Home() {
                   aria-label={label}
                   target={external ? '_blank' : undefined}
                   rel={external ? 'noreferrer' : undefined}
-                  className={`${card} grid aspect-square place-items-center text-white/90 transition hover:text-amber-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-amber-400`}
+                  className={`${card} grid h-full w-full place-items-center text-white/90 transition hover:text-amber-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-amber-400`}
                 >
                   <Icon size={44} aria-hidden="true" />
                 </a>
@@ -111,7 +111,7 @@ export default function Home() {
 
             {/* Tagline */}
             <div className={`${card} flex items-start p-6`}>
-              <h2 className="text-5xl font-bold leading-[1.1] tracking-tight text-amber-400 md:text-6xl">
+              <h2 className="text-4xl font-bold leading-[1.1] tracking-tight text-amber-400 xl:text-5xl">
                 Building Systems
                 <br />
                 That Keep Running.
