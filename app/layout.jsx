@@ -1,5 +1,6 @@
 import { DM_Sans, Caveat } from 'next/font/google';
 import './globals.css';
+import ThemeToggle from './ThemeToggle';
 
 const sans = DM_Sans({ subsets: ['latin'], weight: ['400', '500', '700'], variable: '--font-sans' });
 const hand = Caveat({ subsets: ['latin'], weight: ['500'], variable: '--font-hand' });
@@ -41,12 +42,15 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${sans.variable} ${hand.variable} h-full antialiased`}>
+    <html lang="en" data-theme="dark" className={`${sans.variable} ${hand.variable} h-full antialiased`} suppressHydrationWarning>
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
       </head>
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        {children}
+        <ThemeToggle />
+      </body>
     </html>
   );
 }
