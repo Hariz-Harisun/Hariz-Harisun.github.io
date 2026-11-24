@@ -121,10 +121,8 @@ export default function Home() {
 
             {/* Tagline */}
             <div className={`${card} flex items-start p-6`}>
-              <h2 className="text-4xl font-bold leading-[1.1] tracking-tight text-amber-400 xl:text-5xl">
-                Building Systems
-                <br />
-                That Keep Running.
+              <h2 className="tagline text-4xl font-bold leading-[1.1] tracking-tight text-amber-400 xl:text-5xl">
+                Struimus quod semper stat
               </h2>
             </div>
           </section>

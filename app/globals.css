@@ -27,6 +27,10 @@ html[data-theme='light'] {
   --color-text-muted: #897d72;
 }
 
+html[data-theme='light'] .tagline {
+  color: #a79d85;
+}
+
 @layer base {
   html {
     scroll-behavior: smooth;

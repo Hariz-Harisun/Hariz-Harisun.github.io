@@ -7,7 +7,7 @@ const hand = Caveat({ subsets: ['latin'], weight: ['500'], variable: '--font-han
 
 export const metadata = {
   title: 'M. Hariz Hazril — Software Engineer',
-  description: 'Software engineer and technologist focused on Industrial IoT, AI integration, MES/ERP/MIS enterprise systems, and legacy modernisation. Building systems that keep running.',
+  description: 'Software engineer and technologist focused on Industrial IoT, AI integration, MES/ERP/MIS enterprise systems, and legacy modernisation. Struimus quod semper stat.',
   metadataBase: new URL('https://hariz-harisun.github.io'),
   openGraph: {
     type: 'website',

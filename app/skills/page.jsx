@@ -81,7 +81,7 @@ export default function Skills() {
           </section>
 
           {/* Categories */}
-          <section aria-labelledby="skills-categories">
+          <section className="space-y-5" aria-labelledby="skills-categories">
             {SKILL_CATEGORIES.map(({ category, skills }) => (
               <div key={category} className={`${card} p-8`}>
                 <SectionTitle>{category}</SectionTitle>
