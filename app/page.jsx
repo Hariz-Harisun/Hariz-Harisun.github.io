@@ -92,9 +92,15 @@ export default function Home() {
                   Physics graduate turned engineer, building .NET systems that connect factory-floor
                   devices, enterprise software and AI automation.
                 </p>
-                <div className="mt-auto flex justify-end pt-6 pointer-events-auto">
-                  <ArrowButton href="/about" label="About me" />
-                </div>
+                <Link
+                  href="/about"
+                  aria-label="About me"
+                  className="mt-auto flex justify-end pt-6 pointer-events-auto"
+                >
+                  <span className="grid h-9 w-9 place-items-center rounded-full bg-white text-black transition hover:scale-110 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-400">
+                    <FaArrowUp className="rotate-45" size={13} />
+                  </span>
+                </Link>
               </div>
               <Link
                 href="/about"
