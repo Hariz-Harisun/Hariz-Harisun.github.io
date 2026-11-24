@@ -81,19 +81,26 @@ export default function Home() {
           >
             {/* Intro */}
             <div className={`${card} relative flex flex-col p-7`}>
-              <p className="text-white/70">Software Engineer</p>
-              <h1 id="hero-heading" className="mt-1 text-5xl font-bold leading-[1.05] tracking-tight">
-                M. Hariz
-                <br />
-                Hazril
-              </h1>
-              <p className={`${hand.className} mt-5 text-[22px] leading-6 text-white/85`}>
-                Physics graduate turned engineer, building .NET systems that connect factory-floor
-                devices, enterprise software and AI automation.
-              </p>
-              <div className="mt-auto flex justify-end pt-6">
-                <ArrowButton href="/about" label="About me" />
+              <div className="relative z-10 flex flex-1 flex-col pointer-events-none">
+                <p className="text-white/70">Software Engineer</p>
+                <h1 id="hero-heading" className="mt-1 text-5xl font-bold leading-[1.05] tracking-tight">
+                  M. Hariz
+                  <br />
+                  Hazril
+                </h1>
+                <p className={`${hand.className} mt-5 text-[22px] leading-6 text-white/85`}>
+                  Physics graduate turned engineer, building .NET systems that connect factory-floor
+                  devices, enterprise software and AI automation.
+                </p>
+                <div className="mt-auto flex justify-end pt-6 pointer-events-auto">
+                  <ArrowButton href="/about" label="About me" />
+                </div>
               </div>
+              <Link
+                href="/about"
+                aria-label="About me"
+                className="absolute inset-0 z-0 rounded-3xl focus-visible:outline focus-visible:outline-2 focus-visible:outline-amber-400"
+              />
             </div>
 
             {/* Social tiles */}
@@ -125,26 +132,36 @@ export default function Home() {
           {/* Row 2 */}
           <section className="grid gap-5 lg:grid-cols-[1fr_2.2fr_1.2fr]">
             {/* Skills */}
-            <div className={`${card} flex flex-col p-6`}>
-              <ul className="grid grid-cols-4 gap-x-3 gap-y-5 p-2" role="list" aria-label="Core skills">
-                {ALL_SKILLS.slice(0, 12).map(({ name, Icon, color }) => (
-                  <li key={name} title={name} className="grid place-items-center">
-                    <Icon size={30} style={{ color }} aria-label={name} />
-                  </li>
-                ))}
-              </ul>
-              <div className="mt-auto flex items-end justify-between pt-6">
-                <div>
-                  <p className="text-sm text-white/60">Most used</p>
-                  <p className="text-3xl font-bold">Skills</p>
+            <div className={`${card} relative flex flex-col p-6`}>
+              <div className="relative z-10 flex flex-1 flex-col pointer-events-none">
+                <ul className="grid grid-cols-4 gap-x-3 gap-y-5 p-2" role="list" aria-label="Core skills">
+                  {ALL_SKILLS.slice(0, 12).map(({ name, Icon, color }) => (
+                    <li key={name} title={name} className="grid place-items-center">
+                      <Icon size={30} style={{ color }} aria-label={name} />
+                    </li>
+                  ))}
+                </ul>
+                <div className="mt-auto flex items-end justify-between pt-6">
+                  <div>
+                    <p className="text-sm text-white/60">Most used</p>
+                    <p className="text-3xl font-bold">Skills</p>
+                  </div>
+                  <div className="pointer-events-auto">
+                    <ArrowButton href="/skills" label="All skills" />
+                  </div>
                 </div>
-                <ArrowButton href="/skills" label="All skills" />
               </div>
+              <Link
+                href="/skills"
+                aria-label="All skills"
+                className="absolute inset-0 z-0 rounded-3xl focus-visible:outline focus-visible:outline-2 focus-visible:outline-amber-400"
+              />
             </div>
 
             {/* Projects */}
             <div className={`${card} relative flex flex-col overflow-hidden p-6`}>
-              <div className="relative flex flex-1 items-center justify-center gap-6 py-4">
+              <div className="relative z-10 flex flex-1 flex-col pointer-events-none">
+                <div className="relative flex flex-1 items-center justify-center gap-6 py-4">
                 <span
                   aria-hidden
                   className="pointer-events-none absolute inset-x-0 top-2 select-none whitespace-nowrap text-center text-6xl font-bold uppercase text-white/10"
@@ -155,36 +172,53 @@ export default function Home() {
                   <Link
                     key={p.slug}
                     href={`/work/${p.slug}`}
-                    className="relative z-10 w-52 rounded-t-xl border border-white/10 bg-gradient-to-br from-[#3a2f5c] to-[#1c1c28] p-4 shadow-xl transition hover:scale-[1.02] focus-visible:outline focus-visible:outline-2 focus-visible:outline-amber-400"
+                    className="pointer-events-auto relative z-10 w-52 rounded-t-xl border border-white/10 bg-gradient-to-br from-[#3a2f5c] to-[#1c1c28] p-4 shadow-xl transition hover:scale-[1.02] focus-visible:outline focus-visible:outline-2 focus-visible:outline-amber-400"
                   >
                     <p className="text-lg font-bold leading-tight">{p.title}</p>
                     <p className="mt-1 text-xs text-white/60">{p.tag}</p>
                     <div className="mt-6 h-16 rounded-md bg-white/5" />
                   </Link>
                 ))}
-              </div>
-              <div className="flex items-end justify-between pt-4">
-                <div>
-                  <p className="text-sm text-white/60">Showcase</p>
-                  <p className="text-3xl font-bold">Projects</p>
                 </div>
-                <ArrowButton href="/work" label="All projects" />
+                <div className="flex items-end justify-between pt-4">
+                  <div>
+                    <p className="text-sm text-white/60">Showcase</p>
+                    <p className="text-3xl font-bold">Projects</p>
+                  </div>
+                  <div className="pointer-events-auto">
+                    <ArrowButton href="/work" label="All projects" />
+                  </div>
+                </div>
               </div>
+              <Link
+                href="/work"
+                aria-label="All projects"
+                className="absolute inset-0 z-0 rounded-3xl focus-visible:outline focus-visible:outline-2 focus-visible:outline-amber-400"
+              />
             </div>
 
             {/* Blog */}
-            <div className={`${card} flex flex-col p-6`}>
-              <Link href="/blog" className="flex-1 rounded-2xl bg-gradient-to-br from-amber-400/90 to-orange-600/80 p-5 text-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-amber-400">
-                <p className="text-sm font-medium">Latest post</p>
-                <p className="mt-2 text-2xl font-bold leading-tight">Notes on agentic engineering and MCP</p>
-              </Link>
-              <div className="flex items-end justify-between pt-5">
-                <div>
-                  <p className="text-sm text-white/60">Writing</p>
-                  <p className="text-3xl font-bold">Blog</p>
+            <div className={`${card} relative flex flex-col p-6`}>
+              <div className="relative z-10 flex flex-1 flex-col pointer-events-none">
+                <Link href="/blog" className="pointer-events-auto flex-1 rounded-2xl bg-gradient-to-br from-amber-400/90 to-orange-600/80 p-5 text-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-amber-400">
+                  <p className="text-sm font-medium">Latest post</p>
+                  <p className="mt-2 text-2xl font-bold leading-tight">Notes on agentic engineering and MCP</p>
+                </Link>
+                <div className="flex items-end justify-between pt-5">
+                  <div>
+                    <p className="text-sm text-white/60">Writing</p>
+                    <p className="text-3xl font-bold">Blog</p>
+                  </div>
+                  <div className="pointer-events-auto">
+                    <ArrowButton href="/blog" label="Read the blog" />
+                  </div>
                 </div>
-                <ArrowButton href="/blog" label="Read the blog" />
               </div>
+              <Link
+                href="/blog"
+                aria-label="Read the blog"
+                className="absolute inset-0 z-0 rounded-3xl focus-visible:outline focus-visible:outline-2 focus-visible:outline-amber-400"
+              />
             </div>
           </section>
         </main>
